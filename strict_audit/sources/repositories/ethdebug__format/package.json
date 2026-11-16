@@ -1,0 +1,54 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn lerna run build --ignore @ethdebug/format-web --ignore @ethdebug/bug-playground",
+    "check:react-consumers": "tsx ./bin/check-react-consumers.ts",
+    "bundle": "tsx ./bin/bundle-schema.ts",
+    "typecheck": "yarn lerna run typecheck --ignore @ethdebug/format-web --ignore @ethdebug/bug-playground",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "start": "./bin/start",
+    "lerna": "lerna",
+    "postinstall": "lerna run prepare",
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/semver": "^7.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "concurrently": "^8.2.2",
+    "copyfiles": "^2.4.1",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.0.0",
+    "husky": "^9.1.7",
+    "lerna": "^8.2.4",
+    "lint-staged": "^15.4.1",
+    "prettier": "^3.4.2",
+    "semver": "^7.7.3",
+    "tsx": "^4.21.0",
+    "typescript-eslint": "^8.53.0",
+    "vitest": "^3.2.4",
+    "yaml": "^2.8.2"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,md,yaml,yml}": [
+      "prettier --write"
+    ]
+  }
+}

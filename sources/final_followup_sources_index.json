@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/utils/fetch.js",
+    "fetched_at": "2026-11-16T11:29:39.934917+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/utils/fetch.js",
+    "sha256": "37dc766e218ea4710a6fa05feefec68ddb1dd61d3910a0195c842d7fe2e171ef",
+    "bytes": 6045
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wighawag/rocketh/HEAD/packages/hardhat-deploy/package.json",
+    "fetched_at": "2026-11-16T11:29:39.935641+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/wighawag/rocketh/HEAD/packages/hardhat-deploy/package.json",
+    "sha256": "422c871994d01be4055262406997d7b5605b65ec48377999b85f97caec4f49e1",
+    "bytes": 2654
+  }
+]

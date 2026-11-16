@@ -1,0 +1,298 @@
+{
+  "repos": 98,
+  "market_repos": 98,
+  "missing": [],
+  "id_mismatches": [],
+  "historical_repos": 33,
+  "single_juror": 23,
+  "target_mean": 0.7750504848484848,
+  "target_median": 0.8,
+  "live_raw_public_sae": 2.46502009902038,
+  "live_normalized_public_sae": 2.5039595922411246,
+  "price_sum_min": 0.8548171544102141,
+  "price_sum_max": 1.0000558772076957,
+  "largest_movements": [
+    {
+      "repo": "ethereum/js-ethereum-cryptography",
+      "market_id": "0x018a386a46949fbc8781b1254636b3a76e60a57c",
+      "up_price": 0.508003908641285,
+      "down_price": 0.4264085380160718,
+      "up_share": 0.5436613247806692,
+      "price_sum": 0.9344124466573568,
+      "up_change": -0.18961509135871502,
+      "normalized_change": -0.2056316752193308,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1411.7354779998623 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+      "liquidity_market": "699.7337997043701 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 275
+    },
+    {
+      "repo": "shazow/whatsabi",
+      "market_id": "0x5449093d1b651b090120a51acf68265bbcb56df3",
+      "up_price": 0.8298662999026551,
+      "down_price": 0.17009274516446268,
+      "up_share": 0.829900288413266,
+      "price_sum": 0.9999590450671179,
+      "up_change": 0.14448529990265513,
+      "normalized_change": 0.07903228841326604,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1098.716201738312 WHATSABI_R3C",
+      "liquidity_market": "893.6528620519956 WHATSABI_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 262
+    },
+    {
+      "repo": "swiss-knife-xyz/swiss-knife",
+      "market_id": "0x2109380e3dee45109d635c9968733c1f43568125",
+      "up_price": 0.75089783434848,
+      "down_price": 0.24911752407434073,
+      "up_share": 0.750886301919165,
+      "price_sum": 1.0000153584228206,
+      "up_change": 0.12450483434848003,
+      "normalized_change": 0.11545930191916498,
+      "historical_target": "0.800000",
+      "n_jurors": "1",
+      "volume_market": "746.3829783358204 SWISS_KNIFE_R3C",
+      "liquidity_market": "849.3568575098577 SWISS_KNIFE_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 192
+    },
+    {
+      "repo": "ethpandaops/checkpointz",
+      "market_id": "0x3ea9da5b674276d48d843b7e07daf95ac89ceffa",
+      "up_price": 0.6589028725940111,
+      "down_price": 0.32852434188034013,
+      "up_share": 0.6672925993282175,
+      "price_sum": 0.9874272144743512,
+      "up_change": 0.11607887259401117,
+      "normalized_change": 0.12444959932821753,
+      "historical_target": "0.500000",
+      "n_jurors": "1",
+      "volume_market": "882.5057316829377 CHECKPOINTZ_R3C",
+      "liquidity_market": "756.192062069945 CHECKPOINTZ_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 221
+    },
+    {
+      "repo": "ethstaker/ethstaker-deposit-cli",
+      "market_id": "0x36b1a703d790770ef14b875d3a0d2e0ded6234c1",
+      "up_price": 0.6490286707515862,
+      "down_price": 0.35100751219170084,
+      "up_share": 0.6490051878336818,
+      "price_sum": 1.000036182943287,
+      "up_change": -0.09954532924841375,
+      "normalized_change": -0.09957381216631822,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1257.1206960430932 ETHSTAKER_DEPOSIT_CLI_R3C",
+      "liquidity_market": "785.0858039225338 ETHSTAKER_DEPOSIT_CLI_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 206
+    },
+    {
+      "repo": "wevm/viem",
+      "market_id": "0xeb72792576d123fee15f8974784fd9026ab8d050",
+      "up_price": 0.8051802080199966,
+      "down_price": 0.1948124037631014,
+      "up_share": 0.8051861569099703,
+      "price_sum": 0.999992611783098,
+      "up_change": 0.09268520801999658,
+      "normalized_change": 0.021287156909970295,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "942.5282653110696 VIEM_R3C",
+      "liquidity_market": "881.6796745728077 VIEM_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 244
+    },
+    {
+      "repo": "risc0/risc0-ethereum",
+      "market_id": "0x1c3486fec53da0d19a4b0253b83748df31e10178",
+      "up_price": 0.7349266350376447,
+      "down_price": 0.265103856242056,
+      "up_share": 0.73490422686731,
+      "price_sum": 1.0000304912797007,
+      "up_change": 0.08459863503764464,
+      "normalized_change": 0.06052422686731007,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1003.7321962640184 RISC0_ETHEREUM_R3C",
+      "liquidity_market": "821.8360136917564 RISC0_ETHEREUM_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 224
+    },
+    {
+      "repo": "holiman/goevmlab",
+      "market_id": "0xdbdcdaf2aa3d75e1818029c26fef7fdd12dce893",
+      "up_price": 0.7533044355988086,
+      "down_price": 0.24671288567039196,
+      "up_share": 0.7532913876358969,
+      "price_sum": 1.0000173212692005,
+      "up_change": 0.07886943559880855,
+      "normalized_change": -0.019394612364103114,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1138.805911476475 GOEVMLAB_R3C",
+      "liquidity_market": "853.377147008738 GOEVMLAB_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 257
+    },
+    {
+      "repo": "Certora/CertoraProver",
+      "market_id": "0x45dc37854a86f647cf45890f7167c0adc19814f2",
+      "up_price": 0.8292856257855958,
+      "down_price": 0.168501443756956,
+      "up_share": 0.8311248472740707,
+      "price_sum": 0.9977870695425518,
+      "up_change": 0.07175062578559588,
+      "normalized_change": 0.06280684727407071,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "538.3814735293274 CERTORAPROVER_R3C",
+      "liquidity_market": "886.955667717903 CERTORAPROVER_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 184
+    },
+    {
+      "repo": "lambdaclass/lambdaworks",
+      "market_id": "0xd756f4a29de73f261f32185d0982c8e454db3356",
+      "up_price": 0.7797456043003873,
+      "down_price": 0.22028692891619664,
+      "up_share": 0.779720237493026,
+      "price_sum": 1.000032533216584,
+      "up_change": 0.07172560430038732,
+      "normalized_change": 0.07170623749302596,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "530.3969498348616 LAMBDAWORKS_R3C",
+      "liquidity_market": "867.8030233309129 LAMBDAWORKS_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 222
+    },
+    {
+      "repo": "smartcontracts/simple-optimism-node",
+      "market_id": "0x04f4d33c6aa72320a822bc0fcb32e097a45ae4f9",
+      "up_price": 0.6246420760750155,
+      "down_price": 0.37540455797078603,
+      "up_share": 0.6246129478461974,
+      "price_sum": 1.0000466340458016,
+      "up_change": 0.07079707607501551,
+      "normalized_change": 0.0687009478461974,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "2401.128615987965 SIMPLE_OPTIMISM_NODE_R3C",
+      "liquidity_market": "760.1415762343568 SIMPLE_OPTIMISM_NODE_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 293
+    },
+    {
+      "repo": "dappnode/DAppNode",
+      "market_id": "0xdd8e32840a811d26aac9112f530490ee86d89bbc",
+      "up_price": 0.6352876970247558,
+      "down_price": 0.3647111646610271,
+      "up_share": 0.6352884201825965,
+      "price_sum": 0.9999988616857829,
+      "up_change": 0.0679906970247558,
+      "normalized_change": 0.06797742018259645,
+      "historical_target": "",
+      "n_jurors": "",
+      "volume_market": "1272.8008025119275 DAPPNODE_R3C",
+      "liquidity_market": "783.9750241967001 DAPPNODE_R3C",
+      "last_chart_time": "2026-11-16T07:00:00+00:00",
+      "chart_points": 251
+    }
+  ],
+  "juror_disagreement": [
+    {
+      "repo": "axiom-crypto/snark-verifier",
+      "ratings": [
+        0.9,
+        0.48
+      ],
+      "range": 0.42000000000000004
+    },
+    {
+      "repo": "remix-project-org/remix-project",
+      "ratings": [
+        0.6,
+        0.95,
+        0.8
+      ],
+      "range": 0.35
+    },
+    {
+      "repo": "argotorg/solidity",
+      "ratings": [
+        0.8,
+        1.0,
+        0.95,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "range": 0.19999999999999996
+    },
+    {
+      "repo": "foundry-rs/foundry",
+      "ratings": [
+        1.0,
+        0.95,
+        0.8,
+        0.9,
+        0.8
+      ],
+      "range": 0.19999999999999996
+    },
+    {
+      "repo": "eth-infinitism/account-abstraction",
+      "ratings": [
+        0.6,
+        0.7
+      ],
+      "range": 0.09999999999999998
+    },
+    {
+      "repo": "ethereum/eips",
+      "ratings": [
+        0.92,
+        1.0
+      ],
+      "range": 0.07999999999999996
+    },
+    {
+      "repo": "nethereum/nethereum",
+      "ratings": [
+        0.9,
+        0.85
+      ],
+      "range": 0.050000000000000044
+    },
+    {
+      "repo": "ethers-io/ethers.js",
+      "ratings": [
+        0.9,
+        0.95
+      ],
+      "range": 0.04999999999999993
+    },
+    {
+      "repo": "openzeppelin/openzeppelin-contracts",
+      "ratings": [
+        0.8,
+        0.85
+      ],
+      "range": 0.04999999999999993
+    },
+    {
+      "repo": "libp2p/libp2p",
+      "ratings": [
+        0.9,
+        0.9
+      ],
+      "range": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+[
+  {
+    "repo": "0xMiden/miden-vm",
+    "source": {
+      "url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.831158+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/README.md",
+      "sha256": "c4a8aef2f0b1da74ccb75b979b73dcb925cba9b0bdf2b2df5f7950f8a2b8064c",
+      "bytes": 14905
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\0xMiden__miden-vm\\README.md"
+  },
+  {
+    "repo": "a16z/halmos",
+    "source": {
+      "url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.831917+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/README.md",
+      "sha256": "edfce18428d2d464bb267e1dd553139454ca2e6bbe1d2433bde8db88443abb98",
+      "bytes": 4956
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\a16z__halmos\\README.md"
+  },
+  {
+    "repo": "a16z/helios",
+    "source": {
+      "url": "https://raw.githubusercontent.com/a16z/helios/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.832421+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/a16z/helios/HEAD/README.md",
+      "sha256": "39d8c3bd6b29255d25480493167c223db4ae2f771a810d26ecf11f0e03b3e888",
+      "bytes": 10644
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\a16z__helios\\README.md"
+  },
+  {
+    "repo": "aestus-relay/mev-boost-relay",
+    "source": {
+      "url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.832825+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/README.md",
+      "sha256": "9d371d892b8e1fb9e84d9312ceccb3fa61c0d673ddca30f9794105dc1660816c",
+      "bytes": 19561
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\aestus-relay__mev-boost-relay\\README.md"
+  },
+  {
+    "repo": "alloy-rs/alloy",
+    "source": {
+      "url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.833876+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/README.md",
+      "sha256": "06cd17e987114590bd820fa465b10c48e2b97a8e1c8fda48a0f5e9703ac23508",
+      "bytes": 14812
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\alloy-rs__alloy\\README.md"
+  },
+  {
+    "repo": "apeworx/ape",
+    "source": {
+      "url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:19.834940+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/README.md",
+      "sha256": "969c399e8876079477f66a9f72dd9d56c5da08036e338163b13accd601d5036b",
+      "bytes": 6691
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\apeworx__ape\\README.md"
+  },
+  {
+    "repo": "argotorg/act",
+    "source": {
+      "url": "https://raw.githubusercontent.com/argotorg/act/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:20.303039+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/argotorg/act/HEAD/README.md",
+      "sha256": "2b8f52f473358092e544643a4b8d97f883249b96d02f3fccd81d23d2cecd707b",
+      "bytes": 2141
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\argotorg__act\\README.md"
+  },
+  {
+    "repo": "argotorg/fe",
+    "source": {
+      "url": "https://raw.githubusercontent.com/argotorg/fe/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:20.317609+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/argotorg/fe/HEAD/README.md",
+      "sha256": "adf8c5ce252d5c75b04bbc59f251e66cc8aac4f26e218b88c3c6b3d0543c9d03",
+      "bytes": 1804
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\argotorg__fe\\README.md"
+  },
+  {
+    "repo": "argotorg/hevm",
+    "source": {
+      "url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/readme.md",
+      "fetched_at": "2026-11-16T11:05:23.067654+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/readme.md",
+      "sha256": "800fbca83d0c9a59a45973eb5f1f0902eb999fbdfa55308b453bafda78de128d",
+      "bytes": 2736
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\argotorg__hevm\\readme.md"
+  },
+  {
+    "repo": "argotorg/solidity",
+    "source": {
+      "url": "https://raw.githubusercontent.com/argotorg/solidity/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:20.327714+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/argotorg/solidity/HEAD/README.md",
+      "sha256": "79a3ce9352428ddc5907a8a7bf2328b95aa23cd17023e2a55a5569c6ba34fc35",
+      "bytes": 4311
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\argotorg__solidity\\README.md"
+  },
+  {
+    "repo": "argotorg/sourcify",
+    "source": {
+      "url": "https://raw.githubusercontent.com/argotorg/sourcify/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:20.361597+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/argotorg/sourcify/HEAD/README.md",
+      "sha256": "1c9e60a3d7e11fc3eafd95a285006dcd49ce289e52787e1086889922a13acc97",
+      "bytes": 4410
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\argotorg__sourcify\\README.md"
+  },
+  {
+    "repo": "arkworks-rs/algebra",
+    "source": {
+      "url": "https://raw.githubusercontent.com/arkworks-rs/algebra/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:20.371427+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/arkworks-rs/algebra/HEAD/README.md",
+      "sha256": "ebc0b695dac4a0f8780c76a7ce537d42d745594f07a3ac4ac989f46862e777e0",
+      "bytes": 4841
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\arkworks-rs__algebra\\README.md"
+  },
+  {
+    "repo": "axiom-crypto/snark-verifier",
+    "source": {
+      "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:21.163849+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/README.md",
+      "sha256": "3204a1ffb9a728f2db5839569c4fbff0064d16bbf7b167811c2391db119a8713",
+      "bytes": 665
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\axiom-crypto__snark-verifier\\README.md"
+  },
+  {
+    "repo": "blockscout/blockscout",
+    "source": {
+      "url": "https://raw.githubusercontent.com/blockscout/blockscout/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:21.175522+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/blockscout/blockscout/HEAD/README.md",
+      "sha256": "d00eafa9454152a93f3b8cb8978124c9dee522dcbb9ea63cb28b8950cbcd6a05",
+      "bytes": 3372
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\blockscout__blockscout\\README.md"
+  },
+  {
+    "repo": "Certora/CertoraProver",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Certora/CertoraProver/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:21.183883+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Certora/CertoraProver/HEAD/README.md",
+      "sha256": "608a6b7824ceecb6fbd1dfd691afbd9ff296ff80eac0b7e43ebc309d83b5ec69",
+      "bytes": 5432
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Certora__CertoraProver\\README.md"
+  },
+  {
+    "repo": "ChainSafe/bls",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:22.645519+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/README.md",
+      "sha256": "5098fbe055b1017c4ee0ab7517f719e421e40ec9abe6b0989bb5cb5f5f018d57",
+      "bytes": 4979
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ChainSafe__bls\\README.md"
+  },
+  {
+    "repo": "chainsafe/lodestar",
+    "source": {
+      "url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:22.667926+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/README.md",
+      "sha256": "a650fcfaafcf2a00aa5db55594e716065e427715b5ca77d0d458f63cb781f48c",
+      "bytes": 12742
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\chainsafe__lodestar\\README.md"
+  },
+  {
+    "repo": "Commit-Boost/commit-boost-client",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:22.673261+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/README.md",
+      "sha256": "ba8d30ee1a80c917aa12c47cd07745e3cf8770e472db8187b08e7e9628f35e4b",
+      "bytes": 3580
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Commit-Boost__commit-boost-client\\README.md"
+  },
+  {
+    "repo": "Consensys/gnark-crypto",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:23.070825+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/README.md",
+      "sha256": "837a5fc76e88eec81a32777ac507a05805f0087d4b6184d99d72b61007147ab6",
+      "bytes": 9601
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Consensys__gnark-crypto\\README.md"
+  },
+  {
+    "repo": "consensys/teku",
+    "source": {
+      "url": "https://raw.githubusercontent.com/consensys/teku/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:23.071124+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/consensys/teku/HEAD/README.md",
+      "sha256": "506177d3e0c788e446046a9c146a651be37dc6ba1839d2af2a62078c403a0489",
+      "bytes": 5791
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\consensys__teku\\README.md"
+  },
+  {
+    "repo": "Cyfrin/aderyn",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:23.173934+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/README.md",
+      "sha256": "86dba73c623b087538c5d7b1a5bb361da0ffd809cb04697d3d5773de8ec5334c",
+      "bytes": 5718
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Cyfrin__aderyn\\README.md"
+  },
+  {
+    "repo": "dappnode/DAppNode",
+    "source": {
+      "url": "https://raw.githubusercontent.com/dappnode/DAppNode/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:25.096048+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/dappnode/DAppNode/HEAD/README.md",
+      "sha256": "265ec57cab2d1e6d3eec646fab858b9291d46c7be0cbbc5ab003c6d70b37edfb",
+      "bytes": 12580
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\dappnode__DAppNode\\README.md"
+  },
+  {
+    "repo": "DefiLlama/chainlist",
+    "source": {
+      "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:25.140976+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/README.md",
+      "sha256": "9c2bd3433817a5171d65e93b55d11a5d2c56320c9e427550f4be191b75da3c9f",
+      "bytes": 1216
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\DefiLlama__chainlist\\README.md"
+  },
+  {
+    "repo": "DefiLlama/DefiLlama-Adapters",
+    "source": {
+      "url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:25.678968+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/README.md",
+      "sha256": "d3733517ae4873aa67e2ea351913960ebafc679f1ecaa960a150624ff67d3f6f",
+      "bytes": 3237
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\DefiLlama__DefiLlama-Adapters\\README.md"
+  },
+  {
+    "repo": "dl-solarity/solidity-lib",
+    "source": {
+      "url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:25.680675+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/README.md",
+      "sha256": "87a769580e55d55fd7deda6c4c5fbeeb8d58adaa9ce298dd47026bbf31f56df1",
+      "bytes": 7040
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\dl-solarity__solidity-lib\\README.md"
+  },
+  {
+    "repo": "edb-rs/edb",
+    "source": {
+      "url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:25.782100+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/README.md",
+      "sha256": "a852c997df4d6ac21e8d438b556a6078198b7c4d1d5d20f13c0e0daef816fa3a",
+      "bytes": 8456
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\edb-rs__edb\\README.md"
+  },
+  {
+    "repo": "erigontech/erigon",
+    "source": {
+      "url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:26.084612+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/README.md",
+      "sha256": "c513f4a221293ffd95d8f097a932a2f0170c189338adc2adb80c2725aae520fe",
+      "bytes": 11407
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\erigontech__erigon\\README.md"
+  },
+  {
+    "repo": "erigontech/silkworm",
+    "source": {
+      "url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:26.102015+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/README.md",
+      "sha256": "415053f086b861df0d211ae6c805d7cb68fa0840532c7437a96e75e09e5c0188",
+      "bytes": 9931
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\erigontech__silkworm\\README.md"
+  },
+  {
+    "repo": "EspressoSystems/jellyfish",
+    "source": {
+      "url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:26.388271+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/README.md",
+      "sha256": "492a16ae4a4f0be19b30c7fed05654c5b0121f5422f89a2f40236612ba3b9890",
+      "bytes": 5051
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\EspressoSystems__jellyfish\\README.md"
+  },
+  {
+    "repo": "eth-infinitism/account-abstraction",
+    "source": {
+      "url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:26.526225+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/README.md",
+      "sha256": "5889c7edd2469aba961f9dad81c6fb36065c9bfd1fb23efdfcbf717a3f2972f5",
+      "bytes": 5185
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\eth-infinitism__account-abstraction\\README.md"
+  },
+  {
+    "repo": "ethdebug/format",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethdebug/format/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:26.535585+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethdebug/format/HEAD/README.md",
+      "sha256": "f690199d2e75e0b88e1a94a5c1cdfd6ad389a0af9f7be8fee87aba386254c6bc",
+      "bytes": 4684
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethdebug__format\\README.md"
+  },
+  {
+    "repo": "ethereum-lists/chains",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum-lists/chains/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:27.250988+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum-lists/chains/HEAD/README.md",
+      "sha256": "d04e2235fdbdd8a97dadcc82cb6580e0a84a952c803f7088a5b0ee1a55e28eca",
+      "bytes": 5170
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum-lists__chains\\README.md"
+  },
+  {
+    "repo": "ethereum/consensus-specs",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:27.463928+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/consensus-specs/HEAD/README.md",
+      "sha256": "e7d69c1fa5f80ce35ef3688ac980d332bdad5a01b4bb0b2d3f1367ab80d96648",
+      "bytes": 3479
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__consensus-specs\\README.md"
+  },
+  {
+    "repo": "ethereum/eips",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/eips/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:27.602034+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/eips/HEAD/README.md",
+      "sha256": "a9aeb947693a4cc4b1ee43f235dcc70e6ff7f54b2af04b7def1664cae03c6262",
+      "bytes": 5110
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__eips\\README.md"
+  },
+  {
+    "repo": "ethereum/execution-apis",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/execution-apis/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.157835+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/execution-apis/HEAD/README.md",
+      "sha256": "c074cd06d1f665acc2de6faf8cc9f188d1cc440822dd282763846cc86fced71a",
+      "bytes": 6690
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__execution-apis\\README.md"
+  },
+  {
+    "repo": "ethereum/go-ethereum",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/go-ethereum/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.158073+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/go-ethereum/HEAD/README.md",
+      "sha256": "f78f3bd17b128c895b9f9b03256670b7903babb38e99592a6a7893f905579b69",
+      "bytes": 15709
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__go-ethereum\\README.md"
+  },
+  {
+    "repo": "ethereum/js-ethereum-cryptography",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.390856+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/README.md",
+      "sha256": "ac19044886fd14edda1081d3fbaa43b5e061a80301c166140f93ba82f0234394",
+      "bytes": 20483
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__js-ethereum-cryptography\\README.md"
+  },
+  {
+    "repo": "ethereum/py_ecc",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.567314+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/README.md",
+      "sha256": "410911a1aa2ec6db779e25d834ad1347797487d6c867e8e3cc1d288f14e4b117",
+      "bytes": 866
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__py_ecc\\README.md"
+  },
+  {
+    "repo": "ethereum/web3.py",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.647405+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/README.md",
+      "sha256": "14a75df975b1b6413fdce255c544a8ca6ecfe8cdfb581cf9db5d9b5ab82372bd",
+      "bytes": 1919
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethereum__web3.py\\README.md"
+  },
+  {
+    "repo": "ethers-io/ethers.js",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:28.721520+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/README.md",
+      "sha256": "4c8364c0939d6fe8240259f039858f5cbd43bcbc936a1b35a715ba0e93fbe5ff",
+      "bytes": 6067
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethers-io__ethers.js\\README.md"
+  },
+  {
+    "repo": "ethpandaops/checkpointz",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:29.091552+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/README.md",
+      "sha256": "cddc0d4d436f50ea346d7bde72b607611c3599640f6a42c8f38ba59a16a248ea",
+      "bytes": 9846
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethpandaops__checkpointz\\README.md"
+  },
+  {
+    "repo": "ethpandaops/ethereum-helm-charts",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-helm-charts/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:29.112194+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethpandaops/ethereum-helm-charts/HEAD/README.md",
+      "sha256": "f29d53d086153d490ed2b7945488c5131a168dde7899067c0c6af31b218803b0",
+      "bytes": 8357
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethpandaops__ethereum-helm-charts\\README.md"
+  },
+  {
+    "repo": "ethpandaops/ethereum-package",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:29.269321+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/README.md",
+      "sha256": "00d916ca7defe165080e13bf3604f8cc8218894c90e67f21e610925e75bc3276",
+      "bytes": 106393
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethpandaops__ethereum-package\\README.md"
+  },
+  {
+    "repo": "ethstaker/eth-docker",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethstaker/eth-docker/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:30.296793+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethstaker/eth-docker/HEAD/README.md",
+      "sha256": "193997355b08c78eb5b98a4511dd4e83d1740b441c6abe427aa9f812c8224db5",
+      "bytes": 1167
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethstaker__eth-docker\\README.md"
+  },
+  {
+    "repo": "ethstaker/ethstaker-deposit-cli",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:30.705111+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/README.md",
+      "sha256": "f9f2aada100af5ef44679c192f7182dd96ac634c5713f89ebdc9d6f1a9a5f780",
+      "bytes": 3397
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ethstaker__ethstaker-deposit-cli\\README.md"
+  },
+  {
+    "repo": "evmts/tevm-monorepo",
+    "source": {
+      "url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:30.735671+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/README.md",
+      "sha256": "6491a17e2e07330bc626a45ebc328c22720954b9073cbf58f2713ea3f0cb885a",
+      "bytes": 3702
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\evmts__tevm-monorepo\\README.md"
+  },
+  {
+    "repo": "flashbots/mev-boost",
+    "source": {
+      "url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:30.762772+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/README.md",
+      "sha256": "f0a57f055edc2b25ad80b67418d27fc10bb8d23cb80902b3787d2b8c95432b26",
+      "bytes": 17399
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\flashbots__mev-boost\\README.md"
+  },
+  {
+    "repo": "flashbots/mev-boost-relay",
+    "source": {
+      "url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:31.145117+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/README.md",
+      "sha256": "842cc63dd3412793b179691eecec29016c029101a5145e79b1e4f6131fab64c3",
+      "bytes": 19889
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\flashbots__mev-boost-relay\\README.md"
+  },
+  {
+    "repo": "flashbots/rbuilder",
+    "source": {
+      "url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:31.174693+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/README.md",
+      "sha256": "4b1b936afea449e7bfbe1f2be4774fd12f720594f6f4bab9f12243c50a014b5f",
+      "bytes": 12878
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\flashbots__rbuilder\\README.md"
+  },
+  {
+    "repo": "foundry-rs/foundry",
+    "source": {
+      "url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:31.222951+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/README.md",
+      "sha256": "36ea15742e689cb16676fd9b10646947ecf9e358f7c6453148d888d3d9298c2d",
+      "bytes": 4210
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\foundry-rs__foundry\\README.md"
+  },
+  {
+    "repo": "grandinetech/grandine",
+    "source": {
+      "url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:32.111460+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/README.md",
+      "sha256": "2b561b1d5c634ead6e6eb0ed46621904cb933dfcf27d9809d62c5419df4aabab",
+      "bytes": 4364
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\grandinetech__grandine\\README.md"
+  },
+  {
+    "repo": "herumi/mcl",
+    "source": {
+      "url": "https://raw.githubusercontent.com/herumi/mcl/HEAD/readme.md",
+      "fetched_at": "2026-11-16T11:05:34.362341+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/herumi/mcl/HEAD/readme.md",
+      "sha256": "c34b52aa627674fe81969553d8e80b18e43a4e283a33e84c05749714aceed581",
+      "bytes": 18642
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\herumi__mcl\\readme.md"
+  },
+  {
+    "repo": "holiman/goevmlab",
+    "source": {
+      "url": "https://raw.githubusercontent.com/holiman/goevmlab/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:33.221177+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/holiman/goevmlab/HEAD/README.md",
+      "sha256": "84e183a9b2497c959c4e520e7984e937bdc487e9be06c2cc260208eb06e16a26",
+      "bytes": 1549
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\holiman__goevmlab\\README.md"
+  },
+  {
+    "repo": "hyperledger-web3j/web3j",
+    "source": {
+      "url": "https://raw.githubusercontent.com/hyperledger-web3j/web3j/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:33.228756+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/hyperledger-web3j/web3j/HEAD/README.md",
+      "sha256": "b7e9d53c630e1e40f5c0bf806a90f4aa5d92aa7b2a5c4dd1c158c532b0436dfc",
+      "bytes": 10000
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\hyperledger-web3j__web3j\\README.md"
+  },
+  {
+    "repo": "hyperledger/besu",
+    "source": {
+      "url": "https://raw.githubusercontent.com/hyperledger/besu/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:34.665022+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/hyperledger/besu/HEAD/README.md",
+      "sha256": "7768f57c58597a44db62a7270f4e4d9ed73494f15bd61c42ff347ddcb4fd7b3b",
+      "bytes": 7169
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\hyperledger__besu\\README.md"
+  },
+  {
+    "repo": "intellij-solidity/intellij-solidity",
+    "source": {
+      "url": "https://raw.githubusercontent.com/intellij-solidity/intellij-solidity/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:34.700193+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/intellij-solidity/intellij-solidity/HEAD/README.md",
+      "sha256": "40d5707dc4cacabe79aae0cedfe78a8166e60c4c6d5b14c042d7bfd302ad8b01",
+      "bytes": 2190
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\intellij-solidity__intellij-solidity\\README.md"
+  },
+  {
+    "repo": "ipsilon/evmone",
+    "source": {
+      "url": "https://raw.githubusercontent.com/ipsilon/evmone/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:34.756030+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ipsilon/evmone/HEAD/README.md",
+      "sha256": "6ec2f7cc40720a8f221d894149697ec74865f834dac58581097a673abfe72dd1",
+      "bytes": 5245
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\ipsilon__evmone\\README.md"
+  },
+  {
+    "repo": "l2beat/l2beat",
+    "source": {
+      "url": "https://raw.githubusercontent.com/l2beat/l2beat/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:35.204045+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/l2beat/l2beat/HEAD/README.md",
+      "sha256": "07ddd0ab77fc1c49ac50076d0caa17f71c4648820faced0b6a6ecee49428940d",
+      "bytes": 750
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\l2beat__l2beat\\README.md"
+  },
+  {
+    "repo": "lambdaclass/ethrex",
+    "source": {
+      "url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:35.250143+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/README.md",
+      "sha256": "a4ce3746fb08219b8e262c00371f7b21dbff44c653ba4ee5c1056c105d8d4131",
+      "bytes": 5865
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\lambdaclass__ethrex\\README.md"
+  },
+  {
+    "repo": "lambdaclass/lambda_ethereum_consensus",
+    "source": {
+      "url": "https://raw.githubusercontent.com/lambdaclass/lambda_ethereum_consensus/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:35.360178+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/lambdaclass/lambda_ethereum_consensus/HEAD/README.md",
+      "sha256": "14d201d984449b0953842cde95330b5f6aa5fba5756aee8cc07fca80ffa57683",
+      "bytes": 19275
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\lambdaclass__lambda_ethereum_consensus\\README.md"
+  },
+  {
+    "repo": "lambdaclass/lambdaworks",
+    "source": {
+      "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:35.733951+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/README.md",
+      "sha256": "a1350b984adeace899879ad957a8afbb2f9a6b65ca302f79f52cd140dec42a2e",
+      "bytes": 17310
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\lambdaclass__lambdaworks\\README.md"
+  },
+  {
+    "repo": "LFDT-web3j/web3j",
+    "source": {
+      "url": "https://raw.githubusercontent.com/LFDT-web3j/web3j/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:35.846042+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/LFDT-web3j/web3j/HEAD/README.md",
+      "sha256": "b7e9d53c630e1e40f5c0bf806a90f4aa5d92aa7b2a5c4dd1c158c532b0436dfc",
+      "bytes": 10000
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\LFDT-web3j__web3j\\README.md"
+  },
+  {
+    "repo": "libp2p/libp2p",
+    "source": {
+      "url": "https://raw.githubusercontent.com/libp2p/libp2p/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:36.233146+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/libp2p/libp2p/HEAD/README.md",
+      "sha256": "20529e739afc357a046cfcd1a6d05a0af52215595badf4cb9fc67f18bc8196e8",
+      "bytes": 8685
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\libp2p__libp2p\\README.md"
+  },
+  {
+    "repo": "nethereum/nethereum",
+    "source": {
+      "url": "https://raw.githubusercontent.com/nethereum/nethereum/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:36.282549+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/nethereum/nethereum/HEAD/README.md",
+      "sha256": "0d4f1ca1d780f14fdbd98d5518041bc589332c5495b9f13549a319358c5119fa",
+      "bytes": 21512
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\nethereum__nethereum\\README.md"
+  },
+  {
+    "repo": "NethermindEth/juno",
+    "source": {
+      "url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:36.346525+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/README.md",
+      "sha256": "adb422d0cafe4aba30f7381698dc5c9965ae1765a5884b63ebe26deca3005791",
+      "bytes": 4470
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\NethermindEth__juno\\README.md"
+  },
+  {
+    "repo": "nethermindeth/nethermind",
+    "source": {
+      "url": "https://raw.githubusercontent.com/nethermindeth/nethermind/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:36.395103+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/nethermindeth/nethermind/HEAD/README.md",
+      "sha256": "a8db73fa92966ecadd864cb424650fc7fcab18ade9b2a579c8d407b1cd3e8339",
+      "bytes": 7792
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\nethermindeth__nethermind\\README.md"
+  },
+  {
+    "repo": "nomicfoundation/hardhat",
+    "source": {
+      "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.151480+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/README.md",
+      "sha256": "28fa6fd57e88155479c86779a703d2e409cc69294cd51be47a566a8032cf86fe",
+      "bytes": 1175
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\nomicfoundation__hardhat\\README.md"
+  },
+  {
+    "repo": "OffchainLabs/prysm",
+    "source": {
+      "url": "https://raw.githubusercontent.com/OffchainLabs/prysm/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.189844+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/OffchainLabs/prysm/HEAD/README.md",
+      "sha256": "b93cd05ba2c400feee9f6830de49d7f5813c71eb5ff06d5fd5a2c4a5f5265ce4",
+      "bytes": 3209
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\OffchainLabs__prysm\\README.md"
+  },
+  {
+    "repo": "OffchainLabs/stylus-sdk-rs",
+    "source": {
+      "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.224968+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/README.md",
+      "sha256": "afe609c7f90083fe305d0db0ea1af72aa253628fdf5e9ec2ff171cac552c03cb",
+      "bytes": 5977
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\OffchainLabs__stylus-sdk-rs\\README.md"
+  },
+  {
+    "repo": "openzeppelin/openzeppelin-contracts",
+    "source": {
+      "url": "https://raw.githubusercontent.com/openzeppelin/openzeppelin-contracts/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.228466+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/openzeppelin/openzeppelin-contracts/HEAD/README.md",
+      "sha256": "4c7bb702a0a318fd6bb92438017c0c166242b3a20d3c4502ced71983e1d0b282",
+      "bytes": 8979
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\openzeppelin__openzeppelin-contracts\\README.md"
+  },
+  {
+    "repo": "otterscan/otterscan",
+    "source": {
+      "url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.361056+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/README.md",
+      "sha256": "359b8097f01349c39c5062964255c951f9e9084785969dbd49f476af277d00cd",
+      "bytes": 4077
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\otterscan__otterscan\\README.md"
+  },
+  {
+    "repo": "paradigmxyz/reth",
+    "source": {
+      "url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:37.577017+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/README.md",
+      "sha256": "c60dc4b597dfff9b548dfa551b4bf21308f62dabc657fdb7a04a70db178cbb38",
+      "bytes": 9746
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\paradigmxyz__reth\\README.md"
+  },
+  {
+    "repo": "paulmillr/noble-curves",
+    "source": {
+      "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:38.138248+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/README.md",
+      "sha256": "5d7a7d4811d1e09a6fc7c1b7e3716453875fc214d2c132a8ee5fcca1fb928a1d",
+      "bytes": 38129
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\paulmillr__noble-curves\\README.md"
+  },
+  {
+    "repo": "Plonky3/Plonky3",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:38.148935+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/README.md",
+      "sha256": "07c3e8bb6f0918a0f0ecafc1a38ae090e3f67f768e9294a08051eb61dffdd605",
+      "bytes": 15686
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Plonky3__Plonky3\\README.md"
+  },
+  {
+    "repo": "powdr-labs/powdr",
+    "source": {
+      "url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:38.186838+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/README.md",
+      "sha256": "42acde7419b5cb4165e90bfab744584a2c8080a8e59fefae4b30ae8cc80fd640",
+      "bytes": 2090
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\powdr-labs__powdr\\README.md"
+  },
+  {
+    "repo": "protofire/solhint",
+    "source": {
+      "url": "https://raw.githubusercontent.com/protofire/solhint/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:38.207455+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/protofire/solhint/HEAD/README.md",
+      "sha256": "b020bf2908acd484ee35cdfdc4dc0792020cecc84e6d9ece22a0c8cbbd926811",
+      "bytes": 13449
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\protofire__solhint\\README.md"
+  },
+  {
+    "repo": "remix-project-org/remix-project",
+    "source": {
+      "url": "https://raw.githubusercontent.com/remix-project-org/remix-project/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:39.549700+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/remix-project-org/remix-project/HEAD/README.md",
+      "sha256": "c6b9046d429c1edb5c9241ae2672a800efb210b5c9caf77ed748f286806a2f48",
+      "bytes": 10873
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\remix-project-org__remix-project\\README.md"
+  },
+  {
+    "repo": "risc0/risc0-ethereum",
+    "source": {
+      "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:39.681023+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/README.md",
+      "sha256": "b9fb9d6379ca8f072f7b54cdb33d09b9ff104bb946a43b6918cb2ececdb92a88",
+      "bytes": 1462
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\risc0__risc0-ethereum\\README.md"
+  },
+  {
+    "repo": "safe-global/safe-smart-account",
+    "source": {
+      "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:39.734310+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/README.md",
+      "sha256": "ca026fba3841cbd38f2d3028893af01a1f1e5a42968cf116cd88b97d52e9ac53",
+      "bytes": 5319
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\safe-global__safe-smart-account\\README.md"
+  },
+  {
+    "repo": "scaffold-eth/scaffold-eth-2",
+    "source": {
+      "url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:39.842117+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/README.md",
+      "sha256": "e4ef0e874f6d192eb2a284a584bcb232f3dd5d6924888d36959e7d8d6dfc6dce",
+      "bytes": 4063
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\scaffold-eth__scaffold-eth-2\\README.md"
+  },
+  {
+    "repo": "shazow/whatsabi",
+    "source": {
+      "url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.067275+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/README.md",
+      "sha256": "09abc4b44089a1b0c836587f62f105b4709da347f1f2cfa5be257ff0cd5d623f",
+      "bytes": 10131
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\shazow__whatsabi\\README.md"
+  },
+  {
+    "repo": "sigp/lighthouse",
+    "source": {
+      "url": "https://raw.githubusercontent.com/sigp/lighthouse/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.083004+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/sigp/lighthouse/HEAD/README.md",
+      "sha256": "9be6013fcf44b68ce829181d10f0950ac646109ba853126dae543e7cfb354d4b",
+      "bytes": 3188
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\sigp__lighthouse\\README.md"
+  },
+  {
+    "repo": "skalenetwork/libBLS",
+    "source": {
+      "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.146008+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/README.md",
+      "sha256": "8417a5dffc38e6759ff5e7eaf6516ba64118ee13f2be9a3be710a94467ac655f",
+      "bytes": 5433
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\skalenetwork__libBLS\\README.md"
+  },
+  {
+    "repo": "smartcontracts/simple-optimism-node",
+    "source": {
+      "url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.242496+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/README.md",
+      "sha256": "6c19b75a030bcc7abd4ab1c875b1cb781dfb922f441d727406afcc2f1c89f6ea",
+      "bytes": 7315
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\smartcontracts__simple-optimism-node\\README.md"
+  },
+  {
+    "repo": "status-im/nimbus-eth2",
+    "source": {
+      "url": "https://raw.githubusercontent.com/status-im/nimbus-eth2/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.248547+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/status-im/nimbus-eth2/HEAD/README.md",
+      "sha256": "ba9329f52d4c44266a299fd30f798fc716f879d33e68c694671ab8e7505830ba",
+      "bytes": 8555
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\status-im__nimbus-eth2\\README.md"
+  },
+  {
+    "repo": "succinctlabs/op-succinct",
+    "source": {
+      "url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.468384+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/README.md",
+      "sha256": "fd95d82462b38ad044848cd5bdbc02c85b80e4fe3cf670cc7cf1813b3b0fdadc",
+      "bytes": 1986
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\succinctlabs__op-succinct\\README.md"
+  },
+  {
+    "repo": "succinctlabs/rsp",
+    "source": {
+      "url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.665685+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/README.md",
+      "sha256": "9aff757e86ff408d191eb7d2b91748c4bbec221ce40ca908105bdeda83f3975c",
+      "bytes": 1296
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\succinctlabs__rsp\\README.md"
+  },
+  {
+    "repo": "succinctlabs/sp1",
+    "source": {
+      "url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.674593+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/README.md",
+      "sha256": "000d907229f17b53653dc29260b41868ec23312e8613d3dcbd5e38d0487fc517",
+      "bytes": 3585
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\succinctlabs__sp1\\README.md"
+  },
+  {
+    "repo": "supranational/blst",
+    "source": {
+      "url": "https://raw.githubusercontent.com/supranational/blst/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.716741+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/supranational/blst/HEAD/README.md",
+      "sha256": "4de28805ae0965df8873623a811dcfcad3acf4646eb32474881a6f2f23c1a8c8",
+      "bytes": 15681
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\supranational__blst\\README.md"
+  },
+  {
+    "repo": "swiss-knife-xyz/swiss-knife",
+    "source": {
+      "url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.761955+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/README.md",
+      "sha256": "3af8be14ee9fed09d6554c1b68c3939b1644a60a9ea24e63cf6858150e6c305c",
+      "bytes": 4326
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\swiss-knife-xyz__swiss-knife\\README.md"
+  },
+  {
+    "repo": "taikoxyz/taiko-mono",
+    "source": {
+      "url": "https://raw.githubusercontent.com/taikoxyz/taiko-mono/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:40.772269+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/taikoxyz/taiko-mono/HEAD/README.md",
+      "sha256": "2037d2890e39946a2099b6bfcbe68184da98e3856a81a7c4792b3273fb340967",
+      "bytes": 4246
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\taikoxyz__taiko-mono\\README.md"
+  },
+  {
+    "repo": "TrueBlocks/trueblocks-core",
+    "source": {
+      "url": "https://raw.githubusercontent.com/TrueBlocks/trueblocks-core/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:41.196688+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/TrueBlocks/trueblocks-core/HEAD/README.md",
+      "sha256": "476598a34b296fa454ea0f5330215e274b1f7a77de1080df383afd79f7981a5e",
+      "bytes": 8336
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\TrueBlocks__trueblocks-core\\README.md"
+  },
+  {
+    "repo": "Vectorized/solady",
+    "source": {
+      "url": "https://raw.githubusercontent.com/Vectorized/solady/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:41.284973+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Vectorized/solady/HEAD/README.md",
+      "sha256": "ed92927674ade353951a9a632672cbc431730a5486356232f6f8ad759505994f",
+      "bytes": 8709
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\Vectorized__solady\\README.md"
+  },
+  {
+    "repo": "vyperlang/titanoboa",
+    "source": {
+      "url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:41.335188+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/README.md",
+      "sha256": "b6059337e0b78caa7fb637b0ca4631633ac7bec18cc8c66ce9f69442959bbd15",
+      "bytes": 10555
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\vyperlang__titanoboa\\README.md"
+  },
+  {
+    "repo": "vyperlang/vyper",
+    "source": {
+      "url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:41.436552+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/README.md",
+      "sha256": "d99c3da96180121e7c7c761e9d4cca6249e49bdb089cf6314b71f7c54d3cfb6f",
+      "bytes": 6240
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\vyperlang__vyper\\README.md"
+  },
+  {
+    "repo": "wealdtech/ethdo",
+    "source": {
+      "url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:42.084446+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/README.md",
+      "sha256": "d8b3592f61c334de148b708466b8b5d623a659b2578943b3df9c2de632ed5315",
+      "bytes": 11388
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\wealdtech__ethdo\\README.md"
+  },
+  {
+    "repo": "wevm/viem",
+    "source": {
+      "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:42.194033+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/wevm/viem/HEAD/README.md",
+      "sha256": "e1d5879ce3e222eb0cdd43051fb8c34c00796467acb091d0b3fa939ee3355cb5",
+      "bytes": 13
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\wevm__viem\\README.md"
+  },
+  {
+    "repo": "wighawag/hardhat-deploy",
+    "source": {
+      "url": "https://raw.githubusercontent.com/wighawag/hardhat-deploy/HEAD/README.md",
+      "fetched_at": "2026-11-16T11:05:43.116712+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/wighawag/hardhat-deploy/HEAD/README.md",
+      "sha256": "7bba70572ade2673fa82797ca5c774f78ff0497647f3568a16d9032bd50376ac",
+      "bytes": 8870
+    },
+    "path": "C:\\Users\\Uwaise\\Documents\\Default Project\\deepfunding-research-2026-11-16\\sources\\repositories\\wighawag__hardhat-deploy\\README.md"
+  }
+]

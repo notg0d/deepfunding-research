@@ -1,0 +1,122 @@
+{
+  "name": "sourcify-server",
+  "version": "4.3.0",
+  "description": "Solidity metadata-based re-compilation and source verification tool",
+  "main": "dist/server/server.js",
+  "types": "dist/server/server.d.ts",
+  "bin": "dist/server/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argotorg/sourcify.git"
+  },
+  "scripts": {
+    "prebuild": "copyfiles -u 1 src/**/*.yaml src/*.json dist && git rev-parse HEAD > dist/git-commit-hash.txt",
+    "build": "tsc",
+    "start": "node ./dist/server/cli.js",
+    "postgres-test:start": "docker-compose -f test/docker-compose.yml up -d",
+    "postgres-test:stop": "docker-compose -f test/docker-compose.yml rm -fsv",
+    "postgres-test:migrate": "cd ../database && git submodule update --init && SERVICE_NAME=server DATABASE_URL=postgres://sourcify:sourcify@${SOURCIFY_POSTGRES_HOST:-sourcify-db}:${DOCKER_HOST_POSTGRES_TEST_PORT:-5432}/sourcify?sslmode=disable DBMATE_SCHEMA_FILE=./sourcify-database.sql npm run migrate:up-no-dump",
+    "test:unit": "mocha  --exit --recursive test/unit/**",
+    "test:creation-tx-apis": "mocha --exit --recursive test/creation-tx-apis/**",
+    "test": "npm run postgres-test:migrate & npx c8 --reporter=none mocha --exit --recursive test/unit/** test/integration/**",
+    "test-local": "export DOCKER_HOST_POSTGRES_TEST_PORT=${DOCKER_HOST_POSTGRES_TEST_PORT:-5431} && npm run postgres-test:start && sleep 2 && SOURCIFY_POSTGRES_HOST=localhost npm run test; status=$?; npm run postgres-test:stop; exit $status",
+    "generate-test-case": "ts-node test/integration/verification-cases/generate-test-case.ts",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier \"./**/*.{ts,js,yaml,yml}\" --write",
+    "fix:lint": "eslint . --fix",
+    "check": "run-s check:*",
+    "check:eslint": "eslint .",
+    "check:prettier": "prettier \"./**/*.{ts,js,yaml,yml}\" --check",
+    "check:tsc": "tsc --noEmit -p ./tsconfig.lint.json",
+    "cov": "run-s -c build test-local cov:html cov:lcov && open-cli coverage/index.html",
+    "cov:html": "c8 report --reporter=html",
+    "cov:lcov": "c8 report --reporter=lcov",
+    "cov:check": "c8 report && c8 check-coverage --lines 100 --functions 100 --branches 100"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "verification",
+    "bytecode",
+    "metadata"
+  ],
+  "author": "sourcifyeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argotorg/sourcify/issues"
+  },
+  "homepage": "https://github.com/argotorg/sourcify#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1159.0",
+    "@ethereum-sourcify/bytecode-utils": "^1.7.0",
+    "@ethereum-sourcify/compilers": "^1.4.0",
+    "@ethereum-sourcify/lib-sourcify": "^3.8.0",
+    "@google-cloud/cloud-sql-connector": "1.12.1",
+    "@shazow/whatsabi": "0.30.0",
+    "@solidity-parser/parser": "0.20.2",
+    "bunyan": "1.8.15",
+    "chalk": "4.1.2",
+    "config": "3.3.12",
+    "cors": "2.8.6",
+    "dotenv": "16.6.1",
+    "ethers": "6.17.0",
+    "express": "5.3.0",
+    "express-fileupload": "1.5.2",
+    "express-openapi-validator": "5.6.2",
+    "http-status-codes": "2.3.0",
+    "json-refs": "3.0.15",
+    "pg": "8.23.1",
+    "piscina": "5.3.2",
+    "serve-index": "1.9.2",
+    "swagger-ui-express": "5.0.1",
+    "ts-node": "10.9.2",
+    "uuid": "14.0.3",
+    "winston": "3.19.0",
+    "yamljs": "0.3.0"
+  },
+  "devDependencies": {
+    "@ethereum-sourcify/test-helpers": "^1.0.7",
+    "@types/bunyan": "1.8.11",
+    "@types/chai": "4.3.20",
+    "@types/chai-as-promised": "8.0.2",
+    "@types/config": "3.3.5",
+    "@types/cors": "2.8.19",
+    "@types/express": "5.0.6",
+    "@types/mocha": "10.0.10",
+    "@types/node": "22.20.5",
+    "@types/pg": "8.23.1",
+    "@types/serve-index": "1.9.4",
+    "@types/sinon": "21.0.1",
+    "@types/swagger-ui-express": "4.1.8",
+    "@types/yamljs": "0.2.34",
+    "c8": "11.0.0",
+    "chai": "4.5.0",
+    "chai-as-promised": "7.1.2",
+    "chai-http": "4.4.0",
+    "commander": "14.0.3",
+    "copyfiles": "2.4.1",
+    "mocha": "10.8.2",
+    "nock": "14.0.17",
+    "npm-run-all2": "9.0.4",
+    "open-cli": "9.0.0",
+    "rimraf": "6.1.3",
+    "sinon": "21.1.2",
+    "tree-kill": "1.2.2"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.3.3"
+  },
+  "c8": {
+    "exclude": [
+      "test/**/*.*",
+      "packages/**/*.*",
+      "src/common/loggerLoki.ts"
+    ],
+    "reporter": [
+      "html",
+      "lcov",
+      "text",
+      "text-summary"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+[package]
+name = "snark-verifier"
+version = "0.2.8"
+authors = ["Privacy Scaling Explorations Team", "Intrinsic Technologies"]
+license = "MIT"
+edition = "2021"
+repository = "https://github.com/axiom-crypto/snark-verifier"
+readme = "../README.md"
+description = "Generic (S)NARK verifier for Rust, halo2, and EVM. This is a fork of PSE's version."
+rust-version = "1.91.1"
+
+[dependencies]
+itertools = "0.11"
+lazy_static = "1.4"
+num-bigint = "0.4"
+num-integer = "0.1.45"
+num-traits = "0.2.15"
+hex = "0.4"
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+pairing = { version = "0.23" }
+
+# Use halo2-base as non-optional dependency because it re-exports halo2_proofs, halo2curves, and poseidon.
+halo2-base = { version = "0.5.6", git = "https://github.com/axiom-crypto/halo2-lib.git", branch = "main", default-features = false }
+
+# loader_halo2
+halo2-ecc = { version = "0.5.6", git = "https://github.com/axiom-crypto/halo2-lib.git", branch = "main", default-features = false, optional = true }
+
+# parallel
+rayon = { version = "1.10", optional = true }
+
+# loader_evm
+sha3 = { version = "=0.10", optional = true }
+ruint = { version = "1.14", optional = true }
+
+# revm only used for testing smart contract execution
+revm = { version = "27.1.0", optional = true }
+
+[dev-dependencies]
+ark-std = { version = "0.3.0", features = ["print-trace"] }
+paste = "1.0.7"
+rand_chacha = "0.3.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# loader_evm
+crossterm = { version = "0.25" }
+ratatui = { version = "0.24", default-features = false, features = [
+    "crossterm",
+] }
+
+[features]
+default = ["loader_evm", "loader_halo2", "display"]
+display = ["halo2-base/display", "halo2-ecc?/display"]
+loader_halo2 = ["halo2-ecc"]
+loader_evm = ["dep:sha3", "dep:ruint"]
+revm = ["loader_evm", "dep:revm"]
+parallel = ["dep:rayon"]
+cuda = ["halo2-base/cuda", "halo2-ecc?/cuda"]
+
+[[example]]
+name = "evm-verifier"
+required-features = ["loader_evm"]
+
+[[example]]
+name = "evm-verifier-with-accumulator"
+required-features = ["loader_halo2", "loader_evm"]
+
+[[example]]
+name = "recursion"
+required-features = ["loader_halo2"]

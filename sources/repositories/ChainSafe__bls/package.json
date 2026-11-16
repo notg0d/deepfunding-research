@@ -1,0 +1,132 @@
+{
+  "name": "@chainsafe/bls",
+  "version": "8.2.0",
+  "description": "Implementation of bls signature verification for ethereum 2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "browser": "./lib/herumi/web.js"
+    },
+    "./types": {
+      "import": "./lib/types.js"
+    },
+    "./errors": {
+      "import": "./lib/errors.js"
+    },
+    "./constants": {
+      "import": "./lib/constants.js"
+    },
+    "./getImplementation": {
+      "import": "./lib/getImplementation.js"
+    },
+    "./switchable": {
+      "import": "./lib/switchable.js"
+    },
+    "./blst-native": {
+      "import": "./lib/blst-native/index.js"
+    },
+    "./herumi": {
+      "import": "./lib/herumi/index.js"
+    }
+  },
+  "types": "lib/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "*",
+        "lib/*",
+        "lib/*/index"
+      ]
+    }
+  },
+  "module": "./lib/index.js",
+  "browser": "./lib/herumi.js",
+  "homepage": "https://github.com/chainsafe/bls",
+  "author": "ChainSafe Systems",
+  "license": "Apache-2.0",
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.js.map",
+    "lib/**/*.d.ts",
+    "*.d.ts",
+    "*.js"
+  ],
+  "keywords": [
+    "ethereum",
+    "serenity",
+    "signature verification",
+    "bls"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib && rm -rf dist && rm -f tsconfig.tsbuildinfo",
+    "check-build": "node -e \"(async function() { await import('./lib/index.js') })()\"",
+    "build": "tsc --incremental --project tsconfig.build.json",
+    "lint": "eslint --color --ext .ts src/ test/",
+    "lint:fix": "yarn run lint --fix",
+    "prepublishOnly": "yarn build",
+    "test:web": "karma start karma.conf.cjs",
+    "test:unit": "mocha 'test/unit/**/*.test.ts'",
+    "test:coverage": "nyc --cache-dir .nyc_output/.cache -r lcov -e .ts mocha 'test/unit/**/*.test.ts' && nyc report",
+    "test:spec": "mocha 'test/spec/**/*.test.ts'",
+    "test": "yarn run test:unit && yarn run test:spec",
+    "download-spec-tests": "node --loader ts-node/esm test/downloadSpecTests.ts",
+    "coverage": "codecov -F bls",
+    "benchmark": "node --loader ts-node/esm benchmark/index.ts",
+    "benchmark:all": "cd benchmark && yarn install && yarn benchmark:all"
+  },
+  "dependencies": {
+    "@chainsafe/bls-keygen": "^0.4.0",
+    "bls-eth-wasm": "^1.1.1"
+  },
+  "devDependencies": {
+    "@chainsafe/blst": "^2.2.0",
+    "@chainsafe/eslint-plugin-node": "^11.2.3",
+    "@chainsafe/threads": "^1.9.0",
+    "@lodestar/spec-test-util": "1.13.0",
+    "@noble/hashes": "^1.4.0",
+    "@types/chai": "^4.2.9",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.11.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "buffer": "^6.0.3",
+    "chai": "^4.3.6",
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "karma": "^6.3.18",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-mocha": "^2.0.1",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.0.0",
+    "null-loader": "^4.0.1",
+    "nyc": "^15.0.0",
+    "prettier": "^2.1.2",
+    "resolve-typescript-plugin": "^1.2.0",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "4.7.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "resolutions": {
+    "mocha": "^9.2.2",
+    "v8-profiler-next": "1.10.0"
+  },
+  "peerDependencies": {
+    "@chainsafe/blst": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@chainsafe/blst": {
+      "optional": true
+    }
+  },
+  "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/6a9bca7e7b27d1af853620a806a216f7560b62d1/contracts/src/groth16/RiscZeroGroth16Verifier.sol",
+  "fetched_at": "2026-11-16T13:08:01.882647+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/6a9bca7e7b27d1af853620a806a216f7560b62d1/contracts/src/groth16/RiscZeroGroth16Verifier.sol",
+  "sha256": "94396a7989abae664abab1c2f313b94a042f1b3ec52a843ddf5d4de3f9543fcd",
+  "bytes": 8236
+}

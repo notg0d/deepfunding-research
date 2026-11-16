@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/smartcontracts/simple-optimism-node/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:53.433010+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/smartcontracts/simple-optimism-node/commits?per_page=1",
+  "sha256": "fe1a497bd61f19174c7f27d643e93e60ef6b47de8bb19d9c22073884f80ac159",
+  "bytes": 4828
+}

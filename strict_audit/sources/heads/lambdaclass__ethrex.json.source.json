@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/lambdaclass/ethrex/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:55.404503+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/lambdaclass/ethrex/commits?per_page=1",
+  "sha256": "923be32238ce0f8a047b074b16b0921c089fb8c1bece10005feb1e9da33cda8b",
+  "bytes": 4461
+}

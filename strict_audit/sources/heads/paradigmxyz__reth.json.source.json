@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/paradigmxyz/reth/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:55.022395+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/paradigmxyz/reth/commits?per_page=1",
+  "sha256": "2595fb9eaf4a7c0f03c4462052d8e9f3437a573116c406c8204f535c5b507f82",
+  "bytes": 4447
+}

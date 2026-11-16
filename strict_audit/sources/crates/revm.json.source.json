@@ -1,0 +1,8 @@
+{
+  "url": "https://crates.io/api/v1/crates/revm",
+  "fetched_at": "2026-11-16T13:04:18.695071+00:00",
+  "status": 200,
+  "final_url": "https://crates.io/api/v1/crates/revm",
+  "sha256": "5f28e656d3a28a21ada2c67d0d921c3a90857ff61adaf61638f31c2b254cc1cf",
+  "bytes": 339235
+}

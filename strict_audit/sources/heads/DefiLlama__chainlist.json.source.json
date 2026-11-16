@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/DefiLlama/chainlist/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:56.594770+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/DefiLlama/chainlist/commits?per_page=1",
+  "sha256": "08c826596aad096a2ba014ed7abd6c41f9eeeac91007a018e2988a0d6af60f9f",
+  "bytes": 4602
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/rate_limit",
+  "fetched_at": "2026-11-16T13:04:07.955862+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/rate_limit",
+  "sha256": "2ae8c0c9ada92539bf51791060a9ac79f80e41c0caef9a3fedde88d0ba61df07",
+  "bytes": 424
+}

@@ -1,0 +1,1596 @@
+[
+  {
+    "repo": "0xMiden/miden-vm",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.831158+00:00",
+        "sha256": "c4a8aef2f0b1da74ccb75b979b73dcb925cba9b0bdf2b2df5f7950f8a2b8064c",
+        "local_path": "sources/repositories/0xMiden__miden-vm/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:34.117500+00:00",
+        "sha256": "df4ed6a17791e625abaf18eb9ba21fb9444c5a6a780e5c34a5195f4ab75d4bb1",
+        "local_path": "sources/repositories/0xMiden__miden-vm/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "a16z/halmos",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.831917+00:00",
+        "sha256": "edfce18428d2d464bb267e1dd553139454ca2e6bbe1d2433bde8db88443abb98",
+        "local_path": "sources/repositories/a16z__halmos/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:18:34.118475+00:00",
+        "sha256": "44baed4dbbf1c23c5085753f73827e4dc1b776bd9616f4c3ced66e43f4ace7ba",
+        "local_path": "sources/repositories/a16z__halmos/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "a16z/helios",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/a16z/helios/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.832421+00:00",
+        "sha256": "39d8c3bd6b29255d25480493167c223db4ae2f771a810d26ecf11f0e03b3e888",
+        "local_path": "sources/repositories/a16z__helios/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/a16z/helios/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:34.119289+00:00",
+        "sha256": "74c8e50b02bdfde24597cffd763277f3d80422a57f6fd7e15f955cd3c397cd61",
+        "local_path": "sources/repositories/a16z__helios/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "aestus-relay/mev-boost-relay",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.832825+00:00",
+        "sha256": "9d371d892b8e1fb9e84d9312ceccb3fa61c0d673ddca30f9794105dc1660816c",
+        "local_path": "sources/repositories/aestus-relay__mev-boost-relay/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/aestus-relay/mev-boost-relay",
+        "fetched_at": "2026-11-16T11:19:14.141792+00:00",
+        "sha256": "7966b55f2dade2d24c6f987e5d8d9fde8a8efc4272c39f6241c26ec15dec647f",
+        "local_path": "sources/repositories/aestus-relay__mev-boost-relay/github_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/flashbots/mev-boost-relay/compare/main...aestus-relay:main",
+        "fetched_at": "2026-11-16T11:25:13.158970+00:00",
+        "sha256": "d819bf2b0506835a7a67e4640e5cfa4b61ac06dbfa9a7c361c0778c3416a5bd6",
+        "local_path": "sources/repositories/aestus-relay__mev-boost-relay/fork_comparison.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:18:34.120202+00:00",
+        "sha256": "6afd2c6cac9087e46627e6cfecbda978be19390dd6a6cc43852d6d12c505d275",
+        "local_path": "sources/repositories/aestus-relay__mev-boost-relay/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "alloy-rs/alloy",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.833876+00:00",
+        "sha256": "06cd17e987114590bd820fa465b10c48e2b97a8e1c8fda48a0f5e9703ac23508",
+        "local_path": "sources/repositories/alloy-rs__alloy/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:25:11.227189+00:00",
+        "sha256": "7fd10d19cf88ba533b74ae39eaa900aa0651f534de45ae2931d649b8d753bc68",
+        "local_path": "sources/repositories/alloy-rs__alloy/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "apeworx/ape",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:19.834940+00:00",
+        "sha256": "969c399e8876079477f66a9f72dd9d56c5da08036e338163b13accd601d5036b",
+        "local_path": "sources/repositories/apeworx__ape/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:18:34.122059+00:00",
+        "sha256": "55fc30f5bc0fe37cacb006d159ec368f7bf1f9222f19d5e5dd50fd798df8529f",
+        "local_path": "sources/repositories/apeworx__ape/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "argotorg/act",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/act/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:20.303039+00:00",
+        "sha256": "2b8f52f473358092e544643a4b8d97f883249b96d02f3fccd81d23d2cecd707b",
+        "local_path": "sources/repositories/argotorg__act/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/act/HEAD/act.cabal",
+        "fetched_at": "2026-11-16T11:18:53.377783+00:00",
+        "sha256": "feb9fc7cb17d82c13b3c96617a97d4b2c8a33ef10e8340e3d55b5495d4c9596a",
+        "local_path": "sources/repositories/argotorg__act/act.cabal"
+      }
+    ]
+  },
+  {
+    "repo": "argotorg/fe",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/fe/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:20.317609+00:00",
+        "sha256": "adf8c5ce252d5c75b04bbc59f251e66cc8aac4f26e218b88c3c6b3d0543c9d03",
+        "local_path": "sources/repositories/argotorg__fe/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "argotorg/hevm",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/readme.md",
+        "fetched_at": "2026-11-16T11:05:23.067654+00:00",
+        "sha256": "800fbca83d0c9a59a45973eb5f1f0902eb999fbdfa55308b453bafda78de128d",
+        "local_path": "sources/repositories/argotorg__hevm/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/hevm.cabal",
+        "fetched_at": "2026-11-16T11:18:48.209052+00:00",
+        "sha256": "f37fb83285d0b46dfdc5e9c96c6e2ef155d3dbb10cc0b84a11fe1afa912dc4af",
+        "local_path": "sources/repositories/argotorg__hevm/hevm.cabal"
+      },
+      {
+        "url": "https://api.github.com/repos/argotorg/hevm",
+        "fetched_at": "2026-11-16T11:19:14.752559+00:00",
+        "sha256": "6dddde1560096e330bfd1924d9d9190810b9d272d4da09f5c43d4a4bfbcafa26",
+        "local_path": "sources/repositories/argotorg__hevm/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "argotorg/solidity",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/solidity/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:20.327714+00:00",
+        "sha256": "79a3ce9352428ddc5907a8a7bf2328b95aa23cd17023e2a55a5569c6ba34fc35",
+        "local_path": "sources/repositories/argotorg__solidity/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "argotorg/sourcify",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/argotorg/sourcify/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:20.361597+00:00",
+        "sha256": "1c9e60a3d7e11fc3eafd95a285006dcd49ce289e52787e1086889922a13acc97",
+        "local_path": "sources/repositories/argotorg__sourcify/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "arkworks-rs/algebra",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/arkworks-rs/algebra/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:20.371427+00:00",
+        "sha256": "ebc0b695dac4a0f8780c76a7ce537d42d745594f07a3ac4ac989f46862e777e0",
+        "local_path": "sources/repositories/arkworks-rs__algebra/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "axiom-crypto/snark-verifier",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:21.163849+00:00",
+        "sha256": "3204a1ffb9a728f2db5839569c4fbff0064d16bbf7b167811c2391db119a8713",
+        "local_path": "sources/repositories/axiom-crypto__snark-verifier/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:53.974448+00:00",
+        "sha256": "0c3d4a892321dd62ac2ec4fcbd61c8af9d6c91d479430ad2efa10658766178df",
+        "local_path": "sources/repositories/axiom-crypto__snark-verifier/snark-verifier/Cargo.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier-sdk/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:53.989810+00:00",
+        "sha256": "dd595146fd659f225c7c135ce7b7e02049caffdde2dae2644f3957cdff02d93e",
+        "local_path": "sources/repositories/axiom-crypto__snark-verifier/snark-verifier-sdk/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "blockscout/blockscout",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/blockscout/blockscout/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:21.175522+00:00",
+        "sha256": "d00eafa9454152a93f3b8cb8978124c9dee522dcbb9ea63cb28b8950cbcd6a05",
+        "local_path": "sources/repositories/blockscout__blockscout/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "Certora/CertoraProver",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Certora/CertoraProver/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:21.183883+00:00",
+        "sha256": "608a6b7824ceecb6fbd1dfd691afbd9ff296ff80eac0b7e43ebc309d83b5ec69",
+        "local_path": "sources/repositories/Certora__CertoraProver/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ChainSafe/bls",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:22.645519+00:00",
+        "sha256": "5098fbe055b1017c4ee0ab7517f719e421e40ec9abe6b0989bb5cb5f5f018d57",
+        "local_path": "sources/repositories/ChainSafe__bls/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:54.021363+00:00",
+        "sha256": "34a9ceaf72771e051b23a700435a82598d94aebb929e44bc24feec46196acf2a",
+        "local_path": "sources/repositories/ChainSafe__bls/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "chainsafe/lodestar",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:22.667926+00:00",
+        "sha256": "a650fcfaafcf2a00aa5db55594e716065e427715b5ca77d0d458f63cb781f48c",
+        "local_path": "sources/repositories/chainsafe__lodestar/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/packages/beacon-node/package.json",
+        "fetched_at": "2026-11-16T11:18:54.309762+00:00",
+        "sha256": "c44abbfe608a714bef5cc279f9a5ad737f906253967cf265a1a57a4d65a1208a",
+        "local_path": "sources/repositories/chainsafe__lodestar/packages/beacon-node/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "Commit-Boost/commit-boost-client",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:22.673261+00:00",
+        "sha256": "ba8d30ee1a80c917aa12c47cd07745e3cf8770e472db8187b08e7e9628f35e4b",
+        "local_path": "sources/repositories/Commit-Boost__commit-boost-client/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:54.398750+00:00",
+        "sha256": "5479ea7d9b700060f294be2a96ffdf7fb81fcfd832081d1d3e9c4ebeba0772a5",
+        "local_path": "sources/repositories/Commit-Boost__commit-boost-client/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "Consensys/gnark-crypto",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:23.070825+00:00",
+        "sha256": "837a5fc76e88eec81a32777ac507a05805f0087d4b6184d99d72b61007147ab6",
+        "local_path": "sources/repositories/Consensys__gnark-crypto/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:18:54.399734+00:00",
+        "sha256": "87b7e709d202dfaf96b327384f710eb513747f4c64b5f09f5030bb9e6aa0d6e1",
+        "local_path": "sources/repositories/Consensys__gnark-crypto/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "consensys/teku",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/consensys/teku/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:23.071124+00:00",
+        "sha256": "506177d3e0c788e446046a9c146a651be37dc6ba1839d2af2a62078c403a0489",
+        "local_path": "sources/repositories/consensys__teku/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "Cyfrin/aderyn",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:23.173934+00:00",
+        "sha256": "86dba73c623b087538c5d7b1a5bb361da0ffd809cb04697d3d5773de8ec5334c",
+        "local_path": "sources/repositories/Cyfrin__aderyn/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:54.426306+00:00",
+        "sha256": "2c3b0146b0d7e22ec712a2a086f0838e35c13b7c7b580ae98b23a60506b538bb",
+        "local_path": "sources/repositories/Cyfrin__aderyn/Cargo.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/aderyn_core/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:54.512474+00:00",
+        "sha256": "02e565dc3928fb85cbcf4a7abee378560f94096901d677d22e5e782f65347cd1",
+        "local_path": "sources/repositories/Cyfrin__aderyn/aderyn_core/Cargo.toml"
+      },
+      {
+        "url": "https://api.github.com/repos/Cyfrin/aderyn",
+        "fetched_at": "2026-11-16T11:19:16.415102+00:00",
+        "sha256": "13d21a112745ea0d3fa02953b603abf6dfad6f0f51eadcc8a94e53dde3644084",
+        "local_path": "sources/repositories/Cyfrin__aderyn/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "dappnode/DAppNode",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/dappnode/DAppNode/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:25.096048+00:00",
+        "sha256": "265ec57cab2d1e6d3eec646fab858b9291d46c7be0cbbc5ab003c6d70b37edfb",
+        "local_path": "sources/repositories/dappnode__DAppNode/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "DefiLlama/chainlist",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:25.140976+00:00",
+        "sha256": "9c2bd3433817a5171d65e93b55d11a5d2c56320c9e427550f4be191b75da3c9f",
+        "local_path": "sources/repositories/DefiLlama__chainlist/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/utils/fetch.js",
+        "fetched_at": "2026-11-16T11:29:39.934917+00:00",
+        "sha256": "37dc766e218ea4710a6fa05feefec68ddb1dd61d3910a0195c842d7fe2e171ef",
+        "local_path": "sources/repositories/DefiLlama__chainlist/utils/fetch.js"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/pages/index.js",
+        "fetched_at": "2026-11-16T11:25:11.227769+00:00",
+        "sha256": "8a18aab95e5f70b44101223e7597b1ca2ca45d2030da641567e9ad3c6fe234f7",
+        "local_path": "sources/repositories/DefiLlama__chainlist/pages/index.js"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:55.127939+00:00",
+        "sha256": "4ba96f3af2daabc1e23aa350176651c342837a01ca1ffc6df33464726584e288",
+        "local_path": "sources/repositories/DefiLlama__chainlist/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "DefiLlama/DefiLlama-Adapters",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:25.678968+00:00",
+        "sha256": "d3733517ae4873aa67e2ea351913960ebafc679f1ecaa960a150624ff67d3f6f",
+        "local_path": "sources/repositories/DefiLlama__DefiLlama-Adapters/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:55.278022+00:00",
+        "sha256": "8040a52daaa62b027b741ab1c5b747915591e065f5335ededbb0e480078d8105",
+        "local_path": "sources/repositories/DefiLlama__DefiLlama-Adapters/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "dl-solarity/solidity-lib",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:25.680675+00:00",
+        "sha256": "87a769580e55d55fd7deda6c4c5fbeeb8d58adaa9ce298dd47026bbf31f56df1",
+        "local_path": "sources/repositories/dl-solarity__solidity-lib/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:55.338583+00:00",
+        "sha256": "de5c73fb51807260fdb5b732670673aa6e886a0f85457498c902bf7479e2d12a",
+        "local_path": "sources/repositories/dl-solarity__solidity-lib/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "edb-rs/edb",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:25.782100+00:00",
+        "sha256": "a852c997df4d6ac21e8d438b556a6078198b7c4d1d5d20f13c0e0daef816fa3a",
+        "local_path": "sources/repositories/edb-rs__edb/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:55.365731+00:00",
+        "sha256": "5f54cdf1c3c8d2aa231d7e76d701d540e991870fc0594bf370a5805b1587055d",
+        "local_path": "sources/repositories/edb-rs__edb/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "erigontech/erigon",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:26.084612+00:00",
+        "sha256": "c513f4a221293ffd95d8f097a932a2f0170c189338adc2adb80c2725aae520fe",
+        "local_path": "sources/repositories/erigontech__erigon/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:18:56.024065+00:00",
+        "sha256": "46079b8c941c4047586aaa324d5f70e3ffae701ccc0456d7652b22cac73e14ad",
+        "local_path": "sources/repositories/erigontech__erigon/go.mod"
+      },
+      {
+        "url": "https://api.github.com/repos/erigontech/erigon",
+        "fetched_at": "2026-11-16T11:19:16.402835+00:00",
+        "sha256": "f75fc0c8e96467259d3cfe08422decb6faf49392c3b8625f82548a1f3c5fe691",
+        "local_path": "sources/repositories/erigontech__erigon/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "erigontech/silkworm",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:26.102015+00:00",
+        "sha256": "415053f086b861df0d211ae6c805d7cb68fa0840532c7437a96e75e09e5c0188",
+        "local_path": "sources/repositories/erigontech__silkworm/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/.gitmodules",
+        "fetched_at": "2026-11-16T11:18:56.116304+00:00",
+        "sha256": "90028f7428bdd26f4d1bda331a46a26adb08ad4d3a0bec7e7aea63c31120a67a",
+        "local_path": "sources/repositories/erigontech__silkworm/.gitmodules"
+      }
+    ]
+  },
+  {
+    "repo": "EspressoSystems/jellyfish",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:26.388271+00:00",
+        "sha256": "492a16ae4a4f0be19b30c7fed05654c5b0121f5422f89a2f40236612ba3b9890",
+        "local_path": "sources/repositories/EspressoSystems__jellyfish/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:18:56.206076+00:00",
+        "sha256": "b20db6c9dab5d3cca837c6172923c7ffc3a13c6af4a8a6daf43fca29f0821b9b",
+        "local_path": "sources/repositories/EspressoSystems__jellyfish/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "eth-infinitism/account-abstraction",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:26.526225+00:00",
+        "sha256": "5889c7edd2469aba961f9dad81c6fb36065c9bfd1fb23efdfcbf717a3f2972f5",
+        "local_path": "sources/repositories/eth-infinitism__account-abstraction/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:56.447348+00:00",
+        "sha256": "e7828c910681dc3a2f097c1c69d9e984cbab18809a936ad5e7ed4cb3b62d3451",
+        "local_path": "sources/repositories/eth-infinitism__account-abstraction/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "ethdebug/format",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethdebug/format/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:26.535585+00:00",
+        "sha256": "f690199d2e75e0b88e1a94a5c1cdfd6ad389a0af9f7be8fee87aba386254c6bc",
+        "local_path": "sources/repositories/ethdebug__format/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum-lists/chains",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum-lists/chains/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:27.250988+00:00",
+        "sha256": "d04e2235fdbdd8a97dadcc82cb6580e0a84a952c803f7088a5b0ee1a55e28eca",
+        "local_path": "sources/repositories/ethereum-lists__chains/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/consensus-specs",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:27.463928+00:00",
+        "sha256": "e7d69c1fa5f80ce35ef3688ac980d332bdad5a01b4bb0b2d3f1367ab80d96648",
+        "local_path": "sources/repositories/ethereum__consensus-specs/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/eips",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/eips/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:27.602034+00:00",
+        "sha256": "a9aeb947693a4cc4b1ee43f235dcc70e6ff7f54b2af04b7def1664cae03c6262",
+        "local_path": "sources/repositories/ethereum__eips/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/execution-apis",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/execution-apis/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.157835+00:00",
+        "sha256": "c074cd06d1f665acc2de6faf8cc9f188d1cc440822dd282763846cc86fced71a",
+        "local_path": "sources/repositories/ethereum__execution-apis/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/go-ethereum",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/go-ethereum/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.158073+00:00",
+        "sha256": "f78f3bd17b128c895b9f9b03256670b7903babb38e99592a6a7893f905579b69",
+        "local_path": "sources/repositories/ethereum__go-ethereum/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/js-ethereum-cryptography",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.390856+00:00",
+        "sha256": "ac19044886fd14edda1081d3fbaa43b5e061a80301c166140f93ba82f0234394",
+        "local_path": "sources/repositories/ethereum__js-ethereum-cryptography/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:56.448627+00:00",
+        "sha256": "72b9384e0db3778f4aa6c7f107371c7273db423bbf634dda23546711fb658904",
+        "local_path": "sources/repositories/ethereum__js-ethereum-cryptography/package.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/keccak.ts",
+        "fetched_at": "2026-11-16T11:18:56.492960+00:00",
+        "sha256": "5668606195e6f83e689eb8b0825e2f9345cb619fbd9000ad14f0ae294873a317",
+        "local_path": "sources/repositories/ethereum__js-ethereum-cryptography/src/keccak.ts"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/secp256k1.ts",
+        "fetched_at": "2026-11-16T11:18:56.582841+00:00",
+        "sha256": "cc598e9d874d3d03b7be18f7c911bf31aac7e6f6b8fb925501e799dd7938ae1a",
+        "local_path": "sources/repositories/ethereum__js-ethereum-cryptography/src/secp256k1.ts"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/py_ecc",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.567314+00:00",
+        "sha256": "410911a1aa2ec6db779e25d834ad1347797487d6c867e8e3cc1d288f14e4b117",
+        "local_path": "sources/repositories/ethereum__py_ecc/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:18:56.592761+00:00",
+        "sha256": "366c0cd35a932436f45e2c57a9bdf23cab4caa567b8fa0f890c261ad965ca193",
+        "local_path": "sources/repositories/ethereum__py_ecc/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "ethereum/web3.py",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.647405+00:00",
+        "sha256": "14a75df975b1b6413fdce255c544a8ca6ecfe8cdfb581cf9db5d9b5ab82372bd",
+        "local_path": "sources/repositories/ethereum__web3.py/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:18:57.115802+00:00",
+        "sha256": "9eb3af6add61b4a2320fd648ccfe6a910e437cd92639da03efea86f21df494ca",
+        "local_path": "sources/repositories/ethereum__web3.py/pyproject.toml"
+      },
+      {
+        "url": "https://api.github.com/repos/ethereum/web3.py",
+        "fetched_at": "2026-11-16T11:19:16.526235+00:00",
+        "sha256": "072cf9d3e58b18b228b1c4b306179fb738b1c0cd181c5cb0c3ea5c8f54457dc1",
+        "local_path": "sources/repositories/ethereum__web3.py/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "ethers-io/ethers.js",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:28.721520+00:00",
+        "sha256": "4c8364c0939d6fe8240259f039858f5cbd43bcbc936a1b35a715ba0e93fbe5ff",
+        "local_path": "sources/repositories/ethers-io__ethers.js/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:57.137837+00:00",
+        "sha256": "d644d7df228197962e4ca19824b06e8d50dce0b5ee2aced63dcfc2a11ec7b90f",
+        "local_path": "sources/repositories/ethers-io__ethers.js/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "ethpandaops/checkpointz",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:29.091552+00:00",
+        "sha256": "cddc0d4d436f50ea346d7bde72b607611c3599640f6a42c8f38ba59a16a248ea",
+        "local_path": "sources/repositories/ethpandaops__checkpointz/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:18:57.264015+00:00",
+        "sha256": "02ed7413fecfba409dfec1c2c70243a48b81eacf30d324d12f0160f9ac873f26",
+        "local_path": "sources/repositories/ethpandaops__checkpointz/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "ethpandaops/ethereum-helm-charts",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-helm-charts/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:29.112194+00:00",
+        "sha256": "f29d53d086153d490ed2b7945488c5131a168dde7899067c0c6af31b218803b0",
+        "local_path": "sources/repositories/ethpandaops__ethereum-helm-charts/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethpandaops/ethereum-package",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:29.269321+00:00",
+        "sha256": "00d916ca7defe165080e13bf3604f8cc8218894c90e67f21e610925e75bc3276",
+        "local_path": "sources/repositories/ethpandaops__ethereum-package/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/kurtosis.yml",
+        "fetched_at": "2026-11-16T11:18:57.365370+00:00",
+        "sha256": "45394fb3caecb22c09960b4c9c7de132c7812b5fe8aab71814715f8e69d2ce56",
+        "local_path": "sources/repositories/ethpandaops__ethereum-package/kurtosis.yml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/main.star",
+        "fetched_at": "2026-11-16T11:18:58.115259+00:00",
+        "sha256": "abd63d0805f9092b736e9143c2fabbf3b74efce2a2131f659b24852c52e99389",
+        "local_path": "sources/repositories/ethpandaops__ethereum-package/main.star"
+      }
+    ]
+  },
+  {
+    "repo": "ethstaker/eth-docker",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethstaker/eth-docker/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:30.296793+00:00",
+        "sha256": "193997355b08c78eb5b98a4511dd4e83d1740b441c6abe427aa9f812c8224db5",
+        "local_path": "sources/repositories/ethstaker__eth-docker/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ethstaker/ethstaker-deposit-cli",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:30.705111+00:00",
+        "sha256": "f9f2aada100af5ef44679c192f7182dd96ac634c5713f89ebdc9d6f1a9a5f780",
+        "local_path": "sources/repositories/ethstaker__ethstaker-deposit-cli/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/ethstaker/ethstaker-deposit-cli",
+        "fetched_at": "2026-11-16T11:19:14.329546+00:00",
+        "sha256": "2f58b16af8796586d7549eb2d1682d6ea7155c5f7dc3cb624fb0856d1a6e24c8",
+        "local_path": "sources/repositories/ethstaker__ethstaker-deposit-cli/github_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/ethereum/staking-deposit-cli/compare/master...ethstaker:main",
+        "fetched_at": "2026-11-16T11:25:13.175920+00:00",
+        "sha256": "9c5ff3ce7282c2f7d9e3e629cb713ba2f1d2bbb71f2e13dd150095ca3892ae2e",
+        "local_path": "sources/repositories/ethstaker__ethstaker-deposit-cli/fork_comparison.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:18:58.196611+00:00",
+        "sha256": "cff113a7bc7744210be75d2ddba421f17c8ceaf6c49469da6f627eb861013179",
+        "local_path": "sources/repositories/ethstaker__ethstaker-deposit-cli/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "evmts/tevm-monorepo",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:30.735671+00:00",
+        "sha256": "6491a17e2e07330bc626a45ebc328c22720954b9073cbf58f2713ea3f0cb885a",
+        "local_path": "sources/repositories/evmts__tevm-monorepo/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:18:59.090127+00:00",
+        "sha256": "0843159b7114da8f12b5a05266bc479b56a87df437628904357e1f516961134e",
+        "local_path": "sources/repositories/evmts__tevm-monorepo/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "flashbots/mev-boost",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:30.762772+00:00",
+        "sha256": "f0a57f055edc2b25ad80b67418d27fc10bb8d23cb80902b3787d2b8c95432b26",
+        "local_path": "sources/repositories/flashbots__mev-boost/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:18:59.106145+00:00",
+        "sha256": "6804d12199188e431437fce80f62f81b695a52c4eed8474f69ebbfd11aa57119",
+        "local_path": "sources/repositories/flashbots__mev-boost/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "flashbots/mev-boost-relay",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:31.145117+00:00",
+        "sha256": "842cc63dd3412793b179691eecec29016c029101a5145e79b1e4f6131fab64c3",
+        "local_path": "sources/repositories/flashbots__mev-boost-relay/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:19:01.391975+00:00",
+        "sha256": "e1e6684c0db1412339228a08fa904ee16647a7d10df85ee78242253d596fa698",
+        "local_path": "sources/repositories/flashbots__mev-boost-relay/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "flashbots/rbuilder",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:31.174693+00:00",
+        "sha256": "4b1b936afea449e7bfbe1f2be4774fd12f720594f6f4bab9f12243c50a014b5f",
+        "local_path": "sources/repositories/flashbots__rbuilder/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:02.171318+00:00",
+        "sha256": "51330463bdcf73d0597a3f7092bc229661ee0529e45ec84e4e19a62b55abe1a9",
+        "local_path": "sources/repositories/flashbots__rbuilder/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "foundry-rs/foundry",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:31.222951+00:00",
+        "sha256": "36ea15742e689cb16676fd9b10646947ecf9e358f7c6453148d888d3d9298c2d",
+        "local_path": "sources/repositories/foundry-rs__foundry/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:02.240645+00:00",
+        "sha256": "fc81e07c67067736680d32e8a24ba042a605746e675b20dc5f13c6e4f90ee797",
+        "local_path": "sources/repositories/foundry-rs__foundry/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "grandinetech/grandine",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:32.111460+00:00",
+        "sha256": "2b561b1d5c634ead6e6eb0ed46621904cb933dfcf27d9809d62c5419df4aabab",
+        "local_path": "sources/repositories/grandinetech__grandine/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:02.621511+00:00",
+        "sha256": "4ab0b3acbdfe1702b6b5ae3341c421c712eb3508137fbea7dc377459a6b99301",
+        "local_path": "sources/repositories/grandinetech__grandine/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "herumi/mcl",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/herumi/mcl/HEAD/readme.md",
+        "fetched_at": "2026-11-16T11:05:34.362341+00:00",
+        "sha256": "c34b52aa627674fe81969553d8e80b18e43a4e283a33e84c05749714aceed581",
+        "local_path": "sources/repositories/herumi__mcl/readme.md"
+      }
+    ]
+  },
+  {
+    "repo": "holiman/goevmlab",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/holiman/goevmlab/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:33.221177+00:00",
+        "sha256": "84e183a9b2497c959c4e520e7984e937bdc487e9be06c2cc260208eb06e16a26",
+        "local_path": "sources/repositories/holiman__goevmlab/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "hyperledger-web3j/web3j",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/hyperledger-web3j/web3j/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:33.228756+00:00",
+        "sha256": "b7e9d53c630e1e40f5c0bf806a90f4aa5d92aa7b2a5c4dd1c158c532b0436dfc",
+        "local_path": "sources/repositories/hyperledger-web3j__web3j/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/hyperledger-web3j/web3j",
+        "fetched_at": "2026-11-16T11:19:14.142115+00:00",
+        "sha256": "d039cbd8fb6e25d035c17368ccea69211e5793d8401102f768cdc7a247a5b8bc",
+        "local_path": "sources/repositories/hyperledger-web3j__web3j/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "hyperledger/besu",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/hyperledger/besu/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:34.665022+00:00",
+        "sha256": "7768f57c58597a44db62a7270f4e4d9ed73494f15bd61c42ff347ddcb4fd7b3b",
+        "local_path": "sources/repositories/hyperledger__besu/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "intellij-solidity/intellij-solidity",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/intellij-solidity/intellij-solidity/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:34.700193+00:00",
+        "sha256": "40d5707dc4cacabe79aae0cedfe78a8166e60c4c6d5b14c042d7bfd302ad8b01",
+        "local_path": "sources/repositories/intellij-solidity__intellij-solidity/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "ipsilon/evmone",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/ipsilon/evmone/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:34.756030+00:00",
+        "sha256": "6ec2f7cc40720a8f221d894149697ec74865f834dac58581097a673abfe72dd1",
+        "local_path": "sources/repositories/ipsilon__evmone/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "l2beat/l2beat",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/l2beat/l2beat/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:35.204045+00:00",
+        "sha256": "07ddd0ab77fc1c49ac50076d0caa17f71c4648820faced0b6a6ecee49428940d",
+        "local_path": "sources/repositories/l2beat__l2beat/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "lambdaclass/ethrex",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:35.250143+00:00",
+        "sha256": "a4ce3746fb08219b8e262c00371f7b21dbff44c653ba4ee5c1056c105d8d4131",
+        "local_path": "sources/repositories/lambdaclass__ethrex/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:02.992625+00:00",
+        "sha256": "c8aec78481fa6e5e0932554c4e4b488f3eafdaeae47631c4102b47cb93997f08",
+        "local_path": "sources/repositories/lambdaclass__ethrex/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "lambdaclass/lambda_ethereum_consensus",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/lambda_ethereum_consensus/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:35.360178+00:00",
+        "sha256": "14d201d984449b0953842cde95330b5f6aa5fba5756aee8cc07fca80ffa57683",
+        "local_path": "sources/repositories/lambdaclass__lambda_ethereum_consensus/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "lambdaclass/lambdaworks",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:35.733951+00:00",
+        "sha256": "a1350b984adeace899879ad957a8afbb2f9a6b65ca302f79f52cd140dec42a2e",
+        "local_path": "sources/repositories/lambdaclass__lambdaworks/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:03.030728+00:00",
+        "sha256": "2f95d26e7f48eaada2e4d668935a046ce142835b53e747b53cd014cb8ef48037",
+        "local_path": "sources/repositories/lambdaclass__lambdaworks/Cargo.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/crates/math/Cargo.toml",
+        "fetched_at": "2026-11-16T11:25:11.716897+00:00",
+        "sha256": "2464ec2dff819da117ed353a2cd4fe3630829a87d439e78899c9eea8b0e4f787",
+        "local_path": "sources/repositories/lambdaclass__lambdaworks/crates/math/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "LFDT-web3j/web3j",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/LFDT-web3j/web3j/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:35.846042+00:00",
+        "sha256": "b7e9d53c630e1e40f5c0bf806a90f4aa5d92aa7b2a5c4dd1c158c532b0436dfc",
+        "local_path": "sources/repositories/LFDT-web3j__web3j/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/LFDT-web3j/web3j",
+        "fetched_at": "2026-11-16T11:19:14.168836+00:00",
+        "sha256": "d039cbd8fb6e25d035c17368ccea69211e5793d8401102f768cdc7a247a5b8bc",
+        "local_path": "sources/repositories/LFDT-web3j__web3j/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "libp2p/libp2p",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/libp2p/libp2p/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:36.233146+00:00",
+        "sha256": "20529e739afc357a046cfcd1a6d05a0af52215595badf4cb9fc67f18bc8196e8",
+        "local_path": "sources/repositories/libp2p__libp2p/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "nethereum/nethereum",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/nethereum/nethereum/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:36.282549+00:00",
+        "sha256": "0d4f1ca1d780f14fdbd98d5518041bc589332c5495b9f13549a319358c5119fa",
+        "local_path": "sources/repositories/nethereum__nethereum/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "NethermindEth/juno",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:36.346525+00:00",
+        "sha256": "adb422d0cafe4aba30f7381698dc5c9965ae1765a5884b63ebe26deca3005791",
+        "local_path": "sources/repositories/NethermindEth__juno/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:19:03.268364+00:00",
+        "sha256": "1a5d12835d125d879659e837bd335af752dda95b2a6d9be82bb0a888e9c93b9a",
+        "local_path": "sources/repositories/NethermindEth__juno/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "nethermindeth/nethermind",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/nethermindeth/nethermind/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:36.395103+00:00",
+        "sha256": "a8db73fa92966ecadd864cb424650fc7fcab18ade9b2a579c8d407b1cd3e8339",
+        "local_path": "sources/repositories/nethermindeth__nethermind/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "nomicfoundation/hardhat",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.151480+00:00",
+        "sha256": "28fa6fd57e88155479c86779a703d2e409cc69294cd51be47a566a8032cf86fe",
+        "local_path": "sources/repositories/nomicfoundation__hardhat/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/packages/hardhat/package.json",
+        "fetched_at": "2026-11-16T11:25:11.706753+00:00",
+        "sha256": "396b35d354614550a63a8582abaaf6a7c48dd72cf14782facf5be981c01121a0",
+        "local_path": "sources/repositories/nomicfoundation__hardhat/packages/hardhat/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "OffchainLabs/prysm",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/OffchainLabs/prysm/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.189844+00:00",
+        "sha256": "b93cd05ba2c400feee9f6830de49d7f5813c71eb5ff06d5fd5a2c4a5f5265ce4",
+        "local_path": "sources/repositories/OffchainLabs__prysm/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "OffchainLabs/stylus-sdk-rs",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.224968+00:00",
+        "sha256": "afe609c7f90083fe305d0db0ea1af72aa253628fdf5e9ec2ff171cac552c03cb",
+        "local_path": "sources/repositories/OffchainLabs__stylus-sdk-rs/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:05.038407+00:00",
+        "sha256": "ad134c0eb5f505d7aaebedce32f931b911204570ae1a45d9f56ac2cc6b750741",
+        "local_path": "sources/repositories/OffchainLabs__stylus-sdk-rs/Cargo.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/stylus-sdk/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:05.566487+00:00",
+        "sha256": "105ea1538eec98a98bc8d4323b6e7c4167c8c3fa16cb9f34de3e25e097b9e315",
+        "local_path": "sources/repositories/OffchainLabs__stylus-sdk-rs/stylus-sdk/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "openzeppelin/openzeppelin-contracts",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/openzeppelin/openzeppelin-contracts/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.228466+00:00",
+        "sha256": "4c7bb702a0a318fd6bb92438017c0c166242b3a20d3c4502ced71983e1d0b282",
+        "local_path": "sources/repositories/openzeppelin__openzeppelin-contracts/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "otterscan/otterscan",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.361056+00:00",
+        "sha256": "359b8097f01349c39c5062964255c951f9e9084785969dbd49f476af277d00cd",
+        "local_path": "sources/repositories/otterscan__otterscan/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:19:06.064269+00:00",
+        "sha256": "b3d015661fa0eb5e3d5c599eae250e04ea799bb52a793f30e2cd9517b6deb417",
+        "local_path": "sources/repositories/otterscan__otterscan/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "paradigmxyz/reth",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:37.577017+00:00",
+        "sha256": "c60dc4b597dfff9b548dfa551b4bf21308f62dabc657fdb7a04a70db178cbb38",
+        "local_path": "sources/repositories/paradigmxyz__reth/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:06.066913+00:00",
+        "sha256": "45ffe153a448e943c79b928ea05c9847802c32f47ae9548f383dcb508dec429a",
+        "local_path": "sources/repositories/paradigmxyz__reth/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "paulmillr/noble-curves",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:38.138248+00:00",
+        "sha256": "5d7a7d4811d1e09a6fc7c1b7e3716453875fc214d2c132a8ee5fcca1fb928a1d",
+        "local_path": "sources/repositories/paulmillr__noble-curves/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:19:06.485945+00:00",
+        "sha256": "788e65f09e9fa942503ba01227dee2845889135f52dd8ab8598e384097b1da1e",
+        "local_path": "sources/repositories/paulmillr__noble-curves/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "Plonky3/Plonky3",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:38.148935+00:00",
+        "sha256": "07c3e8bb6f0918a0f0ecafc1a38ae090e3f67f768e9294a08051eb61dffdd605",
+        "local_path": "sources/repositories/Plonky3__Plonky3/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:06.828422+00:00",
+        "sha256": "93cac1f044b5e57b0270a18a66a588e211cd6d45d0efeac291dccf91c8fc0af5",
+        "local_path": "sources/repositories/Plonky3__Plonky3/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "powdr-labs/powdr",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:38.186838+00:00",
+        "sha256": "42acde7419b5cb4165e90bfab744584a2c8080a8e59fefae4b30ae8cc80fd640",
+        "local_path": "sources/repositories/powdr-labs__powdr/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:07.218153+00:00",
+        "sha256": "f1392c78f907579b0b2dd4d335e3da4bc1b39e4a2527fd95e35da92f347661af",
+        "local_path": "sources/repositories/powdr-labs__powdr/Cargo.toml"
+      },
+      {
+        "url": "https://api.github.com/repos/powdr-labs/powdr",
+        "fetched_at": "2026-11-16T11:19:18.558591+00:00",
+        "sha256": "bfdc49de140b4deebbc6c3897f2ac6d638a937a35b0fd79190190ebcf81c52da",
+        "local_path": "sources/repositories/powdr-labs__powdr/github_metadata.json"
+      }
+    ]
+  },
+  {
+    "repo": "protofire/solhint",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/protofire/solhint/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:38.207455+00:00",
+        "sha256": "b020bf2908acd484ee35cdfdc4dc0792020cecc84e6d9ece22a0c8cbbd926811",
+        "local_path": "sources/repositories/protofire__solhint/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "remix-project-org/remix-project",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/remix-project-org/remix-project/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:39.549700+00:00",
+        "sha256": "c6b9046d429c1edb5c9241ae2672a800efb210b5c9caf77ed748f286806a2f48",
+        "local_path": "sources/repositories/remix-project-org__remix-project/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "risc0/risc0-ethereum",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:39.681023+00:00",
+        "sha256": "b9fb9d6379ca8f072f7b54cdb33d09b9ff104bb946a43b6918cb2ececdb92a88",
+        "local_path": "sources/repositories/risc0__risc0-ethereum/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:07.258688+00:00",
+        "sha256": "774bfec3f1265e14ca4c08368b3cf1c80c4208ebe02f46fcd7f6d0282281fc36",
+        "local_path": "sources/repositories/risc0__risc0-ethereum/Cargo.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/contracts/src/groth16/RiscZeroGroth16Verifier.sol",
+        "fetched_at": "2026-11-16T11:19:07.325637+00:00",
+        "sha256": "94396a7989abae664abab1c2f313b94a042f1b3ec52a843ddf5d4de3f9543fcd",
+        "local_path": "sources/repositories/risc0__risc0-ethereum/contracts/src/groth16/RiscZeroGroth16Verifier.sol"
+      }
+    ]
+  },
+  {
+    "repo": "safe-global/safe-smart-account",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:39.734310+00:00",
+        "sha256": "ca026fba3841cbd38f2d3028893af01a1f1e5a42968cf116cd88b97d52e9ac53",
+        "local_path": "sources/repositories/safe-global__safe-smart-account/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/contracts/Safe.sol",
+        "fetched_at": "2026-11-16T11:19:07.626154+00:00",
+        "sha256": "60d4d0321549c9aac50e381d55d64d7837d886f3956382bd1a4dfec1789db130",
+        "local_path": "sources/repositories/safe-global__safe-smart-account/contracts/Safe.sol"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:19:07.989066+00:00",
+        "sha256": "c511ccd2c192aec0465222ddb88e0f14637683627120fb5204819c6cb14f8cc8",
+        "local_path": "sources/repositories/safe-global__safe-smart-account/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "scaffold-eth/scaffold-eth-2",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:39.842117+00:00",
+        "sha256": "e4ef0e874f6d192eb2a284a584bcb232f3dd5d6924888d36959e7d8d6dfc6dce",
+        "local_path": "sources/repositories/scaffold-eth__scaffold-eth-2/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/packages/nextjs/package.json",
+        "fetched_at": "2026-11-16T11:19:08.064440+00:00",
+        "sha256": "6c03625bcf00f44d46acdfc364c92c5a9c889f68795739ccc2fcc8903e9a6888",
+        "local_path": "sources/repositories/scaffold-eth__scaffold-eth-2/packages/nextjs/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "shazow/whatsabi",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.067275+00:00",
+        "sha256": "09abc4b44089a1b0c836587f62f105b4709da347f1f2cfa5be257ff0cd5d623f",
+        "local_path": "sources/repositories/shazow__whatsabi/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:19:08.183165+00:00",
+        "sha256": "c3f8a9afe00cbf182a9af58d04df023e9d62dfba617735dcd843549d4b45a373",
+        "local_path": "sources/repositories/shazow__whatsabi/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "sigp/lighthouse",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/sigp/lighthouse/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.083004+00:00",
+        "sha256": "9be6013fcf44b68ce829181d10f0950ac646109ba853126dae543e7cfb354d4b",
+        "local_path": "sources/repositories/sigp__lighthouse/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "skalenetwork/libBLS",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.146008+00:00",
+        "sha256": "8417a5dffc38e6759ff5e7eaf6516ba64118ee13f2be9a3be710a94467ac655f",
+        "local_path": "sources/repositories/skalenetwork__libBLS/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/CMakeLists.txt",
+        "fetched_at": "2026-11-16T11:19:09.072337+00:00",
+        "sha256": "7ae0ce4d580f267cf6fc7ce7dd7a2ab497338ef9f0b573c3adbadfcabe39ec77",
+        "local_path": "sources/repositories/skalenetwork__libBLS/CMakeLists.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/bls/bls.cpp",
+        "fetched_at": "2026-11-16T11:25:12.374628+00:00",
+        "sha256": "925996f46c8db43306cb6a65a3dca4ddba10fe53a8b5949b131b404dd08e3a80",
+        "local_path": "sources/repositories/skalenetwork__libBLS/bls/bls.cpp"
+      }
+    ]
+  },
+  {
+    "repo": "smartcontracts/simple-optimism-node",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.242496+00:00",
+        "sha256": "6c19b75a030bcc7abd4ab1c875b1cb781dfb922f441d727406afcc2f1c89f6ea",
+        "local_path": "sources/repositories/smartcontracts__simple-optimism-node/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/docker-compose.yml",
+        "fetched_at": "2026-11-16T11:19:09.154216+00:00",
+        "sha256": "c9541dcfc439d88b17eb89e9d319e1e6eafe52a1c647a6b70ee926e71dbbad5c",
+        "local_path": "sources/repositories/smartcontracts__simple-optimism-node/docker-compose.yml"
+      }
+    ]
+  },
+  {
+    "repo": "status-im/nimbus-eth2",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/status-im/nimbus-eth2/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.248547+00:00",
+        "sha256": "ba9329f52d4c44266a299fd30f798fc716f879d33e68c694671ab8e7505830ba",
+        "local_path": "sources/repositories/status-im__nimbus-eth2/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "succinctlabs/op-succinct",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.468384+00:00",
+        "sha256": "fd95d82462b38ad044848cd5bdbc02c85b80e4fe3cf670cc7cf1813b3b0fdadc",
+        "local_path": "sources/repositories/succinctlabs__op-succinct/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:10.243639+00:00",
+        "sha256": "acd5f9854f10d9ff390c5f728ceb9e288c73643efc33db0166b5353b8776c08a",
+        "local_path": "sources/repositories/succinctlabs__op-succinct/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "succinctlabs/rsp",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.665685+00:00",
+        "sha256": "9aff757e86ff408d191eb7d2b91748c4bbec221ce40ca908105bdeda83f3975c",
+        "local_path": "sources/repositories/succinctlabs__rsp/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:11.138465+00:00",
+        "sha256": "22055de97eb8d0716f9b1a7d2f72ea290423f5e68b69af5bccab5ee08b79fef2",
+        "local_path": "sources/repositories/succinctlabs__rsp/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "succinctlabs/sp1",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.674593+00:00",
+        "sha256": "000d907229f17b53653dc29260b41868ec23312e8613d3dcbd5e38d0487fc517",
+        "local_path": "sources/repositories/succinctlabs__sp1/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/Cargo.toml",
+        "fetched_at": "2026-11-16T11:19:11.596517+00:00",
+        "sha256": "57d38e53db362c53ff11d93292697d9f3405540870d1f64f989c9cedf5a7b83e",
+        "local_path": "sources/repositories/succinctlabs__sp1/Cargo.toml"
+      }
+    ]
+  },
+  {
+    "repo": "supranational/blst",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/supranational/blst/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.716741+00:00",
+        "sha256": "4de28805ae0965df8873623a811dcfcad3acf4646eb32474881a6f2f23c1a8c8",
+        "local_path": "sources/repositories/supranational__blst/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/supranational/blst/HEAD/build.sh",
+        "fetched_at": "2026-11-16T11:19:11.601656+00:00",
+        "sha256": "7a7ce154f7a70737e83813e2c6fce27aa4b4768bcf7a728413c66d26208f3fda",
+        "local_path": "sources/repositories/supranational__blst/build.sh"
+      }
+    ]
+  },
+  {
+    "repo": "swiss-knife-xyz/swiss-knife",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.761955+00:00",
+        "sha256": "3af8be14ee9fed09d6554c1b68c3939b1644a60a9ea24e63cf6858150e6c305c",
+        "local_path": "sources/repositories/swiss-knife-xyz__swiss-knife/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/package.json",
+        "fetched_at": "2026-11-16T11:19:12.056351+00:00",
+        "sha256": "98ee5d8063ec948a1e6b958d05d9fe07ddc941f8a6cab851341e4f794c9237d6",
+        "local_path": "sources/repositories/swiss-knife-xyz__swiss-knife/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "taikoxyz/taiko-mono",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/taikoxyz/taiko-mono/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:40.772269+00:00",
+        "sha256": "2037d2890e39946a2099b6bfcbe68184da98e3856a81a7c4792b3273fb340967",
+        "local_path": "sources/repositories/taikoxyz__taiko-mono/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "TrueBlocks/trueblocks-core",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/TrueBlocks/trueblocks-core/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:41.196688+00:00",
+        "sha256": "476598a34b296fa454ea0f5330215e274b1f7a77de1080df383afd79f7981a5e",
+        "local_path": "sources/repositories/TrueBlocks__trueblocks-core/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "Vectorized/solady",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/Vectorized/solady/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:41.284973+00:00",
+        "sha256": "ed92927674ade353951a9a632672cbc431730a5486356232f6f8ad759505994f",
+        "local_path": "sources/repositories/Vectorized__solady/README.md"
+      }
+    ]
+  },
+  {
+    "repo": "vyperlang/titanoboa",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:41.335188+00:00",
+        "sha256": "b6059337e0b78caa7fb637b0ca4631633ac7bec18cc8c66ce9f69442959bbd15",
+        "local_path": "sources/repositories/vyperlang__titanoboa/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:19:12.157909+00:00",
+        "sha256": "475314f5e9dbe2ff2f46bd887c8c925cb0c8ebf69472d8092c2e1e693a484e49",
+        "local_path": "sources/repositories/vyperlang__titanoboa/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "vyperlang/vyper",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:41.436552+00:00",
+        "sha256": "d99c3da96180121e7c7c761e9d4cca6249e49bdb089cf6314b71f7c54d3cfb6f",
+        "local_path": "sources/repositories/vyperlang__vyper/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/pyproject.toml",
+        "fetched_at": "2026-11-16T11:19:12.496470+00:00",
+        "sha256": "5792a9ea0a734a29bb9740fb514d0dea6ec0388bbfd8cd9f7c8e1f1fb09699c6",
+        "local_path": "sources/repositories/vyperlang__vyper/pyproject.toml"
+      }
+    ]
+  },
+  {
+    "repo": "wealdtech/ethdo",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:42.084446+00:00",
+        "sha256": "d8b3592f61c334de148b708466b8b5d623a659b2578943b3df9c2de632ed5315",
+        "local_path": "sources/repositories/wealdtech__ethdo/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/go.mod",
+        "fetched_at": "2026-11-16T11:19:13.592704+00:00",
+        "sha256": "52f05b82c859165d5813e654e94e5fd77fb57a66a79666c3a2b3c165b3051a23",
+        "local_path": "sources/repositories/wealdtech__ethdo/go.mod"
+      }
+    ]
+  },
+  {
+    "repo": "wevm/viem",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:42.194033+00:00",
+        "sha256": "e1d5879ce3e222eb0cdd43051fb8c34c00796467acb091d0b3fa939ee3355cb5",
+        "local_path": "sources/repositories/wevm__viem/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/README.md",
+        "fetched_at": "2026-11-16T11:19:13.062523+00:00",
+        "sha256": "c2be1567cf7b56782c29ff6f6bc4be0d5b65c84ed05fc20f35e091830c445f1e",
+        "local_path": "sources/repositories/wevm__viem/src/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/package.json",
+        "fetched_at": "2026-11-16T11:19:13.288423+00:00",
+        "sha256": "1fd41f6405e9f5c859df89de599b6a9cf341c3d4a86b86b0d35afc349c3a95f9",
+        "local_path": "sources/repositories/wevm__viem/src/package.json"
+      }
+    ]
+  },
+  {
+    "repo": "wighawag/hardhat-deploy",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/wighawag/hardhat-deploy/HEAD/README.md",
+        "fetched_at": "2026-11-16T11:05:43.116712+00:00",
+        "sha256": "7bba70572ade2673fa82797ca5c774f78ff0497647f3568a16d9032bd50376ac",
+        "local_path": "sources/repositories/wighawag__hardhat-deploy/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/wighawag/hardhat-deploy",
+        "fetched_at": "2026-11-16T11:19:16.460427+00:00",
+        "sha256": "89b32b3e5e50bb05c1cd597ee4dc9ae98b199c497c272ba32f406e2c3aa76d80",
+        "local_path": "sources/repositories/wighawag__hardhat-deploy/github_metadata.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wighawag/rocketh/HEAD/packages/hardhat-deploy/package.json",
+        "fetched_at": "2026-11-16T11:29:39.935641+00:00",
+        "sha256": "422c871994d01be4055262406997d7b5605b65ec48377999b85f97caec4f49e1",
+        "local_path": "sources/repositories/wighawag__rocketh/packages/hardhat-deploy/package.json"
+      }
+    ]
+  }
+]

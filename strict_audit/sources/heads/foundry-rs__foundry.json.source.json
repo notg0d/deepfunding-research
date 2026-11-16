@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/foundry-rs/foundry/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:55.021584+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/foundry-rs/foundry/commits?per_page=1",
+  "sha256": "da7b4cc5f28fd9dd64140821e5e112b71b78078cf894588653c3d0af8c8d8074",
+  "bytes": 8423
+}

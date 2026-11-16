@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/status-im/nimbus-eth2/contents",
+  "fetched_at": "2026-11-16T13:07:57.724705+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/status-im/nimbus-eth2/contents",
+  "sha256": "0977f8002caa8a9b59cc42ea8990970f7372799a1cabb76622020f419b6d89ac",
+  "bytes": 33004
+}

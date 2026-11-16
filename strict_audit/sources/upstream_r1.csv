@@ -1,0 +1,61 @@
+Repo,Originality,Juror notes
+a16z/halmos,69,
+a16z/helios,80,
+account-abstraction,60,
+account-abstraction,70,
+aestus-relay/mev-boost-relay,89,
+argotorg/solidity,80,Solidity is a novel programming language
+argotorg/solidity,100,
+argotorg/solidity,95,Original work.
+argotorg/solidity,80,BLS crypto innovation
+axiom-crypto/snark-verifier,90,
+axiom-crypto/snark-verifier,48,
+blockscout/blockscout,60,
+DefiLlama/chainlist,80,
+erigontech/erigon,70,"While Erigon started as a fork of geth, it completely re-engineered the core execution layer. So we can say it is somewhat original work and some dependancy still on geth for references."
+EspressoSystems/jellyfish,50,Not really familiar with ZK library development but I feel like it can be the first implementation of those protocols.
+ethereum/consensus-specs,95,
+ethereum/EIPs,92,"I chose 92% because EIPs are primarily the result of original research and design. 
+ 
+
+ At the same time, they build on existing ideas and technology from the broader ecosystem, so I do not consider them completely independent."
+ethereum/EIPs,100,
+ethereum/go-ethereum,80,"geth is a from-scratch ethereum client, not based on anything"
+ethereum/solidity,80,
+ethereum/solidity,80,
+ethereum/web3.py,70,
+ethers-io/ethers.js,90,
+ethers-io/ethers.js,95,
+ethpandaops/checkpointz,50,"some ssz libraries are reused, but its mostly original"
+ethpandaops/ethereum-helm-charts,50,the clients are basically being deployed
+flashbots/mev-boost,100,
+flashbots/rbuilder,70,
+foundry-rs/foundry,100,
+foundry-rs/foundry,95,Built from scratch without any forks from other project. Original work without any dependancy of other projects.
+foundry-rs/foundry,80,
+foundry-rs/foundry,90,
+foundry-rs/foundry,80,
+intellij-solidity/intellij-solidity,80,
+libp2p/libp2p,90,The main libp2p repo does not have much. But the different libp2p implementations I would rate as being mostly original. Looking at the rust implementation specifically show that the dependencies are mostly minor ones
+libp2p/libp2p,90,The main libp2p repo does not have much. But the different libp2p implementations I would rate as being mostly original. Without libp2p Ethereum would have had to standardize its own implementation of a p2p networking protocol.
+Nethereum/Nethereum,90,
+Nethereum/Nethereum,85,"I would attribute around 85% of Nethereum’s Ethereum value to original work, or 80% if using the provided guide values.
+ 
+
+ Nethereum is not primarily a fork or thin wrapper. It builds on Ethereum protocols, JSON-RPC endpoints, .NET, and standard cryptographic primitives, but its ecosystem value comes from a large amount of original implementation work: Ethereum data models, ABI/RLP/hex encoding, transaction signing, EIP-712 support, smart contract interaction, typed code generation, blockchain indexing, wallet/account tooling, Merkle Patricia trie verification, EVM simulation, account abstraction support, Unity/Blazor/MAUI integration, and broader .NET developer infrastructure.
+ 
+
+ Some credit should be assigned to dependencies and upstream foundations such as Ethereum clients, Ethereum protocol specifications, .NET, and cryptographic libraries (like bouncycastle) However, those are mostly underlying platforms and standards. Nethereum’s distinctive contribution is implementing and maintaining a broad Ethereum development stack for the .NET ecosystem."
+NethermindEth/nethermind,70,"While Nethermind is a large project and has a lot of dependencies, it is far away from being a wrapper of anything. It is original work for a large part of it."
+OpenZeppelin/openzeppelin-contracts,80,
+OpenZeppelin/openzeppelin-contracts,85,
+paradigmxyz/reth,80,
+Plonky3/Plonky3,75,
+remix-project-org/remix-project,60,"It's an IDE around programming languages, that are much more complex to build than the IDE itself; but the IDE is nevertheless important work and people understand remix as being the IDE, not the language."
+remix-project-org/remix-project,95,
+remix-project-org/remix-project,80,
+status-im/nimbus-eth2,96,Nim is a brand-new language. Nimbus makes good use of the language's features to deliver a highly efficient client. This is crucial for Ethereum's decentralization and security.
+succinctlabs/op-succinct,49,
+supranational/blst,99,"I don't believe blst has a critical dependency on anything else. Unless you consider compilers (gcc, clang, etc) a dependency."
+swiss-knife-xyz/swiss-knife,80,
+vyperlang/vyper,80,Vyper is a novel programming language

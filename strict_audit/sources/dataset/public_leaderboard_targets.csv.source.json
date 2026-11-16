@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/public_leaderboard_targets.csv",
+  "fetched_at": "2026-11-16T13:04:08.976967+00:00",
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/public_leaderboard_targets.csv",
+  "sha256": "9615a40ae60666d47fadf0e3e40e1449133e14dc96a6a68df217ebf3fdbc3f57",
+  "bytes": 1364
+}

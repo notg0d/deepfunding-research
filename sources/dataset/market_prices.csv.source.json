@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/market_prices.csv",
+  "fetched_at": "2026-11-16T11:02:27.158137+00:00",
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/market_prices.csv",
+  "sha256": "eb65f3247f29810af21dd30c89cfab43d7eb9b7d11ae9f71b98f2040afc3bf14",
+  "bytes": 6813
+}

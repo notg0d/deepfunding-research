@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/nomicfoundation/hardhat/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:56.090815+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/nomicfoundation/hardhat/commits?per_page=1",
+  "sha256": "6ecc9fb7f84f7187cac84d1f750fd9fb9cc7cd3375cb53306a395229193b4fb5",
+  "bytes": 4764
+}

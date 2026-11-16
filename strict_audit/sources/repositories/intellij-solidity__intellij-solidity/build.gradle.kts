@@ -1,0 +1,227 @@
+import me.champeau.jmh.JmhParameters
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatform
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+import org.jetbrains.intellij.platform.gradle.tasks.VerifyPluginTask
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
+val sentry_version: String by project
+
+plugins {
+    java
+    idea
+    jacoco
+    kotlin("jvm") version "2.2.0"
+    id("org.jetbrains.grammarkit") version "2022.3.2.2"
+    id("org.jetbrains.intellij.platform") version "2.7.0"
+    id("me.champeau.jmh") version "0.7.2"
+    id("net.researchgate.release") version "3.0.2"
+}
+
+val targetJvm = "21"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.fromTarget(targetJvm))
+    }
+}
+
+idea {
+    module {
+        generatedSourceDirs.add(file("gen"))
+    }
+}
+
+sourceSets {
+    main {
+        java.srcDir("gen")
+    }
+}
+
+tasks.named<Delete>("clean") {
+    delete("gen")
+}
+
+intellijPlatform {
+    pluginConfiguration {
+        version = project.version.toString()
+    }
+
+    pluginVerification {
+        // disable the intellij-solidity plugin name warning
+        freeArgs.addAll(listOf("-mute", "TemplateWordInPluginName"))
+        ides {
+            create(IntelliJPlatformType.IntellijIdeaUltimate, "2025.2.6.1") {
+                useInstaller = false
+            }
+        }
+    }
+}
+
+grammarKit {
+    // intellijRelease.set("2022.2.5")
+}
+
+tasks.named<JavaExec>("runIde") {
+    maxHeapSize = "1G"
+}
+
+tasks.named<VerifyPluginTask>("verifyPlugin") {
+    offline.set(true)
+}
+
+repositories {
+    mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+configurations {
+    create("lexer")
+    create("parser")
+    getByName("runtimeClasspath").exclude(group = "org.slf4j")
+    getByName("implementation").exclude(group = "org.slf4j")
+    matching { it.name == "jmhImplementation" }.configureEach {
+        extendsFrom(getByName("testImplementation"))
+    }
+    matching { it.name == "jmhRuntimeClasspath" }.configureEach {
+        extendsFrom(
+            getByName("runtimeClasspath"),
+            getByName("testRuntimeClasspath"),
+            getByName("testCompileClasspath"),
+            getByName("compileClasspath"),
+            getByName("intellijPlatformClasspath"),
+            getByName("intellijPlatformComposedJar"),
+        )
+    }
+    matching { it.name == "jmhCompileClasspath" }.configureEach {
+        extendsFrom(
+            getByName("compileClasspath"),
+            getByName("testCompileClasspath"),
+            getByName("intellijPlatformClasspath"),
+            getByName("intellijPlatformComposedJar"),
+        )
+    }
+}
+
+dependencies {
+    implementation("io.sentry:sentry:$sentry_version")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.13.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.6") {
+        exclude(group = "org.jetbrains.kotlin")
+    }
+
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.opentest4j:opentest4j:1.3.0")
+    jmhImplementation("org.openjdk.jmh:jmh-core:1.37")
+    jmhAnnotationProcessor("org.openjdk.jmh:jmh-generator-annprocess:1.37")
+
+    intellijPlatform {
+        intellijIdeaUltimate("2025.2.6.1") {
+            useInstaller = false
+        }
+        bundledModule("intellij.spellchecker")
+        bundledPlugins("JavaScript")
+        testFramework(TestFrameworkType.Platform)
+    }
+}
+
+release {
+    newVersionCommitMessage.set("[Intellij-Solidity Release] - ")
+    preTagCommitMessage.set("[Intellij-Solidity Release] - pre tag commit: ")
+    buildTasks.set(listOf("buildPlugin"))
+    git {
+        requireBranch.set("master")
+    }
+}
+
+val codegen = tasks.register("codegen") {
+    dependsOn("generateLexer", "generateParser")
+}
+
+tasks.named("compileKotlin") {
+    dependsOn(codegen)
+}
+
+tasks.named<me.champeau.jmh.JmhBytecodeGeneratorTask>("jmhRunBytecodeGenerator") {
+    runtimeClasspath.from(
+        configurations.getByName("intellijPlatformClasspath"),
+        configurations.getByName("compileClasspath"),
+    )
+    classesDirsToProcess.setFrom(sourceSets.named("jmh").get().output.classesDirs)
+}
+
+tasks.named<me.champeau.jmh.JMHTask>("jmh") {
+    jmhClasspath.from(
+        configurations.getByName("intellijPlatformClasspath"),
+        configurations.getByName("compileClasspath"),
+    )
+    jvmArgs.addAll(
+        listOf(
+            "--add-opens", "java.desktop/sun.awt=ALL-UNNAMED",
+            "--add-opens", "java.desktop/java.awt=ALL-UNNAMED",
+            "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+            "-Djava.awt.headless=true",
+            "-Didea.is.unit.test=true",
+            "-Dide.ui.headless=true",
+        )
+    )
+}
+
+// Allow CLI overrides like: -Pjmh.includes=FooBenchmark
+extensions.configure<JmhParameters>("jmh") {
+    fun parseList(raw: String?): List<String> =
+        raw?.split(",")?.map { it.trim() }?.filter { it.isNotEmpty() }.orEmpty()
+
+    val includesProp = providers.gradleProperty("jmh.includes").orNull
+    if (!includesProp.isNullOrBlank()) {
+        includes.set(parseList(includesProp))
+    }
+}
+
+tasks.named<org.jetbrains.grammarkit.tasks.GenerateLexerTask>("generateLexer") {
+    val solLexerName = "_SolidityLexer"
+    sourceFile.set(file("src/main/grammars/${solLexerName}.flex"))
+    targetOutputDir.set(file("gen/me/serce/solidity"))
+    purgeOldFiles.set(true)
+}
+
+tasks.named<org.jetbrains.grammarkit.tasks.GenerateParserTask>("generateParser") {
+    val pkg = "me/serce/solidity"
+    sourceFile.set(file("src/main/grammars/solidity.bnf"))
+    targetRootOutputDir.set(file("gen"))
+    pathToParser.set("$pkg/SolidityParser.java")
+    pathToPsiRoot.set("$pkg/psi")
+    purgeOldFiles.set(true)
+    outputs.dir(file("gen/$pkg"))
+}
+
+// codecov
+// The below configuration fixes the 0% coverage issue, see
+// https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin-faq.html#jacoco-reports-0-coverage
+
+tasks.test {
+    extensions.configure(JacocoTaskExtension::class) {
+        isIncludeNoLocationClasses = true
+        excludes = listOf("jdk.internal.*")
+    }
+}
+
+tasks.named<JacocoCoverageVerification>("jacocoTestCoverageVerification") {
+    // relies on default classDirectories from the IntelliJ plugin instrumentation
+}
+
+tasks.named<JacocoReport>("jacocoTestReport") {
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+}
+
+tasks.check { dependsOn(tasks.named("jacocoTestReport")) }

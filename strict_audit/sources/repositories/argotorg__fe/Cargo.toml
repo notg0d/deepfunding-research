@@ -1,0 +1,127 @@
+[workspace]
+members = ["crates/*"]
+exclude = ["tests/sp1"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
+common = { path = "crates/common", package = "fe-common" }
+dataflow = { path = "crates/fe-dataflow", package = "fe-dataflow" }
+driver = { path = "crates/driver", package = "fe-driver" }
+fmt = { path = "crates/fmt", package = "fe-fmt" }
+hir = { path = "crates/hir", package = "fe-hir" }
+parser = { path = "crates/parser", package = "fe-parser" }
+test-utils = { path = "crates/test-utils", package = "fe-test-utils" }
+resolver = { path = "crates/resolver", package = "fe-resolver" }
+codegen = { path = "crates/codegen", package = "fe-codegen" }
+fe-web = { path = "crates/fe-web" }
+semantic-indexing = { path = "crates/semantic-indexing", package = "fe-semantic-indexing" }
+language-server = { path = "crates/language-server", package = "fe-language-server" }
+mir = { path = "crates/mir", package = "fe-mir" }
+matchcov = "0.2.0"
+trace-facts = { path = "crates/trace-facts", package = "fe-trace-facts" }
+debug-export = { path = "crates/debug-export", package = "fe-debug-export" }
+trace-facts-macros = { path = "crates/trace-facts-macros", package = "fe-trace-facts-macros" }
+cranelift-entity = "0.136.1"
+url = "2.5.4"
+camino = "1.1.9"
+typed-path = "0.12.3"
+clap = { version = "4.5.26", features = ["derive"] }
+clap_complete = "4.5.65"
+codespan-reporting = "0.11"
+derive_more = { version = "1.0", default-features = false, features = [
+    "from",
+    "try_into",
+] }
+dir-test = "0.4"
+glob = "0.3.2"
+crossbeam-channel = "0.5.15"
+gix = { version = "0.83.0", default-features = false }
+rustc-hash = "2.1.0"
+blake3 = "1"
+num-bigint = "0.4"
+num-traits = "0.2"
+ruint = "1.17.2"
+paste = "1.0.15"
+salsa = { version = "0.28.5", default-features = false, features = ["salsa_unstable", "rayon", "macros", "inventory"] }
+smallvec = { version = "2.0.0-alpha.11" }
+smallvec1 = { version = "1", package = "smallvec" }
+thin-vec = "0.2.16"
+smol_str = { version = "0.1", features = ["serde"] }
+serde-semver = "0.2.1"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", default-features = false, features = ["std", "fmt", "env-filter"] }
+tracing-tree = "0.4.0"
+wasm-bindgen-test = "0.3"
+semver = "1.0.26"
+petgraph = "0.8"
+sonatina-ir = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-triple = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-codegen = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-cranelift = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-wasm = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-verifier = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+sonatina-sp1 = { git = "https://github.com/fe-lang/sonatina", rev = "5632dd636689d983b5a5dc0190d3fddf4e3e7c71" }
+
+[profile.dev]
+# Set to 0 to make the build faster and debugging more difficult.
+debug = 0
+
+[profile.test]
+# Set to 0 to make the build faster and debugging more difficult.
+debug = 0
+
+[profile.release]
+debug = 0
+
+# Release binaries. Whole-program optimization makes the compiler ~10% faster
+# for several times the link time, so tests and local builds skip it.
+[profile.dist]
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+
+# Keep compiler-heavy tests optimized while checking debug invariants.
+[profile.test-release]
+inherits = "release"
+debug-assertions = true
+
+[profile.dev.package]
+revm = { opt-level = 3 }
+revm-bytecode = { opt-level = 3 }
+revm-context = { opt-level = 3 }
+revm-context-interface = { opt-level = 3 }
+revm-database = { opt-level = 3 }
+revm-database-interface = { opt-level = 3 }
+revm-handler = { opt-level = 3 }
+revm-inspector = { opt-level = 3 }
+revm-interpreter = { opt-level = 3 }
+revm-precompile = { opt-level = 3 }
+revm-primitives = { opt-level = 3 }
+revm-state = { opt-level = 3 }
+sonatina-ir = { opt-level = 3 }
+sonatina-codegen = { opt-level = 3 }
+sonatina-cranelift = { opt-level = 3 }
+sonatina-wasm = { opt-level = 3 }
+sonatina-verifier = { opt-level = 3 }
+
+[profile.test.package]
+revm = { opt-level = 3 }
+revm-bytecode = { opt-level = 3 }
+revm-context = { opt-level = 3 }
+revm-context-interface = { opt-level = 3 }
+revm-database = { opt-level = 3 }
+revm-database-interface = { opt-level = 3 }
+revm-handler = { opt-level = 3 }
+revm-inspector = { opt-level = 3 }
+revm-interpreter = { opt-level = 3 }
+revm-precompile = { opt-level = 3 }
+revm-primitives = { opt-level = 3 }
+revm-state = { opt-level = 3 }
+sonatina-ir = { opt-level = 3 }
+sonatina-codegen = { opt-level = 3 }
+sonatina-cranelift = { opt-level = 3 }
+sonatina-wasm = { opt-level = 3 }
+sonatina-verifier = { opt-level = 3 }

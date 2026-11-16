@@ -1,0 +1,33 @@
+# Eth Docker: Docker automation for Ethereum nodes.
+
+Eth Docker, a simple yet configurable way to run [Ethereum](https://ethereum.org/roadmap/) nodes.
+
+## Getting Started
+
+Please see the [official documentation](https://ethdocker.com).
+
+For a quick testnet start, you can install prerequisites and configure Eth Docker, as any user not named `root`:
+
+* `cd ~ && git clone https://github.com/ethstaker/eth-docker.git && cd eth-docker`
+* `./ethd install`
+* `./ethd config`
+
+## Support
+
+The #software channel in [ethstaker Discord](https://discord.gg/ethstaker) is the place to ask questions about Eth Docker.
+
+## Contributions
+
+Contributions are highly appreciated. We have [GitPOAPs](https://www.gitpoap.io/gh/eth-educators/eth-docker)! To make your life easier,
+please read the [contribution guidelines](CONTRIBUTING.md) so you can run lint checks locally on pre-commit.
+
+## License
+
+[Apache License v2](LICENSE)
+
+## Version
+
+Eth Docker uses calendar versioning, to make it easy to align with known hardfork dates.
+Eth Docker will release a new version for breaking changes. If you use pinned client versions, pin Eth Docker as well.
+
+This is Eth Docker v26.11.1-dev

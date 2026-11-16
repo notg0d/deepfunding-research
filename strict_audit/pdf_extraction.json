@@ -1,0 +1,23 @@
+[
+  {
+    "source": "strict_audit\\sources\\noble_trailofbits.pdf",
+    "pdf_signature_valid": true,
+    "text_file": "strict_audit\\sources\\noble_trailofbits.txt",
+    "characters": 41307,
+    "pages": 30,
+    "source_sha256": "1a6e7430c7c7d9a98dafa117f2f01b25a12b31a4600d74cd423f6f3dadf7cf80"
+  },
+  {
+    "source": "strict_audit\\sources\\noble_cure53.pdf",
+    "pdf_signature_valid": true,
+    "text_file": "strict_audit\\sources\\noble_cure53.txt",
+    "characters": 34112,
+    "pages": 17,
+    "source_sha256": "be2f348140729f6d58071ee08fca76f1d13c430e316270455abee73ebd009b50"
+  },
+  {
+    "source": "strict_audit\\sources\\blst_ncc.pdf",
+    "pdf_signature_valid": false,
+    "reason": "Expected PDF; received HTML or another content type"
+  }
+]

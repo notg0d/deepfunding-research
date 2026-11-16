@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/safe-global/safe-smart-account/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:55.568877+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repositories/102186072/commits?per_page=1",
+  "sha256": "3de11e58dbf7b44285485737fc327e2f58639ec1a7628062d9c330c6c4bd362f",
+  "bytes": 6451
+}

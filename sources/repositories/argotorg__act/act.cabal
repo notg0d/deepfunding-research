@@ -1,0 +1,93 @@
+cabal-version: 2.2
+
+name:       act
+version:    0.2.0
+author:    Lefteris Lazaropoulos, Zoe Paraskevopoulou, Anja Petkovic Komel, Sophie Rain, dxo, Martin Lundfall
+maintainer: zoe.paraskevopoulou@argot.org
+
+flag ci
+    description: Sets flags for compilation in CI
+    default:     False
+    manual:      True
+
+common common
+  default-extensions:
+    ApplicativeDo
+    ImportQualifiedPost
+    LambdaCase
+    OverloadedLabels
+    DataKinds
+    GADTs
+  build-depends: base               >= 4.9 && < 5,
+                 aeson              >= 1.0,
+                 containers         >= 0.5,
+                 hevm               >= 0.51.3,
+                 lens               >= 4.17.1,
+                 text               >= 1.2,
+                 array              >= 0.5.3.0,
+                 optparse-generic   >= 1.3,
+                 vector             >= 0.12.0.3,
+                 bytestring         >= 0.10.8,
+                 mtl                >= 2.2.2,
+                 utf8-string        >= 1.0.1.1,
+                 process            >= 1.6.5.0,
+                 ansi-wl-pprint     >= 0.6.9,
+                 regex-tdfa,
+                 validation         >= 1.1.1,
+                 ordered-containers >= 0.2.2,
+                 extra,
+                 singletons,
+                 deriving-compat,
+                 async              >= 2.2.4,
+                 data-dword         >= 0.3.2.1,
+                 prettyprinter,
+                 prettyprinter-ansi-terminal,
+                 base16,
+                 filepath,
+                 logict
+  if flag(ci)
+      ghc-options: -O2 -Wall -Werror -Wno-orphans -Wno-unticked-promoted-constructors
+  else
+      ghc-options: -Wall -Wno-orphans -Wno-unticked-promoted-constructors
+
+library
+  import:             common
+  build-tool-depends: happy:happy, alex:alex
+  hs-source-dirs:     src
+  default-language:   Haskell2010
+  exposed-modules:
+    Act.CLI
+    -- Act.Decompile
+    Act.Error
+    Act.Print
+    Act.SMT
+    Act.Lex
+    Act.Parse
+    Act.Rocq
+    Act.Lean
+    Act.Syntax
+    Act.Syntax.Untyped
+    Act.Syntax.Typed
+    Act.Syntax.TypedExplicit
+    Act.Syntax.TypedImplicit
+    Act.Syntax.Types
+    Act.Syntax.Timing
+    Act.Traversals
+    Act.Type
+    Act.Bounds
+    Act.Equiv
+    Act.HEVM_utils
+    Act.Consistency
+    Act.Entailment
+    Act.Overflow
+
+executable act
+  import:             common
+  main-is:            Main.hs
+  hs-source-dirs:     src/CLI
+  default-language:   Haskell2010
+  -- Enable multicore execution, using all available cores by default.
+  ghc-options:        -threaded "-with-rtsopts=-N"
+  build-depends:      act
+  if os(darwin)
+      extra-libraries: c++

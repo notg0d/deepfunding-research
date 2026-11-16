@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/r1_juror_ratings.csv",
+  "fetched_at": "2026-11-16T13:04:08.704505+00:00",
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/r1_juror_ratings.csv",
+  "sha256": "f010b17cfc0abd4bb23d428a3890cf95a1134d42222b25d27ff0ca43b0a71d1b",
+  "bytes": 5598
+}

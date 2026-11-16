@@ -1,0 +1,330 @@
+# lambdaworks
+
+> From the heights of these towers of fields, forty centuries of mathematics look down on us.
+
+This library provides an efficient implementation of cryptographic primitives used to build proving systems. Along with it, many backends for proving systems are shipped, and compatibility with different frontends is supported.
+
+- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
+- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
+
+[![Telegram Chat][tg-badge]][tg-url]
+[![codecov](https://img.shields.io/codecov/c/github/lambdaclass/lambdaworks)](https://codecov.io/gh/lambdaclass/lambdaworks)
+
+[tg-badge]: https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Flambdaworks%2F&logo=telegram&label=chat&color=neon
+[tg-url]: https://t.me/lambdaworks
+
+</div>
+
+## Examples - mini apps
+
+Below is a list of examples to understand lambdaworks and learn what you can build with the tools provided. Most are educational examples and must not be used in production.
+
+### Cryptographic Signatures
+- [ECDSA signatures (secp256k1)](./examples/ecdsa-signature/)
+- [BLS signatures](./examples/bls-signature/)
+- [Schnorr signatures](./examples/schnorr-signature/)
+- [FROST threshold signatures](./examples/frost-signature/)
+- [XMSS post-quantum signatures](./examples/xmss-signature/)
+
+### Proof Systems & SNARKs
+- [BabySNARK](./examples/baby-snark/)
+- [Pinocchio](./examples/pinocchio/)
+- [Using Circom with lambdaworks's Groth16](./examples/prove-verify-circom/circom_lambdaworks_tutorial.md)
+- [Proving Miden](./examples/prove-miden/)
+
+### Cryptographic Primitives
+- [Merkle Tree CLI](./examples/merkle-tree-cli/)
+- [Shamir's secret sharing](./examples/shamir_secret_sharing/)
+- [Reed-Solomon Codes](./examples/reed-solomon-codes/)
+- [Naive RSA](./examples/rsa/)
+- [Pohlig-Hellman algorithm](./examples/pohlig-hellman-attack/)
+
+- You can use Circom to generate circuits and use lambdaworks's capabilities to prove the execution with [Groth16](./crates/provers/groth16/README.md).
+- You can use the [Stark prover](./crates/provers/stark/README.md) to define an algebraic intermediate representation (AIR) and prove the execution of a program
+
+## Why we built lambdaworks
+
+Zero-Knowledge and Validity Proofs have attracted significant attention over the last few years. We strongly believe in this potential, which is why we decided to start working in this challenging ecosystem where math, cryptography, and distributed systems meet. The main barrier at the beginning was not cryptography or math, but the lack of good, performant, developer-friendly libraries. There are some exceptions, though, like gnark or Halo 2. Some have nice APIs and are easy to work with, but they are not written in Rust; others are written in Rust but have poor programming and engineering practices. Most of them don't support CUDA, Metal, WebGPU, or distributed FFT calculations using schedulers like Dask.
+
+So, we decided to build our library with performance in mind, providing clear documentation and a developer-focused approach. Our core team is a group of passionate people from diverse backgrounds and strengths; we believe the whole is greater than the sum of its parts. We don't want to be a compilation of every research result in the ZK space. We want this to be a library that can be used in production, not just in academic research. We want to offer developers the main building blocks and proof systems so that they can build their applications on top of this library.
+
+## [Documentation](https://lambdaclass.github.io/lambdaworks)
+
+## Quick Start
+
+Add lambdaworks to your project:
+
+```toml
+[dependencies]
+lambdaworks-math = "0.13.0"
+lambdaworks-crypto = "0.13.0"
+```
+
+### Field arithmetic
+
+```rust
+use lambdaworks_math::field::{
+    element::FieldElement,
+    fields::fft_friendly::stark_252_prime_field::Stark252PrimeField,
+};
+
+// Create field elements
+type FE = FieldElement<Stark252PrimeField>;
+
+let a = FE::from(5u64);
+let b = FE::from(3u64);
+
+// Arithmetic operations
+let sum = &a + &b;           // 8
+let product = &a * &b;       // 15
+let square = a.square();     // 25
+let inverse = b.inv().unwrap();
+assert_eq!(&b * &inverse, FE::one());
+```
+
+### Elliptic curve operations
+
+```rust
+use lambdaworks_math::elliptic_curve::{
+    short_weierstrass::curves::bls12_381::curve::BLS12381Curve,
+    traits::IsEllipticCurve,
+};
+
+// Get the generator point
+let g = BLS12381Curve::generator();
+
+// Scalar multiplication
+let g2 = g.operate_with_self(2u64);
+let g3 = g.operate_with(&g2);
+
+// Convert to affine coordinates
+let g3_affine = g3.to_affine();
+```
+
+### Polynomial operations
+
+```rust
+use lambdaworks_math::{
+    field::element::FieldElement,
+    field::fields::u64_prime_field::U64PrimeField,
+    polynomial::Polynomial,
+};
+
+type F = U64PrimeField<65537>;
+type FE = FieldElement<F>;
+
+// Create polynomial: p(x) = 1 + 2x + 3x²
+let p = Polynomial::new(&[FE::from(1), FE::from(2), FE::from(3)]);
+
+// Evaluate at a point
+let result = p.evaluate(&FE::from(2)); // 1 + 4 + 12 = 17
+
+// Interpolate from points
+let poly = Polynomial::interpolate(
+    &[FE::from(0), FE::from(1), FE::from(2)],
+    &[FE::from(1), FE::from(2), FE::from(5)], // values of some quadratic
+).unwrap();
+```
+
+For more examples, see the [examples directory](./examples/) and the [math crate documentation](./crates/math/README.md).
+
+## Main crates
+
+- [Math](./crates/math)
+- [Crypto primitives](./crates/crypto/)
+- [STARK Prover](./crates/provers/stark/)
+- [Plonk Prover](./crates/provers/plonk/)
+- [Groth 16](./crates/provers/groth16/)
+
+### Crypto
+
+- [Elliptic curves](./crates/math/src/elliptic_curve/)
+- [Multiscalar multiplication](./crates/math/src/msm/)
+- [Hashes](./crates/crypto/src/hash/)
+
+### Performance Features
+
+- **x86-64 Assembly Optimizations**: Hand-tuned assembly for field arithmetic on supported platforms
+- **GPU Acceleration**: CUDA backend for Merkle tree construction and FFT operations
+- **Metal Backend**: Apple Silicon GPU acceleration for FFT and field operations
+- **Sparse Polynomials**: Memory-efficient representation for polynomials with few non-zero coefficients
+- **Optimized FFT**: Circle FFT and NTT implementations with field-specific optimizations
+
+Most of the math and crypto crates support no-std without allocation with `no-default-features`. A few functions and modules require the `alloc` feature.
+
+Both Math and Crypto support wasm with the target `wasm32-unknown-unknown`. To see an example of how to use this to deploy a verifier in a browser, check the Cairo Prover wasm-pack verifier.
+
+## Exercises and Challenges
+
+- [lambdaworks exercises and challenges](./exercises/)
+- [Roadmap for Sparkling Water Bootcamp](https://github.com/lambdaclass/sparkling_water_bootcamp/blob/main/README.md)
+
+## Citing lambdaworks
+
+If you use ```lambdaworks``` libraries in your research projects, please cite them using the following template:
+
+``` bibtex
+@software{lambdaworks,
+  author={lambdaworks contributors},
+  title={lambdaworks},
+  url={https://github.com/lambdaclass/lambdaworks},
+  year={2023}
+}
+```
+
+## List of features
+
+Disclaimer: This list contains cryptographic primitives and mathematical structures that we want to support in lambdaworks. It can be expanded later to include new primitives. If you find a mistake or notice an update in another library, please let us know.
+
+List of symbols:
+- :heavy_check_mark: means the feature is currently supported.
+- 🏗️ means that the feature is partially implemented or is under active construction.
+- :x: means that the feature is not currently supported.
+
+| Finite Fields  | Lambdaworks        | Arkworks           | Plonky3            | gnark              | Constantine |  Halo2      |
+| -------------- | ------------------ | ------------------ | ------------------ | ------------------ | ----------- | ----------- |
+| StarkField 252 | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:         | :x:
+| Goldilocks     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:
+| Mersenne 31    | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:         | :x:
+| Baby Bear      | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:         | :x:
+| KoalaBear      | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:         | :x:
+| MiniGoldilocks | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:
+| Binary fields  | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:         | :x:
+| **ZK friendly Hash function** | **Lambdaworks**    | **Arkworks**       | **Plonky3**        | **gnark** | **Constantine** | **Halo2**          |
+| Poseidon                      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:       | :x:             | :heavy_check_mark: |
+| Pedersen                      | 🏗️                 | :heavy_check_mark: | :x:                | :x:       | :x:             | :heavy_check_mark: | 
+| Rescue Prime XLIX             | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:       | :x:             | :x:                |
+| **Elliptic Curves** | **Lambdaworks**    | **Arkworks**       | **Plonky3** | **gnark**          | **Constantine**    | **Halo2**          |
+| BLS12-381           | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
+| BLS12-377           | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :heavy_check_mark: | :x:                | 
+| BN-254              | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
+| Pallas              | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:                | :heavy_check_mark: | :heavy_check_mark: | 
+| Vesta               | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:                | :heavy_check_mark: | :heavy_check_mark: | 
+| Bandersnatch        | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :heavy_check_mark: | :x:                | 
+| secp256k1           | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
+| secq256k1           | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:                | :x:                | :heavy_check_mark: | 
+| secq256r1           | :heavy_check_mark: | :heavy_check_mark: | :x:         | :x:                | :x:                | :heavy_check_mark: | 
+| **STARKs**       | **Lambdaworks**     | **Arkworks** | **Plonky3**        | **gnark** | **Constantine** | **Halo2** |
+| STARK Prover     | :heavy_check_mark:  | :x:          | :heavy_check_mark: | :x:       | :x:             | :x:       |
+| Circle STARKs    | 🏗️                  | :x:          | :heavy_check_mark: | :x:       | :x:             | :x:        |
+| **SNARKs** | **Lambdaworks**    | **Arkworks**       | **Plonky3** | **gnark**          | **Constantine** | **Halo2**          |
+| Groth16    | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :x:             | :x:                |
+| Plonk      | 🏗️                 | :heavy_check_mark: | :x:         | :heavy_check_mark: | :x:             | :heavy_check_mark: |
+| GKR        | :heavy_check_mark: | :heavy_check_mark: | :x:         | :heavy_check_mark: | :x:             | :x:                |
+| **Polynomial Commitment Schemes** | **Lambdaworks**    | **Arkworks**       | **Plonky3**        | **gnark**          | **Constantine**    | **Halo2**          |
+| KZG10                             | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
+| FRI                               | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |
+| Binius                            | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| Circle FRI                        | 🏗️                 | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
+
+Additionally, provers are compatible with the following frontends and VMs:
+
+| Backend | Frontend | Status |
+|---------|----------|--------|
+| Groth16 | Arkworks | :heavy_check_mark: |
+| Groth16 | Gnark    | :x: |
+| Groth16 | Circom   | 🏗️  |
+| Plonk   | Gnark    | 🏗️  |
+| Plonk   | Noir    | :x: |
+| Stark   | Winterfell | :heavy_check_mark: |
+| Stark   | Miden | :heavy_check_mark: |
+
+This can be used in a multi-prover setting for extra security, or as a standalone with Rust.
+
+## Additional tooling usage
+
+### Fuzzers
+
+Fuzzers are divided between those that use only the CPU and those that use CUDA.
+
+To use them, make sure you have installed ```cargo fuzzer```
+
+You can install it with:
+
+```cargo install cargo-fuzz```
+
+CPU Fuzzers can be run with the command ```bash make run-fuzzer FUZZER=fuzzer_name```
+
+For example:
+
+```bash
+make run-fuzzer FUZZER=stark252
+```
+
+The list of fuzzers can be found in `fuzz/no_gpu_fuzz`
+
+Fuzzers for FTT in Cuda can be run with `make run-cuda-fuzzer`
+
+
+Run a specific fuzzer from the ones contained in **fuzz/fuzz_targets/** folder with`cargo`, for example, to run the one for the target `field_from_hex`:
+
+```bash
+make run-fuzzer FUZZER=field_from_hex
+```
+
+### Documentation building
+
+To serve the documentation locally, first install both [mdbook](https://rust-lang.github.io/mdBook/guide/installation.html) and the [Katex preprocessor](https://github.com/lzanini/mdbook-katex#getting-started) to render LaTeX, then run
+
+``` shell
+make docs
+```
+
+## Learning resources
+
+If you want to learn about proof systems/cryptography, we have a list of resources available [here](https://github.com/lambdaclass/sparkling_water_bootcamp/blob/main/bootcamp/learning_resources.md)
+
+## 📚 References and acknowledgements
+
+The following links, repos, companies, and projects have been important in the development of this library, and we want to thank and acknowledge them.
+
+- [Starkware](https://starkware.co/)
+- [Polygon](https://polygon.technology/)
+- [Mina](https://minaprotocol.com/)
+- [zcash](https://z.cash/)
+- [Matter Labs](https://matter-labs.io/)
+- [o1Labs](https://www.o1labs.org/)
+- [zkSync](https://zksync.io/)
+- [Aleo](https://aleo.org/)
+- [Risc0](https://github.com/risc0/risc0)
+- [Aztec](https://github.com/AztecProtocol)
+- [Ingonyama](https://www.ingonyama.com/)
+- [Neptune](https://github.com/Neptune-Crypto)
+- [Winterfell](https://github.com/facebook/winterfell)
+- [Anatomy of a Stark](https://aszepieniec.github.io/stark-anatomy/overview)
+- [Giza](https://github.com/maxgillett/giza)
+- [Ministark](https://github.com/andrewmilson/ministark)
+- [Sandstorm](https://github.com/andrewmilson/sandstorm)
+- [STARK-101](https://starkware.co/stark-101/)
+- [starknet-rs](https://github.com/xJonathanLEI/starknet-rs/)
+- [Summary on FRI low degree test](https://eprint.iacr.org/2022/1216)
+- [STARKs paper](https://eprint.iacr.org/2018/046)
+- [DEEP FRI](https://eprint.iacr.org/2019/336)
+- [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
+- [Plonky2](https://github.com/mir-protocol/plonky2)
+- [Arkworks](https://github.com/arkworks-rs)
+- [Thank goodness it's FRIday](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
+- [Diving DEEP FRI](https://blog.lambdaclass.com/diving-deep-fri/)
+- [Periodic constraints](https://blog.lambdaclass.com/periodic-constraints-and-recursion-in-zk-starks/)
+- [Chiplets Miden VM](https://wiki.polygon.technology/docs/miden/design/chiplets/main/)
+- [Valida](https://github.com/valida-xyz/valida/tree/main)
+- [Solidity Verifier](https://github.com/starkware-libs/starkex-contracts/tree/master/evm-verifier/solidity/contracts/cpu)
+- [CAIRO verifier](https://github.com/starkware-libs/cairo-lang/tree/master/src/starkware/cairo/stark_verifier)
+- [EthSTARK](https://github.com/starkware-libs/ethSTARK/tree/master)
+- [CAIRO whitepaper](https://eprint.iacr.org/2021/1063.pdf)
+- [Gnark](https://github.com/Consensys/gnark)
+- [Constantine](https://github.com/mratsim/constantine)
+- [Plonky3](https://github.com/Plonky3/Plonky3)
+- [Stwo](https://github.com/starkware-libs/stwo/tree/dev)
+- [Binius](https://gitlab.com/IrreducibleOSS/binius)
+- [Zorch](https://github.com/vbuterin/zorch/tree/main)
+- [Jolt](https://github.com/a16z/jolt)
+
+# Security
+
+We take security seriously. If you discover a vulnerability in this project, please report it responsibly.
+
+- You can report vulnerabilities directly via the **[GitHub "Report a Vulnerability" feature](../../security/advisories/new)**.
+- Alternatively, send an email to **[security@lambdaclass.com](mailto:security@lambdaclass.com)**.
+
+For more details, please refer to our [Security Policy](./.github/SECURITY.md).

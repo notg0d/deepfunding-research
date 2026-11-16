@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/sample_submission.csv",
+  "fetched_at": "2026-11-16T11:02:26.655006+00:00",
+  "status": 200,
+  "final_url": "https://huggingface.co/datasets/DeepFunding/originality-r3-data/raw/main/sample_submission.csv",
+  "sha256": "4f137985637a5435c03082689fd2e0147d0d31e1d4f60ff62443e876b6fd44f0",
+  "bytes": 4335
+}

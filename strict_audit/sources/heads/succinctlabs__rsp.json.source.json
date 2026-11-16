@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/succinctlabs/rsp/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:54.368764+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/succinctlabs/rsp/commits?per_page=1",
+  "sha256": "57d24535f70ed8332813229dbc2e60a4a48a43d4c61f9528a2be2e1bb96d0225",
+  "bytes": 4545
+}

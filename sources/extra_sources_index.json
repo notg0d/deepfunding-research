@@ -1,0 +1,688 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:34.117500+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/0xMiden/miden-vm/HEAD/Cargo.toml",
+    "sha256": "df4ed6a17791e625abaf18eb9ba21fb9444c5a6a780e5c34a5195f4ab75d4bb1",
+    "bytes": 13358
+  },
+  {
+    "url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:18:34.118475+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/a16z/halmos/HEAD/pyproject.toml",
+    "sha256": "44baed4dbbf1c23c5085753f73827e4dc1b776bd9616f4c3ced66e43f4ace7ba",
+    "bytes": 1701
+  },
+  {
+    "url": "https://raw.githubusercontent.com/a16z/helios/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:34.119289+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/a16z/helios/HEAD/Cargo.toml",
+    "sha256": "74c8e50b02bdfde24597cffd763277f3d80422a57f6fd7e15f955cd3c397cd61",
+    "bytes": 4382
+  },
+  {
+    "url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:18:34.120202+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/aestus-relay/mev-boost-relay/HEAD/go.mod",
+    "sha256": "6afd2c6cac9087e46627e6cfecbda978be19390dd6a6cc43852d6d12c505d275",
+    "bytes": 5180
+  },
+  {
+    "url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:34.121321+00:00",
+    "status": null,
+    "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:18:34.122059+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/apeworx/ape/HEAD/pyproject.toml",
+    "sha256": "55fc30f5bc0fe37cacb006d159ec368f7bf1f9222f19d5e5dd50fd798df8529f",
+    "bytes": 7593
+  },
+  {
+    "url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/hevm.cabal",
+    "fetched_at": "2026-11-16T11:18:48.209052+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/argotorg/hevm/HEAD/hevm.cabal",
+    "sha256": "f37fb83285d0b46dfdc5e9c96c6e2ef155d3dbb10cc0b84a11fe1afa912dc4af",
+    "bytes": 11204
+  },
+  {
+    "url": "https://raw.githubusercontent.com/argotorg/act/HEAD/act.cabal",
+    "fetched_at": "2026-11-16T11:18:53.377783+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/argotorg/act/HEAD/act.cabal",
+    "sha256": "feb9fc7cb17d82c13b3c96617a97d4b2c8a33ef10e8340e3d55b5495d4c9596a",
+    "bytes": 2652
+  },
+  {
+    "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:53.959405+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/Cargo.toml",
+    "sha256": "cd3616f035fbc3b06590a6cef4225a6a700ed55223b7e2f2e02f75b1d81f8b56",
+    "bytes": 656
+  },
+  {
+    "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:53.974448+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier/Cargo.toml",
+    "sha256": "0c3d4a892321dd62ac2ec4fcbd61c8af9d6c91d479430ad2efa10658766178df",
+    "bytes": 2125
+  },
+  {
+    "url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier-sdk/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:53.989810+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/axiom-crypto/snark-verifier/HEAD/snark-verifier-sdk/Cargo.toml",
+    "sha256": "dd595146fd659f225c7c135ce7b7e02049caffdde2dae2644f3957cdff02d93e",
+    "bytes": 2340
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:54.021363+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ChainSafe/bls/HEAD/package.json",
+    "sha256": "34a9ceaf72771e051b23a700435a82598d94aebb929e44bc24feec46196acf2a",
+    "bytes": 3717
+  },
+  {
+    "url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/packages/beacon-node/package.json",
+    "fetched_at": "2026-11-16T11:18:54.309762+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/chainsafe/lodestar/HEAD/packages/beacon-node/package.json",
+    "sha256": "c44abbfe608a714bef5cc279f9a5ad737f906253967cf265a1a57a4d65a1208a",
+    "bytes": 6019
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:54.398750+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Commit-Boost/commit-boost-client/HEAD/Cargo.toml",
+    "sha256": "5479ea7d9b700060f294be2a96ffdf7fb81fcfd832081d1d3e9c4ebeba0772a5",
+    "bytes": 4438
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:18:54.399734+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Consensys/gnark-crypto/HEAD/go.mod",
+    "sha256": "87b7e709d202dfaf96b327384f710eb513747f4c64b5f09f5030bb9e6aa0d6e1",
+    "bytes": 871
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:54.426306+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/Cargo.toml",
+    "sha256": "2c3b0146b0d7e22ec712a2a086f0838e35c13b7c7b580ae98b23a60506b538bb",
+    "bytes": 2292
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/aderyn_core/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:54.512474+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Cyfrin/aderyn/HEAD/aderyn_core/Cargo.toml",
+    "sha256": "02e565dc3928fb85cbcf4a7abee378560f94096901d677d22e5e782f65347cd1",
+    "bytes": 1199
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:55.127939+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/package.json",
+    "sha256": "4ba96f3af2daabc1e23aa350176651c342837a01ca1ffc6df33464726584e288",
+    "bytes": 1034
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/constants/chainList.js",
+    "fetched_at": "2026-11-16T11:18:55.245528+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:55.278022+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/DefiLlama/DefiLlama-Adapters/HEAD/package.json",
+    "sha256": "8040a52daaa62b027b741ab1c5b747915591e065f5335ededbb0e480078d8105",
+    "bytes": 1528
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:55.338583+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dl-solarity/solidity-lib/HEAD/package.json",
+    "sha256": "de5c73fb51807260fdb5b732670673aa6e886a0f85457498c902bf7479e2d12a",
+    "bytes": 2533
+  },
+  {
+    "url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:55.365731+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/edb-rs/edb/HEAD/Cargo.toml",
+    "sha256": "5f54cdf1c3c8d2aa231d7e76d701d540e991870fc0594bf370a5805b1587055d",
+    "bytes": 5831
+  },
+  {
+    "url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:18:56.024065+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/erigontech/erigon/HEAD/go.mod",
+    "sha256": "46079b8c941c4047586aaa324d5f70e3ffae701ccc0456d7652b22cac73e14ad",
+    "bytes": 14186
+  },
+  {
+    "url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/.gitmodules",
+    "fetched_at": "2026-11-16T11:18:56.116304+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/erigontech/silkworm/HEAD/.gitmodules",
+    "sha256": "90028f7428bdd26f4d1bda331a46a26adb08ad4d3a0bec7e7aea63c31120a67a",
+    "bytes": 1968
+  },
+  {
+    "url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:18:56.206076+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/EspressoSystems/jellyfish/HEAD/Cargo.toml",
+    "sha256": "b20db6c9dab5d3cca837c6172923c7ffc3a13c6af4a8a6daf43fca29f0821b9b",
+    "bytes": 2420
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:56.447348+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/eth-infinitism/account-abstraction/HEAD/package.json",
+    "sha256": "e7828c910681dc3a2f097c1c69d9e984cbab18809a936ad5e7ed4cb3b62d3451",
+    "bytes": 2473
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:56.448627+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/package.json",
+    "sha256": "72b9384e0db3778f4aa6c7f107371c7273db423bbf634dda23546711fb658904",
+    "bytes": 5501
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/keccak.ts",
+    "fetched_at": "2026-11-16T11:18:56.492960+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/keccak.ts",
+    "sha256": "5668606195e6f83e689eb8b0825e2f9345cb619fbd9000ad14f0ae294873a317",
+    "bytes": 580
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/secp256k1.ts",
+    "fetched_at": "2026-11-16T11:18:56.582841+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethereum/js-ethereum-cryptography/HEAD/src/secp256k1.ts",
+    "sha256": "cc598e9d874d3d03b7be18f7c911bf31aac7e6f6b8fb925501e799dd7938ae1a",
+    "bytes": 56
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:18:56.592761+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethereum/py_ecc/HEAD/pyproject.toml",
+    "sha256": "366c0cd35a932436f45e2c57a9bdf23cab4caa567b8fa0f890c261ad965ca193",
+    "bytes": 4339
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:18:57.115802+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethereum/web3.py/HEAD/pyproject.toml",
+    "sha256": "9eb3af6add61b4a2320fd648ccfe6a910e437cd92639da03efea86f21df494ca",
+    "bytes": 4838
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:57.137837+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethers-io/ethers.js/HEAD/package.json",
+    "sha256": "d644d7df228197962e4ca19824b06e8d50dce0b5ee2aced63dcfc2a11ec7b90f",
+    "bytes": 4945
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:18:57.264015+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethpandaops/checkpointz/HEAD/go.mod",
+    "sha256": "02ed7413fecfba409dfec1c2c70243a48b81eacf30d324d12f0160f9ac873f26",
+    "bytes": 3472
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/kurtosis.yml",
+    "fetched_at": "2026-11-16T11:18:57.365370+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/kurtosis.yml",
+    "sha256": "45394fb3caecb22c09960b4c9c7de132c7812b5fe8aab71814715f8e69d2ce56",
+    "bytes": 48
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/main.star",
+    "fetched_at": "2026-11-16T11:18:58.115259+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethpandaops/ethereum-package/HEAD/main.star",
+    "sha256": "abd63d0805f9092b736e9143c2fabbf3b74efce2a2131f659b24852c52e99389",
+    "bytes": 60946
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:18:58.196611+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/pyproject.toml",
+    "sha256": "cff113a7bc7744210be75d2ddba421f17c8ceaf6c49469da6f627eb861013179",
+    "bytes": 3270
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethstaker/ethstaker-deposit-cli/HEAD/setup.py",
+    "fetched_at": "2026-11-16T11:18:58.599748+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:18:59.090127+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/evmts/tevm-monorepo/HEAD/package.json",
+    "sha256": "0843159b7114da8f12b5a05266bc479b56a87df437628904357e1f516961134e",
+    "bytes": 8400
+  },
+  {
+    "url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:18:59.106145+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/flashbots/mev-boost/HEAD/go.mod",
+    "sha256": "6804d12199188e431437fce80f62f81b695a52c4eed8474f69ebbfd11aa57119",
+    "bytes": 3248
+  },
+  {
+    "url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:19:01.391975+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/flashbots/mev-boost-relay/HEAD/go.mod",
+    "sha256": "e1e6684c0db1412339228a08fa904ee16647a7d10df85ee78242253d596fa698",
+    "bytes": 4808
+  },
+  {
+    "url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:02.171318+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/flashbots/rbuilder/HEAD/Cargo.toml",
+    "sha256": "51330463bdcf73d0597a3f7092bc229661ee0529e45ec84e4e19a62b55abe1a9",
+    "bytes": 7093
+  },
+  {
+    "url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:02.240645+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/foundry-rs/foundry/HEAD/Cargo.toml",
+    "sha256": "fc81e07c67067736680d32e8a24ba042a605746e675b20dc5f13c6e4f90ee797",
+    "bytes": 26836
+  },
+  {
+    "url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:02.621511+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/grandinetech/grandine/HEAD/Cargo.toml",
+    "sha256": "4ab0b3acbdfe1702b6b5ae3341c421c712eb3508137fbea7dc377459a6b99301",
+    "bytes": 22857
+  },
+  {
+    "url": "https://raw.githubusercontent.com/herumi/mcl/HEAD/.gitmodules",
+    "fetched_at": "2026-11-16T11:19:02.629697+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:02.992625+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lambdaclass/ethrex/HEAD/Cargo.toml",
+    "sha256": "c8aec78481fa6e5e0932554c4e4b488f3eafdaeae47631c4102b47cb93997f08",
+    "bytes": 5962
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:03.030728+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/Cargo.toml",
+    "sha256": "2f95d26e7f48eaada2e4d668935a046ce142835b53e747b53cd014cb8ef48037",
+    "bytes": 2856
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/math/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:03.254390+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:19:03.268364+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/NethermindEth/juno/HEAD/go.mod",
+    "sha256": "1a5d12835d125d879659e837bd335af752dda95b2a6d9be82bb0a888e9c93b9a",
+    "bytes": 9666
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/v-next/hardhat/package.json",
+    "fetched_at": "2026-11-16T11:19:04.092595+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/v-next/hardhat-edr/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:04.151104+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:05.038407+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/Cargo.toml",
+    "sha256": "ad134c0eb5f505d7aaebedce32f931b911204570ae1a45d9f56ac2cc6b750741",
+    "bytes": 2708
+  },
+  {
+    "url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/stylus-sdk/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:05.566487+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/OffchainLabs/stylus-sdk-rs/HEAD/stylus-sdk/Cargo.toml",
+    "sha256": "105ea1538eec98a98bc8d4323b6e7c4167c8c3fa16cb9f34de3e25e097b9e315",
+    "bytes": 2104
+  },
+  {
+    "url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:06.064269+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/otterscan/otterscan/HEAD/package.json",
+    "sha256": "b3d015661fa0eb5e3d5c599eae250e04ea799bb52a793f30e2cd9517b6deb417",
+    "bytes": 4266
+  },
+  {
+    "url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:06.066913+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/paradigmxyz/reth/HEAD/Cargo.toml",
+    "sha256": "45ffe153a448e943c79b928ea05c9847802c32f47ae9548f383dcb508dec429a",
+    "bytes": 26070
+  },
+  {
+    "url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:06.485945+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/paulmillr/noble-curves/HEAD/package.json",
+    "sha256": "788e65f09e9fa942503ba01227dee2845889135f52dd8ab8598e384097b1da1e",
+    "bytes": 2695
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:06.828422+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Plonky3/Plonky3/HEAD/Cargo.toml",
+    "sha256": "93cac1f044b5e57b0270a18a66a588e211cd6d45d0efeac291dccf91c8fc0af5",
+    "bytes": 6568
+  },
+  {
+    "url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:07.218153+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/powdr-labs/powdr/HEAD/Cargo.toml",
+    "sha256": "f1392c78f907579b0b2dd4d335e3da4bc1b39e4a2527fd95e35da92f347661af",
+    "bytes": 11366
+  },
+  {
+    "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:07.258688+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/Cargo.toml",
+    "sha256": "774bfec3f1265e14ca4c08368b3cf1c80c4208ebe02f46fcd7f6d0282281fc36",
+    "bytes": 2176
+  },
+  {
+    "url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/contracts/src/groth16/RiscZeroGroth16Verifier.sol",
+    "fetched_at": "2026-11-16T11:19:07.325637+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/risc0/risc0-ethereum/HEAD/contracts/src/groth16/RiscZeroGroth16Verifier.sol",
+    "sha256": "94396a7989abae664abab1c2f313b94a042f1b3ec52a843ddf5d4de3f9543fcd",
+    "bytes": 8236
+  },
+  {
+    "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/contracts/Safe.sol",
+    "fetched_at": "2026-11-16T11:19:07.626154+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/contracts/Safe.sol",
+    "sha256": "60d4d0321549c9aac50e381d55d64d7837d886f3956382bd1a4dfec1789db130",
+    "bytes": 30354
+  },
+  {
+    "url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:07.989066+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/safe-global/safe-smart-account/HEAD/package.json",
+    "sha256": "c511ccd2c192aec0465222ddb88e0f14637683627120fb5204819c6cb14f8cc8",
+    "bytes": 3644
+  },
+  {
+    "url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/packages/nextjs/package.json",
+    "fetched_at": "2026-11-16T11:19:08.064440+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/scaffold-eth/scaffold-eth-2/HEAD/packages/nextjs/package.json",
+    "sha256": "6c03625bcf00f44d46acdfc364c92c5a9c889f68795739ccc2fcc8903e9a6888",
+    "bytes": 2365
+  },
+  {
+    "url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:08.183165+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/shazow/whatsabi/HEAD/package.json",
+    "sha256": "c3f8a9afe00cbf182a9af58d04df023e9d62dfba617735dcd843549d4b45a373",
+    "bytes": 1826
+  },
+  {
+    "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/CMakeLists.txt",
+    "fetched_at": "2026-11-16T11:19:09.072337+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/CMakeLists.txt",
+    "sha256": "7ae0ce4d580f267cf6fc7ce7dd7a2ab497338ef9f0b573c3adbadfcabe39ec77",
+    "bytes": 10499
+  },
+  {
+    "url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/docker-compose.yml",
+    "fetched_at": "2026-11-16T11:19:09.154216+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/smartcontracts/simple-optimism-node/HEAD/docker-compose.yml",
+    "sha256": "c9541dcfc439d88b17eb89e9d319e1e6eafe52a1c647a6b70ee926e71dbbad5c",
+    "bytes": 3598
+  },
+  {
+    "url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:10.243639+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/succinctlabs/op-succinct/HEAD/Cargo.toml",
+    "sha256": "acd5f9854f10d9ff390c5f728ceb9e288c73643efc33db0166b5353b8776c08a",
+    "bytes": 12800
+  },
+  {
+    "url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:11.138465+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/succinctlabs/rsp/HEAD/Cargo.toml",
+    "sha256": "22055de97eb8d0716f9b1a7d2f72ea290423f5e68b69af5bccab5ee08b79fef2",
+    "bytes": 6173
+  },
+  {
+    "url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:19:11.596517+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/succinctlabs/sp1/HEAD/Cargo.toml",
+    "sha256": "57d38e53db362c53ff11d93292697d9f3405540870d1f64f989c9cedf5a7b83e",
+    "bytes": 13370
+  },
+  {
+    "url": "https://raw.githubusercontent.com/supranational/blst/HEAD/build.sh",
+    "fetched_at": "2026-11-16T11:19:11.601656+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/supranational/blst/HEAD/build.sh",
+    "sha256": "7a7ce154f7a70737e83813e2c6fce27aa4b4768bcf7a728413c66d26208f3fda",
+    "bytes": 4358
+  },
+  {
+    "url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:12.056351+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/swiss-knife-xyz/swiss-knife/HEAD/package.json",
+    "sha256": "98ee5d8063ec948a1e6b958d05d9fe07ddc941f8a6cab851341e4f794c9237d6",
+    "bytes": 2983
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:19:12.157909+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/pyproject.toml",
+    "sha256": "475314f5e9dbe2ff2f46bd887c8c925cb0c8ebf69472d8092c2e1e693a484e49",
+    "bytes": 1619
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vyperlang/titanoboa/HEAD/setup.py",
+    "fetched_at": "2026-11-16T11:19:12.228056+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/pyproject.toml",
+    "fetched_at": "2026-11-16T11:19:12.496470+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/vyperlang/vyper/HEAD/pyproject.toml",
+    "sha256": "5792a9ea0a734a29bb9740fb514d0dea6ec0388bbfd8cd9f7c8e1f1fb09699c6",
+    "bytes": 3265
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/README.md",
+    "fetched_at": "2026-11-16T11:19:13.062523+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/README.md",
+    "sha256": "c2be1567cf7b56782c29ff6f6bc4be0d5b65c84ed05fc20f35e091830c445f1e",
+    "bytes": 11214
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/package.json",
+    "fetched_at": "2026-11-16T11:19:13.288423+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/wevm/viem/HEAD/src/package.json",
+    "sha256": "1fd41f6405e9f5c859df89de599b6a9cf341c3d4a86b86b0d35afc349c3a95f9",
+    "bytes": 7255
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wevm/viem/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:13.471043+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/wevm/viem/HEAD/package.json",
+    "sha256": "6acf92c9dd3707e573d77cdd20298cfb0036fc4bd9a66687fb26ae7f092d6858",
+    "bytes": 9810
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/go.mod",
+    "fetched_at": "2026-11-16T11:19:13.592704+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/wealdtech/ethdo/HEAD/go.mod",
+    "sha256": "52f05b82c859165d5813e654e94e5fd77fb57a66a79666c3a2b3c165b3051a23",
+    "bytes": 4785
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wighawag/hardhat-deploy/HEAD/package.json",
+    "fetched_at": "2026-11-16T11:19:14.138121+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://api.github.com/repos/aestus-relay/mev-boost-relay",
+    "fetched_at": "2026-11-16T11:19:14.141792+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/aestus-relay/mev-boost-relay",
+    "sha256": "7966b55f2dade2d24c6f987e5d8d9fde8a8efc4272c39f6241c26ec15dec647f",
+    "bytes": 18011
+  },
+  {
+    "url": "https://api.github.com/repos/hyperledger-web3j/web3j",
+    "fetched_at": "2026-11-16T11:19:14.142115+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repositories/67328052",
+    "sha256": "d039cbd8fb6e25d035c17368ccea69211e5793d8401102f768cdc7a247a5b8bc",
+    "bytes": 6305
+  },
+  {
+    "url": "https://api.github.com/repos/LFDT-web3j/web3j",
+    "fetched_at": "2026-11-16T11:19:14.168836+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/LFDT-web3j/web3j",
+    "sha256": "d039cbd8fb6e25d035c17368ccea69211e5793d8401102f768cdc7a247a5b8bc",
+    "bytes": 6305
+  },
+  {
+    "url": "https://api.github.com/repos/ethstaker/ethstaker-deposit-cli",
+    "fetched_at": "2026-11-16T11:19:14.329546+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ethstaker/ethstaker-deposit-cli",
+    "sha256": "2f58b16af8796586d7549eb2d1682d6ea7155c5f7dc3cb624fb0856d1a6e24c8",
+    "bytes": 18222
+  },
+  {
+    "url": "https://api.github.com/repos/argotorg/hevm",
+    "fetched_at": "2026-11-16T11:19:14.752559+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/argotorg/hevm",
+    "sha256": "6dddde1560096e330bfd1924d9d9190810b9d272d4da09f5c43d4a4bfbcafa26",
+    "bytes": 6000
+  },
+  {
+    "url": "https://api.github.com/repos/erigontech/erigon",
+    "fetched_at": "2026-11-16T11:19:16.402835+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/erigontech/erigon",
+    "sha256": "f75fc0c8e96467259d3cfe08422decb6faf49392c3b8625f82548a1f3c5fe691",
+    "bytes": 6324
+  },
+  {
+    "url": "https://api.github.com/repos/Cyfrin/aderyn",
+    "fetched_at": "2026-11-16T11:19:16.415102+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Cyfrin/aderyn",
+    "sha256": "13d21a112745ea0d3fa02953b603abf6dfad6f0f51eadcc8a94e53dde3644084",
+    "bytes": 6069
+  },
+  {
+    "url": "https://api.github.com/repos/wighawag/hardhat-deploy",
+    "fetched_at": "2026-11-16T11:19:16.460427+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/wighawag/hardhat-deploy",
+    "sha256": "89b32b3e5e50bb05c1cd597ee4dc9ae98b199c497c272ba32f406e2c3aa76d80",
+    "bytes": 5485
+  },
+  {
+    "url": "https://api.github.com/repos/ethereum/web3.py",
+    "fetched_at": "2026-11-16T11:19:16.526235+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repositories/56251096",
+    "sha256": "072cf9d3e58b18b228b1c4b306179fb738b1c0cd181c5cb0c3ea5c8f54457dc1",
+    "bytes": 6139
+  },
+  {
+    "url": "https://api.github.com/repos/powdr-labs/powdr",
+    "fetched_at": "2026-11-16T11:19:18.558591+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/powdr-labs/powdr",
+    "sha256": "bfdc49de140b4deebbc6c3897f2ac6d638a937a35b0fd79190190ebcf81c52da",
+    "bytes": 6155
+  }
+]

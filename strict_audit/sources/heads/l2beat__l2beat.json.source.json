@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/l2beat/l2beat/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:56.645010+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/l2beat/l2beat/commits?per_page=1",
+  "sha256": "d111d5c1c7097d478387948a2220ea7ac1e62b32adae138170fc31440dee54f2",
+  "bytes": 4514
+}

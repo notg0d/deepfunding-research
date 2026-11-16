@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/ethstaker/ethstaker-deposit-cli/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:56.628526+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/ethstaker/ethstaker-deposit-cli/commits?per_page=1",
+  "sha256": "f7a7d8425cd53971957eccbd800d8360b3cc88a96bc44587875ecde3b8445ed2",
+  "bytes": 13557
+}

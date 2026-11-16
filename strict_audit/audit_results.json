@@ -1,0 +1,264 @@
+{
+  "audit_date_utc": "2026-11-16",
+  "verdict": "TECHNICAL_CHECKS_PASS_WITH_RESEARCH_LIMITATIONS",
+  "forecast_certified_as_accurate": false,
+  "numerical_revisions": 0,
+  "checks": [
+    {
+      "id": "submission_format",
+      "status": "PASS",
+      "detail": {
+        "rows": 98,
+        "aliases_equal": true,
+        "sha256": "d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae"
+      }
+    },
+    {
+      "id": "original_artifacts_preserved",
+      "status": "PASS",
+      "detail": {
+        "preserved_artifacts": 11
+      }
+    },
+    {
+      "id": "original_download_hashes",
+      "status": "PASS",
+      "detail": {
+        "verified_downloads": 205
+      }
+    },
+    {
+      "id": "original_citation_hashes",
+      "status": "PASS",
+      "detail": {
+        "repository_rows": 98,
+        "cited_source_records": 184
+      }
+    },
+    {
+      "id": "audit_download_hashes",
+      "status": "PASS",
+      "detail": {
+        "verified_downloads": 189
+      }
+    },
+    {
+      "id": "official_refresh_matches",
+      "status": "PASS",
+      "detail": {
+        "identical_files": 8
+      }
+    },
+    {
+      "id": "commit_pinned_sources",
+      "status": "PASS",
+      "detail": {
+        "files": 52,
+        "unchanged": 51,
+        "changed": [
+          "paradigmxyz/reth:pinned:Cargo.toml"
+        ],
+        "change_scope": "Two additions for an internal version-build module"
+      }
+    },
+    {
+      "id": "upstream_historical_labels",
+      "status": "PASS",
+      "detail": {
+        "ratings": 51,
+        "repositories": 33,
+        "single_rating_repositories": 23,
+        "ratings_and_notes_match_upstream": true,
+        "target_file_precision_decimals": 6,
+        "max_mean_rounding_difference": 3.3333333333333335e-07
+      }
+    },
+    {
+      "id": "original_market_token_orientation",
+      "status": "PASS",
+      "detail": {
+        "markets": 98,
+        "quotes_checked": 196,
+        "max_absolute_tick_price_error": 1.041576346026e-16,
+        "orientations": {
+          "up_inverse": 49,
+          "down_inverse": 53,
+          "up_direct": 49,
+          "down_direct": 45
+        }
+      }
+    },
+    {
+      "id": "fresh_market_token_orientation",
+      "status": "PASS",
+      "detail": {
+        "markets": 98,
+        "quotes_checked": 196,
+        "max_absolute_tick_price_error": 1.041576346026e-16,
+        "orientations": {
+          "up_inverse": 49,
+          "down_inverse": 53,
+          "up_direct": 49,
+          "down_direct": 45
+        }
+      }
+    },
+    {
+      "id": "independent_blend_and_sensitivities",
+      "status": "PASS",
+      "detail": {
+        "rows": 98,
+        "rounded_values_checked": 490,
+        "arithmetic": "Independent Decimal calculation"
+      }
+    },
+    {
+      "id": "independent_sae",
+      "status": "PASS",
+      "detail": {
+        "official_submission_sae": 2.277,
+        "independent_sae": {
+          "live_raw_up": 2.4650200990203794,
+          "live_normalized_up": 2.5039595922411246,
+          "subjective_evidence_prior": 2.88,
+          "recommended_forecast_uses_public_history": 2.277,
+          "forecast_without_direct_history_but_not_blind": 2.533666
+        },
+        "held_out": false,
+        "future_accuracy_validated": false
+      }
+    },
+    {
+      "id": "published_artifact_integrity",
+      "status": "PASS",
+      "detail": {
+        "tarballs": 7,
+        "sha1_and_sri_match": true,
+        "selected_files_checked": 20,
+        "package_code_executed": false
+      }
+    },
+    {
+      "id": "source_content_exceptions_identified",
+      "status": "PASS",
+      "detail": {
+        "valid_pdf_reports": 2,
+        "excluded": "NCC URL returns generic HTML despite HTTP 200"
+      }
+    },
+    {
+      "id": "fresh_quote_sensitivity",
+      "status": "PASS",
+      "detail": {
+        "largest_raw_up_changes": [
+          {
+            "repo": "protofire/solhint",
+            "change": -0.0007503086367189
+          },
+          {
+            "repo": "eth-infinitism/account-abstraction",
+            "change": -0.0007387211102674
+          },
+          {
+            "repo": "holiman/goevmlab",
+            "change": -0.0006776351293009
+          },
+          {
+            "repo": "dl-solarity/solidity-lib",
+            "change": -0.0006672132838254
+          },
+          {
+            "repo": "ethereum/go-ethereum",
+            "change": -0.0006373207880054
+          },
+          {
+            "repo": "nomicfoundation/hardhat",
+            "change": -0.0005928116583769
+          },
+          {
+            "repo": "foundry-rs/foundry",
+            "change": 0.0005586323890018
+          },
+          {
+            "repo": "libp2p/libp2p",
+            "change": 0.0005485028903355
+          }
+        ],
+        "maximum_unrounded_blend_change": 0.00045018518203134,
+        "original_forecast_inputs_replaced": false
+      }
+    },
+    {
+      "id": "all_repository_crosscheck_matrix",
+      "status": "PASS",
+      "detail": {
+        "canonical_rows": 98,
+        "no_validated_percentages": true
+      }
+    }
+  ],
+  "collection": {
+    "attempts_recorded": 196,
+    "successful_downloads": 189,
+    "http_failures": [
+      {
+        "id": "dappnode/DAppNode:package.json",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/dappnode/DAppNode/HEAD/package.json"
+      },
+      {
+        "id": "ethereum/eips:package.json",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/ethereum/eips/HEAD/package.json"
+      },
+      {
+        "id": "nethermindeth/nethermind:src/Nethermind/Directory.Packages.props",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/nethermindeth/nethermind/HEAD/src/Nethermind/Directory.Packages.props"
+      },
+      {
+        "id": "status-im/nimbus-eth2:nimbus_beacon_node.nimble",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/status-im/nimbus-eth2/HEAD/nimbus_beacon_node.nimble"
+      },
+      {
+        "id": "taikoxyz/taiko-mono:packages/taiko-client/go.mod",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/taikoxyz/taiko-mono/HEAD/packages/taiko-client/go.mod"
+      },
+      {
+        "id": "TrueBlocks/trueblocks-core:src/apps/chifra/go.mod",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/TrueBlocks/trueblocks-core/HEAD/src/apps/chifra/go.mod"
+      },
+      {
+        "id": "TrueBlocks/trueblocks-core:resolved:chifra",
+        "status": 404,
+        "url": "https://raw.githubusercontent.com/TrueBlocks/trueblocks-core/HEAD/chifra"
+      }
+    ]
+  },
+  "coverage": {
+    "rows": 98,
+    "original_readme_only": 35,
+    "rows_with_technical_files_beyond_readme": 95,
+    "rows_with_registry_metadata": 19,
+    "rows_with_selected_published_artifacts": 6,
+    "rows_with_limited_independent_corroboration": 23,
+    "rows_without_independent_corroboration": 75,
+    "specific_scope_or_conflict_flags": 11,
+    "validated_originality_percentages": 0
+  },
+  "research_limitations": [
+    "New Round 3 labels do not exist; future accuracy and ranking are not measurable.",
+    "Public-label use is allowed, but retrospective SAE is not held-out validation.",
+    "The history-free forecast does not outperform raw markets on the visible R1 sample.",
+    "Priors, weights and scenario bounds are subjective and uncalibrated.",
+    "Market prices can already reflect public labels; components are correlated.",
+    "Not all repositories have independent corroboration; code review is bounded, not exhaustive.",
+    "Version/cutoff, repository-versus-ecosystem credit and final evaluation coverage remain unclear.",
+    "No on-chain RPC, trade-depth, price execution or independent trader verification was performed.",
+    "Security audits and formal proofs do not measure originality; current-version coverage cannot be assumed.",
+    "Web search returned HTTP 402; direct sources were available."
+  ]
+}

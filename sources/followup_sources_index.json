@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/Cargo.toml",
+    "fetched_at": "2026-11-16T11:25:11.227189+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/alloy-rs/alloy/HEAD/Cargo.toml",
+    "sha256": "7fd10d19cf88ba533b74ae39eaa900aa0651f534de45ae2931d649b8d753bc68",
+    "bytes": 8155
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/pages/index.js",
+    "fetched_at": "2026-11-16T11:25:11.227769+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/pages/index.js",
+    "sha256": "8a18aab95e5f70b44101223e7597b1ca2ca45d2030da641567e9ad3c6fe234f7",
+    "bytes": 2602
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DefiLlama/chainlist/HEAD/scripts/generateChainData.js",
+    "fetched_at": "2026-11-16T11:25:11.228394+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/v-next/hardhat/package.json",
+    "fetched_at": "2026-11-16T11:25:11.229074+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/packages/hardhat/package.json",
+    "fetched_at": "2026-11-16T11:25:11.706753+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/nomicfoundation/hardhat/HEAD/packages/hardhat/package.json",
+    "sha256": "396b35d354614550a63a8582abaaf6a7c48dd72cf14782facf5be981c01121a0",
+    "bytes": 4979
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/crates/math/Cargo.toml",
+    "fetched_at": "2026-11-16T11:25:11.716897+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lambdaclass/lambdaworks/HEAD/crates/math/Cargo.toml",
+    "sha256": "2464ec2dff819da117ed353a2cd4fe3630829a87d439e78899c9eea8b0e4f787",
+    "bytes": 3782
+  },
+  {
+    "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/deps/CMakeLists.txt",
+    "fetched_at": "2026-11-16T11:25:11.780477+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/bls/bls.cpp",
+    "fetched_at": "2026-11-16T11:25:12.374628+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/skalenetwork/libBLS/HEAD/bls/bls.cpp",
+    "sha256": "925996f46c8db43306cb6a65a3dca4ddba10fe53a8b5949b131b404dd08e3a80",
+    "bytes": 8800
+  },
+  {
+    "url": "https://api.github.com/repos/flashbots/mev-boost-relay/compare/main...aestus-relay:main",
+    "fetched_at": "2026-11-16T11:25:13.158970+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/flashbots/mev-boost-relay/compare/main...aestus-relay:main",
+    "sha256": "d819bf2b0506835a7a67e4640e5cfa4b61ac06dbfa9a7c361c0778c3416a5bd6",
+    "bytes": 726994
+  },
+  {
+    "url": "https://api.github.com/repos/ethereum/staking-deposit-cli/compare/master...ethstaker:main",
+    "fetched_at": "2026-11-16T11:25:13.175920+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ethereum/staking-deposit-cli/compare/master...ethstaker:main",
+    "sha256": "9c5ff3ce7282c2f7d9e3e629cb713ba2f1d2bbb71f2e13dd150095ca3892ae2e",
+    "bytes": 2731901
+  },
+  {
+    "url": "https://api.github.com/repos/DefiLlama/chainlist/contents",
+    "fetched_at": "2026-11-16T11:25:13.302994+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/DefiLlama/chainlist/contents",
+    "sha256": "4cdfa759d0916b0eef29d4865ec23e223244cd29985720b176a39db4642ba5bc",
+    "bytes": 26385
+  },
+  {
+    "url": "https://api.github.com/repos/nomicfoundation/hardhat/contents",
+    "fetched_at": "2026-11-16T11:25:13.806645+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/nomicfoundation/hardhat/contents",
+    "sha256": "88ac71f28b72ff39e037cb3954387d3be4a4f7f6f874e7cb177b0ad32eb1289d",
+    "bytes": 24530
+  },
+  {
+    "url": "https://api.github.com/repos/wighawag/hardhat-deploy/contents",
+    "fetched_at": "2026-11-16T11:25:13.922278+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/wighawag/hardhat-deploy/contents",
+    "sha256": "333638b5170d50fa134e797d1b3df42cf2d3df1295f1f164418d523eb8afa002",
+    "bytes": 3669
+  }
+]

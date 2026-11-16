@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/libp2p/libp2p/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:57.112479+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/libp2p/libp2p/commits?per_page=1",
+  "sha256": "7e10519ed2253862354827923f3343355c4d15a7c5635b971c2719f6cb1329de",
+  "bytes": 4718
+}

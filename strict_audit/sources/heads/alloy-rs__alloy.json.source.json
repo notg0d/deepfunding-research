@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/alloy-rs/alloy/commits?per_page=1",
+  "fetched_at": "2026-11-16T13:07:54.882394+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/alloy-rs/alloy/commits?per_page=1",
+  "sha256": "be69306aff23a26fbb2d458ce45ea3cbe72be2fff8fde3e0cf5e797cdd4ac722",
+  "bytes": 4389
+}

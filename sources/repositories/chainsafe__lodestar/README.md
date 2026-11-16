@@ -1,0 +1,80 @@
+<p align="center"><a href="https://chainsafe.github.io/lodestar"><img width="500" title="Lodestar" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>
+
+# Lodestar Ethereum Consensus Implementation
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/chainsafe/lodestar?label=Github)](https://github.com/ChainSafe/lodestar/releases/latest)
+[![Docker Image Version (latest by date)](https://img.shields.io/docker/v/chainsafe/lodestar?color=blue&label=Docker&sort=semver)](https://hub.docker.com/r/chainsafe/lodestar)
+[![Eth Consensus Spec v1.5.0](https://img.shields.io/badge/ETH%20consensus--spec-1.5.0-blue)](https://github.com/ethereum/consensus-specs/releases/tag/v1.5.0)
+[![ES Version](https://img.shields.io/badge/ES-2021-yellow)](https://262.ecma-international.org/12.0/)
+[![Node Version](https://img.shields.io/badge/node-24.x%20%7C%2026.x-green)](https://nodejs.org/en/about/previous-releases)
+[![codecov](https://codecov.io/gh/ChainSafe/lodestar/graph/badge.svg)](https://codecov.io/gh/ChainSafe/lodestar)
+
+[Lodestar](https://lodestar.chainsafe.io) is a TypeScript implementation of the [Ethereum Consensus specification](https://github.com/ethereum/consensus-specs) developed by [ChainSafe Systems](https://chainsafe.io).
+
+## Getting started
+
+- :gear: Follow the instructions for [build from source](https://chainsafe.github.io/lodestar/run/getting-started/installation#build-from-source), [binaries](https://chainsafe.github.io/lodestar/run/getting-started/installation#binaries), or [Docker](https://chainsafe.github.io/lodestar/run/getting-started/installation#docker-installation) to install Lodestar. Or use our [Lodestar Quickstart scripts](https://github.com/ChainSafe/lodestar-quickstart).
+- :books: Use [Lodestar libraries](https://chainsafe.github.io/lodestar/supporting-libraries/libraries/) in your next Ethereum Typescript project.
+- :globe_with_meridians: Run a beacon node on [mainnet or a public testnet](https://chainsafe.github.io/lodestar/run/beacon-management/starting-a-node/).
+- :computer: Utilize the whole stack by [starting a local testnet](https://chainsafe.github.io/lodestar/contribution/advanced-topics/setting-up-a-testnet/).
+- :spiral_notepad: View the Lodestar [CLI commands and options](https://chainsafe.github.io/lodestar/reference/cli/).
+- :nerd_face: View the [Package and dependency structure](https://chainsafe.github.io/lodestar/contribution/depgraph/).
+- :memo: Prospective contributors can read the [contributing section](./CONTRIBUTING.md) to understand how we develop and test on Lodestar.
+- :writing_hand: If you have questions [submit an issue](https://github.com/ChainSafe/lodestar/issues/new/choose) or join us on [Discord](https://discord.gg/yjyvFRP)!
+  [![Discord](https://img.shields.io/discord/593655374469660673.svg?label=Discord&logo=discord)](https://discord.gg/aMxzVcr)
+- :rotating_light: Please note our [security policy](./SECURITY.md).
+- :bird: Follow Lodestar on [Twitter](https://twitter.com/lodestar_eth) for announcements and updates! [![Twitter Follow](https://img.shields.io/twitter/follow/lodestar_eth)](https://twitter.com/lodestar_eth)
+
+## Prerequisites
+
+- :gear: [NodeJS](https://nodejs.org/) (LTS)
+- :toolbox: [pnpm](https://pnpm.io/)
+- :zap: [Zig](https://ziglang.org/download/) 0.16.0
+
+###### Developer Quickstart:
+
+```bash
+pnpm install
+pnpm build
+./lodestar --help
+```
+
+## Architecture Overview
+
+Zig modules live in `src/`, with their build files at the repository root.
+`packages/` contains the TypeScript monorepo, and `bindings/` contains the native
+Node.js package.
+
+- :package: This mono-repository contains a suite of Ethereum Consensus packages.
+- :balance_scale: The mono-repository is released under [Apache-2.0 license](./LICENSE). Note, that the packages contain their own licenses.
+
+| Package                                                     | Version                                                                                                                     | License                                                                                                              | Docs                                                                                      | Description                                                      |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [`@chainsafe/lodestar`](./packages/cli)                     | [![npm](https://img.shields.io/npm/v/@chainsafe/lodestar)](https://www.npmjs.com/package/@chainsafe/lodestar)               | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/cli/)             | :computer: Command-line tool for Lodestar                        |
+| [`@lodestar/api`](./packages/api)                           | [![npm](https://img.shields.io/npm/v/@lodestar/api)](https://www.npmjs.com/package/@lodestar/api)                           | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/api)              | :clipboard: REST Client for the Ethereum Beacon API              |
+| [`@lodestar/beacon-node`](./packages/beacon-node)           | [![npm](https://img.shields.io/npm/v/@lodestar/beacon-node)](https://www.npmjs.com/package/@lodestar/beacon-node)           | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/beacon-node)      | :rotating_light: Beacon-chain client                             |
+| [`@lodestar/config`](./packages/config)                     | [![npm](https://img.shields.io/npm/v/@lodestar/config)](https://www.npmjs.com/package/@lodestar/config)                     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/config)           | :spiral_notepad: Eth Consensus types and params bundled together |
+| [`@lodestar/db`](./packages/db)                             | [![npm](https://img.shields.io/npm/v/@lodestar/db)](https://www.npmjs.com/package/@lodestar/db)                             | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/db)               | :floppy_disk: Read/write persistent Eth Consensus data           |
+| [`@lodestar/era`](./packages/era)                           | [![npm](https://img.shields.io/npm/v/@lodestar/era)](https://www.npmjs.com/package/@lodestar/era)                           | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/era)              | :file_folder: Era file handling for historical beacon chain data |
+| [`@lodestar/fork-choice`](./packages/fork-choice)           | [![npm](https://img.shields.io/npm/v/@lodestar/fork-choice)](https://www.npmjs.com/package/@lodestar/fork-choice)           | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/fork-choice)      | :fork_and_knife: Beacon-chain fork choice                        |
+| [`@lodestar/logger`](./packages/logger)                     | [![npm](https://img.shields.io/npm/v/@lodestar/logger)](https://www.npmjs.com/package/@lodestar/logger)                     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/logger)           | :memo: NodeJS logger for Lodestar binaries                       |
+| [`@lodestar/params`](./packages/params)                     | [![npm](https://img.shields.io/npm/v/@lodestar/params)](https://www.npmjs.com/package/@lodestar/params)                     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/params)           | :spider_web: Eth Consensus network parameters                    |
+| [`@lodestar/reqresp`](./packages/reqresp)                   | [![npm](https://img.shields.io/npm/v/@lodestar/reqresp)](https://www.npmjs.com/package/@lodestar/reqresp)                   | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/reqresp)          | :telephone_receiver: Eth Consensus Req/Resp protocol             |
+| [`@lodestar/spec-test-util`](./packages/spec-test-util)     | [![npm](https://img.shields.io/npm/v/@lodestar/spec-test-util)](https://www.npmjs.com/package/@lodestar/spec-test-util)     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/spec-test-util)   | :test_tube: Test harness for Eth Consensus spec tests            |
+| [`@lodestar/state-transition`](./packages/state-transition) | [![npm](https://img.shields.io/npm/v/@lodestar/state-transition)](https://www.npmjs.com/package/@lodestar/state-transition) | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/state-transition) | :mag_right: Eth Consensus beacon-state transition                |
+| [`@lodestar/types`](./packages/types)                       | [![npm](https://img.shields.io/npm/v/@lodestar/types)](https://www.npmjs.com/package/@lodestar/types)                       | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/types)            | :spiral_notepad: Eth Consensus TypeScript and SSZ types          |
+| [`@lodestar/utils`](./packages/utils)                       | [![npm](https://img.shields.io/npm/v/@lodestar/utils)](https://www.npmjs.com/package/@lodestar/utils)                       | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/utils)            | :toolbox: Miscellaneous utility functions used across Lodestar   |
+| [`@lodestar/validator`](./packages/validator)               | [![npm](https://img.shields.io/npm/v/@lodestar/validator)](https://www.npmjs.com/package/@lodestar/validator)               | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [![documentation](https://img.shields.io/badge/readme-blue)](./packages/validator)        | :bank: Validator client                                          |
+
+## Contributors
+
+Read our [contributors document](/CONTRIBUTING.md), [submit an issue](https://github.com/ChainSafe/lodestar/issues/new/choose) or talk to us on our [Discord](https://discord.gg/yjyvFRP)!
+
+## Meetings
+
+Weekly contributor meetings are posted under [Discussions](https://github.com/ChainSafe/lodestar/discussions) and topics are welcomed by any participant in the relevant meeting thread. Feel free to check out our meeting notes and documents on [HackMD](https://hackmd.io/@wemeetagain/rJTEOdqPS/%2FXBzvaQgMTyyMJuToWAEDjw). Post-September 2021, meeting notes can be found on the [Lodestar Wiki Page](https://github.com/ChainSafe/lodestar/wiki).
+
+## Donations
+
+We are a local group of Toronto open-source developers. As such, all of our open-source work is funded by grants. We all take the time out of our hectic lives to contribute to the Ethereum ecosystem.
+If you want to donate, you can find the ETH address under "Sponsor this project" on this repository.

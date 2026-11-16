@@ -1,0 +1,13 @@
+{
+  "submission.csv": "d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae",
+  "forecast_details.csv": "0ec2c435707142b076c74ece8ee933dd97b3960b31017f78786a92a73d8705ba",
+  "forecast_diagnostics.json": "d4f3dbb291f2986b2925cac0256f4d97f9e7bdc94ce51ec5965e5bc7020493d7",
+  "forecast_sources.json": "511c1cea9845905fdb19a82979aacfbb2cfe860a0ab06ff42a3c9f70a1625225",
+  "evidence_assessments.csv": "eb3ac724db3393a9245b7c486ea5626e03c5e2804ffbf02ad36d5336c5b3e470",
+  "market_analysis.csv": "b36f16d2b420a22d46494b51de8c2a1eab3ca6f1bbcd7e380bfc1baf6f808429",
+  "market_diagnostics.csv": "7cdb98062510bcef457d23ea2de0748063503804ec57d9b6880b9da6b7a1a5bc",
+  "REPORT.md": "f440fb79d54f0651215597aa0ca1e5ad32f64b0bcaf083d6f6d21201e4af524d",
+  "repository_forecasts.md": "4770d7d076be4f6c0bb0bfaeb901245d91ec34fd3b442b9d4f87ba92c333a581",
+  "build_forecast.py": "ba0ba7861c98c3a325cb13369f84a24b5c674f78bb0ef2872dd9a7940d42c407",
+  "test_forecast.py": "a7eb3be2f5852dca513e31101dbc312a22b6934379cafe0b9aa04c2542d44c7e"
+}
