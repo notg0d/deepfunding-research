@@ -1,6 +1,6 @@
 # Deep Funding Round 3 originality forecast
 
-**Research date: November 16, 2026. Market snapshot: 11:10:32 UTC.**
+**Research refreshed: November 26, 2026. Market snapshot: 09:00:23 UTC.**
 
 This forecast estimates the new jury averages for all 98 required repository rows.
 It combines repository evidence, current market prices, and limited historical ratings.
@@ -14,10 +14,11 @@ It does not guarantee exact results or a competition rank.
 - [forecast_sources.json](forecast_sources.json): repository source URLs, collection times, and verified SHA-256 hashes.
 - [forecast_diagnostics.json](forecast_diagnostics.json): aggregate statistics and retrospective scores.
 - [market_diagnostics.csv](market_diagnostics.csv): chart movements and collateral-denominated market statistics.
+- [MARKET_REVIEW.md](MARKET_REVIEW.md): comparison of the November 26 snapshot with the original forecast and a record of which rows changed.
 
-The forecast mean is **0.731**. Its median is **0.759**, and its range is **0.293–0.909**.
-The mean raw UP quote is **0.733**.
-The main differences concern individual projects, not a broad downward adjustment across Ethereum.
+The refreshed forecast mean is **0.743**. Its median is **0.765**, and its range is **0.378–0.925**.
+The current mean raw UP quote is **0.757**.
+The forecast still includes uncalibrated, repository-specific evidence adjustments.
 
 ## 1. What the forecast measures
 
@@ -76,7 +77,7 @@ Therefore, a low public error is not evidence of future accuracy.
 ### Required names and aliases
 
 Both `hyperledger-web3j/web3j` and `LFDT-web3j/web3j` resolve to the same current repository.
-Both remain required submission rows. Both receive **0.765**.
+Both remain required submission rows. Both receive **0.778** in the refreshed file.
 Their market prices differ, so their shared forecast uses the average of the two raw UP quotes.
 
 The submission preserves every official spelling and row order.
@@ -87,7 +88,7 @@ The [dataset audit](dataset_analysis.json) records label statistics and market-a
 ### Correct market set
 
 The market source is the [current Round 3 quote endpoint](https://deep.seer.pm/.netlify/functions/get-originality-r3-v3-markets-data).
-The [saved response](sources/market/live_markets.json) was fetched at **2026-11-16 11:10:32 UTC**.
+The [saved response](sources/market/live_markets.json) was fetched at **2026-11-26 09:00:23 UTC**.
 All 98 repository market addresses match `repos.csv`.
 
 The current public client identifies this parent market:
@@ -108,9 +109,8 @@ UP and DOWN trade in separate pools, and the market also has an Invalid outcome.
 
 In the current snapshot:
 
-- UP + DOWN ranges from **0.854817 to 1.000056**.
-- **13** pairs sum to less than **0.98**.
-- **7** pairs sum to less than **0.95**.
+- UP + DOWN ranges from **0.985060 to 1.059781**.
+- No pair sums to less than **0.98** in this snapshot.
 
 The primary forecast uses raw UP. It does not assume that UP and DOWN must sum to one.
 This follows the dataset's description of UP as the market estimate of the proportional payout.
@@ -123,35 +123,33 @@ The sensitivity calculation instead uses:
 normalized_UP = UP / (UP + DOWN)
 ```
 
-Normalization is not automatically a correction. It discards the pair's discount and can materially change the estimate.
-For Alloy, raw UP is **0.751**, while normalized UP is **0.879**.
-The resulting forecast changes from **0.800 to 0.870**.
-This 0.070 difference is methodological uncertainty, not evidence that either value is correct.
+Normalization is not automatically a correction. It discards the pair's discount and can change the estimate.
+The largest resulting forecast change is **0.023**, for DAppNode.
+This is methodological sensitivity, not evidence that either value is correct.
 
-Six forecasts change by more than 0.020 under normalization:
-Alloy, Fe, Arkworks algebra, Aderyn, L2BEAT, and Safe.
+Only one forecast changes by more than 0.020 under normalization: DAppNode.
 Both versions appear in `forecast_details.csv`.
 
 ### Price changes and market activity
 
 The chart endpoint returned 104 records. The analysis retains only the 98 required leaf markets.
-The recorded chart window ends at **November 16, 2026, 07:00 UTC**.
+The recorded chart window ends at **November 26, 2026, 08:30 UTC**.
 Seven-day changes use the last recorded price at or before the seven-day boundary.
 They are not exact trade-to-trade returns.
 
 | Repository | Recorded seven-day UP change |
 |---|---:|
-| Eth Docker | −0.099146 |
-| MCL | −0.077819 |
-| WhatsABI | +0.067501 |
-| noble-curves | −0.062052 |
-| Safe | −0.059114 |
+| Ethereum JS Cryptography | +0.212367 |
+| WhatsABI | −0.129830 |
+| EIPs | +0.098377 |
+| Act | +0.096682 |
+| ChainSafe BLS | +0.095843 |
 
-Across all 98 charts, 43 prices rose and 55 fell. The median change was **−0.0042415**.
+Across all 98 charts, 72 prices rose and 26 fell. The median change was **+0.021996**.
 
-The latest recorded UP transition occurs at **01:30 UTC on November 16** for 97 of 98 charts.
-Its maximum absolute size is only **0.000110**.
-These synchronized tails resemble snapshot or rounding updates. They do not establish 97 independent trades.
+The latest recorded UP transitions occur at **01:00, 05:00, and 07:00 UTC on November 26**.
+The largest final transition is only **0.000118**.
+These synchronized tails resemble snapshot or rounding updates. They do not establish independent trades.
 The chart timestamps are not confirmed trade timestamps.
 
 Reported volume and liquidity use different repository collateral tokens, **not USD**.
@@ -174,13 +172,13 @@ Dependency counts, lines of code, commits, stars, and forks are not direct origi
 
 | Repository | Forecast | Raw UP | Main evidence |
 |---|---:|---:|---|
-| `ethereum/js-ethereum-cryptography` | **0.293** | 0.508 | Documentation describes noble/scure re-exports; selected source files confirm delegation. |
-| `smartcontracts/simple-optimism-node` | **0.442** | 0.625 | Docker Compose deploys OP Stack images rather than implementing their execution protocol. |
-| `ChainSafe/bls` | **0.457** | 0.617 | Native blst bindings and a herumi WASM backend supply the cryptographic core. |
-| `aestus-relay/mev-boost-relay` | **0.515** | 0.721 | Flashbots fork ancestry, with substantive relay additions but extensive inherited functionality. |
-| `scaffold-eth/scaffold-eth-2` | **0.542** | 0.724 | Wagmi, Viem, RainbowKit, and NextJS provide central application functionality. |
-| `succinctlabs/rsp` | **0.565** | 0.669 | Reth supplies execution and SP1 supplies proving; witness integration remains original work. |
-| `risc0/risc0-ethereum` | **0.633** | 0.735 | Ethereum integration depends on the separate RISC Zero zkVM. |
+| `ethereum/js-ethereum-cryptography` | **0.378** | 0.721 | Documentation describes noble/scure re-exports; selected source files confirm delegation. |
+| `smartcontracts/simple-optimism-node` | **0.453** | 0.653 | Docker Compose deploys OP Stack images rather than implementing their execution protocol. |
+| `ChainSafe/bls` | **0.495** | 0.713 | Native blst bindings and a herumi WASM backend supply the cryptographic core. |
+| `aestus-relay/mev-boost-relay` | **0.532** | 0.777 | Flashbots fork ancestry, with substantive relay additions but extensive inherited functionality. |
+| `scaffold-eth/scaffold-eth-2` | **0.526** | 0.686 | Wagmi, Viem, RainbowKit, and NextJS provide central application functionality. |
+| `succinctlabs/rsp` | **0.567** | 0.672 | Reth supplies execution and SP1 supplies proving; witness integration remains original work. |
+| `risc0/risc0-ethereum` | **0.611** | 0.685 | Ethereum integration depends on the separate RISC Zero zkVM. |
 
 These are forecast disagreements, **not proven market mispricing**.
 They depend on how the new jurors allocate credit between integration and upstream implementation.
@@ -194,7 +192,7 @@ Fork ancestry does not imply zero original work.
 
 However, Aestus's historical rating was **0.89**, far above this forecast.
 Its **0.20–0.93** scenario range reflects unusually large uncertainty about the jury's scope.
-The 0.515 point estimate is a substantial, risky departure from that historical judgment.
+The refreshed 0.532 point estimate remains a substantial, risky departure from that historical judgment.
 
 Ethstaker's deposit CLI is **678 commits ahead and 28 behind** the compared staking-deposit-cli branch.
 Its comparison returns 300 files. Renames and API limits prevent a complete diff-based originality measurement.
@@ -233,25 +231,25 @@ The competition does not specify a sufficiently clear repository cutoff to elimi
 
 | Repository | Forecast | Raw UP | Main contribution |
 |---|---:|---:|---|
-| `supranational/blst` | **0.909** | 0.839 | Foundational C and assembly BLS implementation. |
-| `ethereum/consensus-specs` | **0.902** | 0.855 | Protocol specifications and executable consensus descriptions. |
-| `ethereum/eips` | **0.891** | 0.791 | Proposal research and protocol standardization. |
-| `Consensys/gnark-crypto` | **0.863** | 0.825 | Field arithmetic and pairing implementations. |
-| `ethers-io/ethers.js` | **0.863** | 0.843 | Substantial Ethereum SDK implementation. |
-| `argotorg/solidity` | **0.862** | 0.825 | Language design and compiler implementation. |
-| `status-im/nimbus-eth2` | **0.855** | 0.821 | Independent, resource-efficient consensus-client engineering. |
-| `shazow/whatsabi` | **0.835** | 0.830 | Bytecode analysis and proxy-resolution algorithms. |
+| `ethereum/eips` | **0.925** | 0.890 | Proposal research and protocol standardization. |
+| `ethereum/consensus-specs` | **0.910** | 0.875 | Protocol specifications and executable consensus descriptions. |
+| `supranational/blst` | **0.910** | 0.839 | Foundational C and assembly BLS implementation. |
+| `status-im/nimbus-eth2` | **0.877** | 0.866 | Independent, resource-efficient consensus-client engineering. |
+| `ethers-io/ethers.js` | **0.874** | 0.872 | Substantial Ethereum SDK implementation. |
+| `Consensys/gnark-crypto` | **0.869** | 0.838 | Field arithmetic and pairing implementations. |
+| `argotorg/solidity` | **0.868** | 0.845 | Language design and compiler implementation. |
+| `paulmillr/noble-curves` | **0.868** | 0.846 | Cryptographic curve implementation with independent security reviews. |
 
 The manually assigned category summaries show the same distinction:
 
 | Category | Rows | Mean forecast | Mean raw UP |
 |---|---:|---:|---:|
-| Specifications | 4 | 0.852 | 0.801 |
-| Cryptographic primitives | 8 | 0.830 | 0.776 |
-| Clients | 16 | 0.780 | 0.762 |
-| Zero-knowledge systems | 9 | 0.661 | 0.688 |
-| Deployment tools | 5 | 0.536 | 0.599 |
-| Wrappers | 4 | 0.467 | 0.630 |
+| Specifications | 4 | 0.858 | 0.823 |
+| Cryptographic primitives | 8 | 0.846 | 0.805 |
+| Clients | 16 | 0.793 | 0.784 |
+| Zero-knowledge systems | 9 | 0.659 | 0.682 |
+| Deployment tools | 5 | 0.563 | 0.653 |
+| Wrappers | 4 | 0.502 | 0.715 |
 
 These summaries describe this forecast. They are not validated category-level facts about jury behavior.
 
@@ -284,8 +282,8 @@ Market prices may already reflect public ratings, so the components are not nece
 For JS Ethereum Cryptography, the calculation is:
 
 ```text
-0.60 * 0.15 + 0.40 * 0.5080039 = 0.2932016
-submission value = 0.293
+0.60 * 0.15 + 0.40 * 0.7207351 = 0.3782940
+submission value = 0.378
 ```
 
 The submission rounds each value to three decimals.
@@ -299,8 +297,8 @@ This is file precision, not a claim of three-decimal predictive accuracy.
 2. Remove direct historical-label use and return its weight to the market.
 3. Increase or decrease the evidence weight by 0.10.
 
-The largest rounded change under the evidence-weight adjustment is **0.037**.
-The largest normalization change is **0.070**.
+The largest rounded change under the evidence-weight adjustment is **0.057**.
+The largest normalization change is **0.023**.
 These calculations test selected modeling choices, not every possible source of error.
 
 Scenario ranges reflect plausible disagreements about dependency credit and repository scope.
@@ -315,19 +313,20 @@ The official scorer produces these errors against the 33 **known R1 averages**:
 |---|---:|
 | Constant 0.800 | 3.670000 |
 | October raw UP | 2.734761 |
-| November raw UP | 2.465020 |
-| November normalized UP | 2.503960 |
+| November 16 raw UP | 2.465020 |
+| November 26 raw UP | 1.741816 |
+| November 26 normalized UP | 1.736882 |
 | Subjective evidence priors alone | 2.880000 |
-| Recommended blend, with direct history | **2.277000** |
-| Blend without direct history | 2.533666 |
+| Refreshed blend, with direct history | **2.009000** |
+| Refreshed blend without direct history | 2.191000 |
 
 **These are not held-out results.** The recommendation directly includes the published historical targets.
 Those targets were also visible during the research.
 Even the history-free calculation is not a blind experiment.
 
-The history-free blend does **not** beat raw market prices on these old labels.
-The research therefore has not demonstrated a predictive advantage over the market.
-The recommended values express evidence-based judgments about new Round 3 ratings, not proven superior accuracy.
+The refreshed market and blend errors are retrospective comparisons on the same published labels, which the research already used.
+They are not held-out evidence of Round 3 accuracy or of an advantage over the market.
+The refreshed values express evidence-based judgments about new Round 3 ratings, not proven superior accuracy.
 
 Exact final accuracy, expected rank, and winning probability cannot be established from the available data.
 The new jury targets do not yet exist.
@@ -341,14 +340,15 @@ Run these commands from this report's directory:
 ```powershell
 python build_forecast.py
 python -m unittest test_forecast.py -v
+python -m unittest test_strict_audit.py test_insight_review.py -v
 python sources/dataset/metric.py submission.csv --solution sources/dataset/public_leaderboard_targets.csv
 ```
 
 The build overwrites its generated forecast files. It does not submit a file or execute a trade.
 It uses saved inputs rather than fresh network requests.
-`sources/repository_index.json` currently records absolute collection paths, so retain the folder's original location for this build.
+The original November 16 generated artifacts remain preserved in [strict_audit/baseline](strict_audit/baseline). Current forecast files use the refreshed market input.
 
-Validation on November 16, 2026 confirmed:
+Validation on November 26, 2026 confirmed:
 
 - All 98 required rows are present, with finite values in `[0,1]`.
 - Both Web3j aliases have identical forecasts.
@@ -356,16 +356,17 @@ Validation on November 16, 2026 confirmed:
 - Historical averages agree with the individual ratings, within published rounding.
 - All cited repository source hashes match their saved files.
 - Only the 98 required leaf markets enter the chart analysis.
-- All **nine local tests pass**.
-- The official scorer reports **public error: 2.2770**.
+- All **36 local tests pass**.
+- The official scorer reports **public error: 2.0090**. This remains an in-sample diagnostic, not validation against Round 3 jury scores.
 
 The submission SHA-256 is:
 
 ```text
-d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae
+33504dc379f7d92db25e0bb0574f284a33191630ecdb56ba3dbda9ecfb009f52
 ```
 
-Online `HEAD` links can change. Use the saved files and provenance sidecars to inspect the evidence from this research date.
+The forecast now uses a November 26 market snapshot. A fresh market update changes **93 of 98** rounded predictions from the original November 16 submission. See the [market refresh review](MARKET_REVIEW.md) for the comparison and major movers.
+Online `HEAD` links can change. Use the saved files and provenance sidecars to inspect the evidence from each research date.
 Collection failures appear in the source-index files rather than as invented evidence.
 
 ## 9. Competition conditions and remaining gaps

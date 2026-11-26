@@ -1,0 +1,44 @@
+[
+  {
+    "local_path": "insight_review/sources/seer/market_metadata/alloy-rs__alloy.json",
+    "url": "https://app.seer.pm/.netlify/functions/get-market",
+    "method": "POST",
+    "request": {
+      "chainId": 10,
+      "id": "0x107af2f9daacad63256adc9c54ddbd630b2b87d6"
+    },
+    "fetched_at": "2026-11-16T14:52:42.088279+00:00",
+    "status": 200,
+    "final_url": "https://app.seer.pm/.netlify/functions/get-market",
+    "sha256": "6f2b5dae076fc28118f7afe1e2696016f3dff7aeeea66d7bc39375040b2ec38a",
+    "bytes": 2785
+  },
+  {
+    "local_path": "insight_review/sources/seer/market_metadata/arkworks-rs__algebra.json",
+    "url": "https://app.seer.pm/.netlify/functions/get-market",
+    "method": "POST",
+    "request": {
+      "chainId": 10,
+      "id": "0xb52c7e58dc48250b6cb4fbe5ed251f617700bf06"
+    },
+    "fetched_at": "2026-11-16T14:52:42.089363+00:00",
+    "status": 200,
+    "final_url": "https://app.seer.pm/.netlify/functions/get-market",
+    "sha256": "7ba43263713f969f56c79e12d1d73890b88708d61bec8342954b99dc8a15dbd6",
+    "bytes": 2803
+  },
+  {
+    "local_path": "insight_review/sources/seer/market_metadata/parent.json",
+    "url": "https://app.seer.pm/.netlify/functions/get-market",
+    "method": "POST",
+    "request": {
+      "chainId": 10,
+      "id": "0x37ab5cbeee3a32289430e5d38b914ec7f580fd87"
+    },
+    "fetched_at": "2026-11-16T14:52:42.090335+00:00",
+    "status": 200,
+    "final_url": "https://app.seer.pm/.netlify/functions/get-market",
+    "sha256": "8c8c885ec999e724a21d8094d786b4bd3ce08849c3c62fba900a026a94e9e83a",
+    "bytes": 3691
+  }
+]

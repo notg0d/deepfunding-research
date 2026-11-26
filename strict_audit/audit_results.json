@@ -1,8 +1,8 @@
 {
-  "audit_date_utc": "2026-11-16",
+  "audit_date_utc": "2026-11-26",
   "verdict": "TECHNICAL_CHECKS_PASS_WITH_RESEARCH_LIMITATIONS",
   "forecast_certified_as_accurate": false,
-  "numerical_revisions": 0,
+  "numerical_revisions": 93,
   "checks": [
     {
       "id": "submission_format",
@@ -10,14 +10,16 @@
       "detail": {
         "rows": 98,
         "aliases_equal": true,
-        "sha256": "d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae"
+        "sha256": "33504dc379f7d92db25e0bb0574f284a33191630ecdb56ba3dbda9ecfb009f52"
       }
     },
     {
       "id": "original_artifacts_preserved",
       "status": "PASS",
       "detail": {
-        "preserved_artifacts": 11
+        "preserved_original_artifacts": 11,
+        "original_submission_sha256": "d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae",
+        "current_submission_differs_from_original": true
       }
     },
     {
@@ -74,12 +76,12 @@
       }
     },
     {
-      "id": "original_market_token_orientation",
+      "id": "current_market_token_orientation",
       "status": "PASS",
       "detail": {
         "markets": 98,
         "quotes_checked": 196,
-        "max_absolute_tick_price_error": 1.041576346026e-16,
+        "max_absolute_tick_price_error": 9.1653640128e-17,
         "orientations": {
           "up_inverse": 49,
           "down_inverse": 53,
@@ -89,7 +91,7 @@
       }
     },
     {
-      "id": "fresh_market_token_orientation",
+      "id": "prior_market_token_orientation",
       "status": "PASS",
       "detail": {
         "markets": 98,
@@ -116,13 +118,13 @@
       "id": "independent_sae",
       "status": "PASS",
       "detail": {
-        "official_submission_sae": 2.277,
+        "official_submission_sae": 2.009,
         "independent_sae": {
-          "live_raw_up": 2.4650200990203794,
-          "live_normalized_up": 2.5039595922411246,
+          "live_raw_up": 1.7418161730818877,
+          "live_normalized_up": 1.7368818730985378,
           "subjective_evidence_prior": 2.88,
-          "recommended_forecast_uses_public_history": 2.277,
-          "forecast_without_direct_history_but_not_blind": 2.533666
+          "recommended_forecast_uses_public_history": 2.009,
+          "forecast_without_direct_history_but_not_blind": 2.191
         },
         "held_out": false,
         "future_accuracy_validated": false
@@ -150,42 +152,84 @@
       "id": "fresh_quote_sensitivity",
       "status": "PASS",
       "detail": {
-        "largest_raw_up_changes": [
+        "comparison": "current November 26 quotes versus original November 16 forecast inputs",
+        "original_market_input_timestamp": "2026-11-16T11:10:32.619748+00:00",
+        "current_market_input_timestamp": "2026-11-26T09:00:23.515504+00:00",
+        "mean_absolute_up_quote_change": 0.03705702816558028,
+        "median_absolute_up_quote_change": 0.02852090610483545,
+        "rounded_submission_rows_changed": 93,
+        "maximum_absolute_rounded_forecast_change": 0.085,
+        "largest_forecast_changes": [
           {
-            "repo": "protofire/solhint",
-            "change": -0.0007503086367189
+            "repo": "ethereum/js-ethereum-cryptography",
+            "change": 0.085
           },
           {
-            "repo": "eth-infinitism/account-abstraction",
-            "change": -0.0007387211102674
+            "repo": "shazow/whatsabi",
+            "change": -0.065
           },
           {
-            "repo": "holiman/goevmlab",
-            "change": -0.0006776351293009
+            "repo": "argotorg/act",
+            "change": 0.053
           },
           {
-            "repo": "dl-solarity/solidity-lib",
-            "change": -0.0006672132838254
+            "repo": "argotorg/fe",
+            "change": 0.052
           },
           {
-            "repo": "ethereum/go-ethereum",
-            "change": -0.0006373207880054
+            "repo": "Vectorized/solady",
+            "change": 0.052
           },
           {
-            "repo": "nomicfoundation/hardhat",
-            "change": -0.0005928116583769
+            "repo": "ethstaker/eth-docker",
+            "change": 0.045
           },
           {
-            "repo": "foundry-rs/foundry",
-            "change": 0.0005586323890018
+            "repo": "ethereum/py_ecc",
+            "change": 0.044
           },
           {
-            "repo": "libp2p/libp2p",
-            "change": 0.0005485028903355
+            "repo": "ethstaker/ethstaker-deposit-cli",
+            "change": 0.043
           }
         ],
-        "maximum_unrounded_blend_change": 0.00045018518203134,
-        "original_forecast_inputs_replaced": false
+        "largest_raw_up_changes_since_prior_same_day_snapshot": [
+          {
+            "repo": "ethereum/js-ethereum-cryptography",
+            "change": 0.2127311837880352
+          },
+          {
+            "repo": "shazow/whatsabi",
+            "change": -0.1302912054664422
+          },
+          {
+            "repo": "ethereum/eips",
+            "change": 0.0987334626539576
+          },
+          {
+            "repo": "argotorg/act",
+            "change": 0.0963057354779787
+          },
+          {
+            "repo": "ChainSafe/bls",
+            "change": 0.0961159536279235
+          },
+          {
+            "repo": "flashbots/mev-boost",
+            "change": 0.0936010693056124
+          },
+          {
+            "repo": "ethstaker/eth-docker",
+            "change": 0.0903778656224006
+          },
+          {
+            "repo": "ethstaker/ethstaker-deposit-cli",
+            "change": 0.0874428545434636
+          }
+        ],
+        "maximum_unrounded_blend_change": 0.08509247351521408,
+        "market_weighted_forecast_refreshed": true,
+        "original_submission_preserved_in_baseline": true
       }
     },
     {

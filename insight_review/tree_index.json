@@ -1,0 +1,29 @@
+[
+  {
+    "local_path": "insight_review/sources/sp1/tree.json",
+    "url": "https://api.github.com/repos/succinctlabs/sp1/git/trees/749b0c63f226063c471a6238a94101f930c14a13?recursive=1",
+    "fetched_at": "2026-11-16T14:50:31.331608+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/succinctlabs/sp1/git/trees/749b0c63f226063c471a6238a94101f930c14a13?recursive=1",
+    "sha256": "08518f7dde9472f60c98f2e5e8fa2918288e93f0fec56d5fb5de480c3a1c086d",
+    "bytes": 744320
+  },
+  {
+    "local_path": "insight_review/sources/seer/tree.json",
+    "url": "https://api.github.com/repos/seer-pm/demo/git/trees/42f7d3e73808599fc788f98490983a0de80e2f0e?recursive=1",
+    "fetched_at": "2026-11-16T14:50:31.332485+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/seer-pm/demo/git/trees/42f7d3e73808599fc788f98490983a0de80e2f0e?recursive=1",
+    "sha256": "9a12f6a5d3f86b4f73f6c8030dfb7e6c333deb46ded444ba54fbec81a8c9b532",
+    "bytes": 333216
+  },
+  {
+    "local_path": "insight_review/sources/registry/tree.json",
+    "url": "https://api.github.com/repos/ethereum-lists/chains/git/trees/5388cf3dd22901b89df7dd5c970d28e299ce7196?recursive=1",
+    "fetched_at": "2026-11-16T14:50:31.333481+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ethereum-lists/chains/git/trees/5388cf3dd22901b89df7dd5c970d28e299ce7196?recursive=1",
+    "sha256": "84b4bffcd0536e1173be6c0e59cf2568ce2995ee6fe7a95aaccb7e32a85ffdaf",
+    "bytes": 1203888
+  }
+]

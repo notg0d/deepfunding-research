@@ -224,7 +224,7 @@ def main():
         "price_sum_below_095": sum(float(r["price_sum"]) < 0.95 for r in market_rows),
         "largest_chart_7d_moves": sorted(chart_details, key=lambda r: abs(r["chart_up_7d_change"] or 0), reverse=True)[:10],
         "latest_recorded_up_change_timestamp_counts": dict(Counter(r["last_recorded_up_price_change_utc"] for r in chart_details)),
-        "max_abs_up_change_at_2026_11_16_0130_utc": max(abs(r["last_recorded_up_price_change_size"]) for r in chart_details if r["last_recorded_up_price_change_utc"] == "2026-11-16T01:30:00+00:00"),
+        "max_abs_last_recorded_up_change": max((abs(r["last_recorded_up_price_change_size"]) for r in chart_details if r["last_recorded_up_price_change_size"] != ""), default=0.0),
         "chart_7d_up_count": sum(r["chart_up_7d_change"] > 0 for r in chart_details),
         "chart_7d_down_count": sum(r["chart_up_7d_change"] < 0 for r in chart_details),
         "chart_7d_median_change": st.median(r["chart_up_7d_change"] for r in chart_details),

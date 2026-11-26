@@ -1,0 +1,135 @@
+[
+  {
+    "local_path": "insight_review/sources/seer/llms.txt",
+    "url": "https://docs.seer.pm/llms.txt",
+    "fetched_at": "2026-11-16T14:50:06.591788+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/llms.txt",
+    "sha256": "5576f6477aca8d90d326e489cc169caffd8cbdc0dc274db286be100d7e2ddfd2",
+    "bytes": 9957
+  },
+  {
+    "local_path": "insight_review/sources/seer/resolve.md",
+    "url": "https://docs.seer.pm/developers/guides/resolve-a-market.md",
+    "fetched_at": "2026-11-16T14:50:06.592906+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/guides/resolve-a-market.md",
+    "sha256": "7be3ab35c518f14458a3a3c17695a9d84604ecbbda594ca27b7cdcacd3ffdf0a",
+    "bytes": 2590
+  },
+  {
+    "local_path": "insight_review/sources/seer/split_merge_redeem.md",
+    "url": "https://docs.seer.pm/developers/guides/split-merge-and-redeem.md",
+    "fetched_at": "2026-11-16T14:50:06.593408+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/guides/split-merge-and-redeem.md",
+    "sha256": "c63e12c98ac8077abdb790d3735bf1e28225026695003e150f5639d072b67072",
+    "bytes": 10033
+  },
+  {
+    "local_path": "insight_review/sources/seer/conditional_markets.md",
+    "url": "https://docs.seer.pm/developers/guides/conditional-markets.md",
+    "fetched_at": "2026-11-16T14:50:06.593881+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/guides/conditional-markets.md",
+    "sha256": "2da3bb92230b8dfdd80f56b2301c87a5a771e9e1306b3a805971822151652a2d",
+    "bytes": 14837
+  },
+  {
+    "local_path": "insight_review/sources/seer/trading.md",
+    "url": "https://docs.seer.pm/developers/guides/trading.md",
+    "fetched_at": "2026-11-16T14:50:06.765567+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/guides/trading.md",
+    "sha256": "7006b2085146208447a9edb9f768b80ed7d302d52fee79f54addb3262c1a5f75",
+    "bytes": 8193
+  },
+  {
+    "local_path": "insight_review/sources/seer/realityproxy.md",
+    "url": "https://docs.seer.pm/developers/contracts/core/realityproxy.md",
+    "fetched_at": "2026-11-16T14:50:06.766909+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/contracts/core/realityproxy.md",
+    "sha256": "697747df4b2dec4f469c2d7bb8018086c3e9887b258af1f6d9be41a4c6f40716",
+    "bytes": 7942
+  },
+  {
+    "local_path": "insight_review/sources/seer/api.md",
+    "url": "https://docs.seer.pm/developers/api.md",
+    "fetched_at": "2026-11-16T14:50:06.792632+00:00",
+    "status": 200,
+    "final_url": "https://docs.seer.pm/developers/api.md",
+    "sha256": "c173303ef7ee8a9402b94aa42b5040747e06f4cfae2b19fa0d1027a6b7a846cc",
+    "bytes": 24562
+  },
+  {
+    "local_path": "insight_review/sources/registry/eip155.html",
+    "url": "https://eips.ethereum.org/EIPS/eip-155",
+    "fetched_at": "2026-11-16T14:50:06.795517+00:00",
+    "status": 200,
+    "final_url": "https://eips.ethereum.org/EIPS/eip-155",
+    "sha256": "d2ee74d5b9d5230e5871645148c0978b10463b039a25d2ba753d3a8d6350c8c0",
+    "bytes": 17691
+  },
+  {
+    "local_path": "insight_review/sources/registry/caip2_eip155.html",
+    "url": "https://namespaces.chainagnostic.org/eip155/caip2",
+    "fetched_at": "2026-11-16T14:50:06.868267+00:00",
+    "status": 200,
+    "final_url": "https://namespaces.chainagnostic.org/eip155/caip2",
+    "sha256": "423487876763c2922736a9d274f87f3660e7ea3350724272913c7fc39b91e05e",
+    "bytes": 10813
+  },
+  {
+    "local_path": "insight_review/sources/sp1/introduction.html",
+    "url": "https://docs.succinct.xyz/docs/sp1/introduction",
+    "fetched_at": "2026-11-16T14:50:06.878991+00:00",
+    "status": 200,
+    "final_url": "https://docs.succinct.xyz/docs/sp1/introduction",
+    "sha256": "d2155a352fc7f98e01a30d7227e4c400bdaea7dada8e6d5d44fa03b5c7ed8055",
+    "bytes": 33401
+  },
+  {
+    "local_path": "insight_review/sources/sp1/hypercube.html",
+    "url": "https://docs.succinct.xyz/docs/sp1/hypercube/",
+    "fetched_at": "2026-11-16T14:50:06.919264+00:00",
+    "status": 200,
+    "final_url": "https://docs.succinct.xyz/docs/sp1/hypercube/",
+    "sha256": "6c7b76deecd95c97ce9ce5ffd7b75952ddfe3c582cf6348d9fba9f80baf846f6",
+    "bytes": 34149
+  },
+  {
+    "local_path": "insight_review/sources/sp1/precompiles.html",
+    "url": "https://docs.succinct.xyz/docs/sp1/optimizing-programs/precompiles",
+    "fetched_at": "2026-11-16T14:50:07.123973+00:00",
+    "status": 200,
+    "final_url": "https://docs.succinct.xyz/docs/sp1/optimizing-programs/precompiles",
+    "sha256": "40c516b1581d6de4d7c974b2661bc68da63421d63c63787e567347b131212f72",
+    "bytes": 58600
+  },
+  {
+    "local_path": "insight_review/sources/seer/head.json",
+    "url": "https://api.github.com/repos/seer-pm/demo/commits/main",
+    "fetched_at": "2026-11-16T14:50:07.216216+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/seer-pm/demo/commits/main",
+    "sha256": "9f37bef05239f06ae0f577ce635a425803f91dc07fc1d8bd3ac7eb819b3189f9",
+    "bytes": 8157
+  },
+  {
+    "local_path": "insight_review/sources/registry/head.json",
+    "url": "https://api.github.com/repos/ethereum-lists/chains/commits/master",
+    "fetched_at": "2026-11-16T14:50:07.658136+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ethereum-lists/chains/commits/master",
+    "sha256": "928b3183b91af4b721ad914d292b316fe7d64895b722d7724b386930495951a4",
+    "bytes": 21045
+  },
+  {
+    "local_path": "insight_review/sources/libp2p/concepts.html",
+    "url": "https://docs.libp2p.io/concepts/introduction/overview/",
+    "fetched_at": "2026-11-16T14:50:07.964209+00:00",
+    "status": null,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'docs.libp2p.io'. (_ssl.c:1082)>"
+  }
+]

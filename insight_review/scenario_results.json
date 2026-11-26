@@ -1,0 +1,288 @@
+{
+  "snapshot": "Original quotes, 2026-11-16 11:10:32 UTC; no quote replacement.",
+  "not_held_out_validation": true,
+  "scenario_count_including_history_free": 20,
+  "decimal_forecast_checks": 1966,
+  "scenarios": [
+    {
+      "scenario": "original_raw",
+      "rows": 98,
+      "active_branch_rows": 0,
+      "changed_rows_vs_original": 0,
+      "public_sae_decimal": "2.277000",
+      "public_sae_official": 2.277,
+      "maximum_abs_change_vs_original": "0.000",
+      "public_sae_change_vs_original": "0.000000"
+    },
+    {
+      "scenario": "original_raw_without_history",
+      "rows": 98,
+      "active_branch_rows": 0,
+      "changed_rows_vs_original": 31,
+      "public_sae_decimal": "2.533666",
+      "public_sae_official": 2.533666,
+      "maximum_abs_change_vs_original": "0.025",
+      "public_sae_change_vs_original": "0.256666"
+    },
+    {
+      "scenario": "normalized_all",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 32,
+      "public_sae_decimal": "2.302000",
+      "public_sae_official": 2.302,
+      "maximum_abs_change_vs_original": "0.070",
+      "public_sae_change_vs_original": "0.025000"
+    },
+    {
+      "scenario": "normalized_all_without_history",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 54,
+      "public_sae_decimal": "2.567666",
+      "public_sae_official": 2.567666,
+      "maximum_abs_change_vs_original": "0.070",
+      "public_sae_change_vs_original": "0.290666"
+    },
+    {
+      "scenario": "midpoint_all",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 30,
+      "public_sae_decimal": "2.289000",
+      "public_sae_official": 2.2889999999999997,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.012000"
+    },
+    {
+      "scenario": "midpoint_all_without_history",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 52,
+      "public_sae_decimal": "2.549666",
+      "public_sae_official": 2.549666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.272666"
+    },
+    {
+      "scenario": "midpoint_below_085",
+      "rows": 98,
+      "active_branch_rows": 0,
+      "changed_rows_vs_original": 0,
+      "public_sae_decimal": "2.277000",
+      "public_sae_official": 2.277,
+      "maximum_abs_change_vs_original": "0.000",
+      "public_sae_change_vs_original": "0.000000"
+    },
+    {
+      "scenario": "midpoint_below_085_without_history",
+      "rows": 98,
+      "active_branch_rows": 0,
+      "changed_rows_vs_original": 31,
+      "public_sae_decimal": "2.533666",
+      "public_sae_official": 2.533666,
+      "maximum_abs_change_vs_original": "0.025",
+      "public_sae_change_vs_original": "0.256666"
+    },
+    {
+      "scenario": "midpoint_below_09",
+      "rows": 98,
+      "active_branch_rows": 3,
+      "changed_rows_vs_original": 3,
+      "public_sae_decimal": "2.277000",
+      "public_sae_official": 2.277,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.000000"
+    },
+    {
+      "scenario": "midpoint_below_09_without_history",
+      "rows": 98,
+      "active_branch_rows": 3,
+      "changed_rows_vs_original": 34,
+      "public_sae_decimal": "2.533666",
+      "public_sae_official": 2.533666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.256666"
+    },
+    {
+      "scenario": "midpoint_below_095",
+      "rows": 98,
+      "active_branch_rows": 7,
+      "changed_rows_vs_original": 7,
+      "public_sae_decimal": "2.277000",
+      "public_sae_official": 2.277,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.000000"
+    },
+    {
+      "scenario": "midpoint_below_095_without_history",
+      "rows": 98,
+      "active_branch_rows": 7,
+      "changed_rows_vs_original": 38,
+      "public_sae_decimal": "2.533666",
+      "public_sae_official": 2.533666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.256666"
+    },
+    {
+      "scenario": "midpoint_below_098",
+      "rows": 98,
+      "active_branch_rows": 13,
+      "changed_rows_vs_original": 13,
+      "public_sae_decimal": "2.282000",
+      "public_sae_official": 2.282,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.005000"
+    },
+    {
+      "scenario": "midpoint_below_098_without_history",
+      "rows": 98,
+      "active_branch_rows": 13,
+      "changed_rows_vs_original": 43,
+      "public_sae_decimal": "2.539666",
+      "public_sae_official": 2.539666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.262666"
+    },
+    {
+      "scenario": "midpoint_below_10",
+      "rows": 98,
+      "active_branch_rows": 63,
+      "changed_rows_vs_original": 30,
+      "public_sae_decimal": "2.289000",
+      "public_sae_official": 2.2889999999999997,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.012000"
+    },
+    {
+      "scenario": "midpoint_below_10_without_history",
+      "rows": 98,
+      "active_branch_rows": 63,
+      "changed_rows_vs_original": 52,
+      "public_sae_decimal": "2.549666",
+      "public_sae_official": 2.549666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.272666"
+    },
+    {
+      "scenario": "midpoint_below_102",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 30,
+      "public_sae_decimal": "2.289000",
+      "public_sae_official": 2.2889999999999997,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.012000"
+    },
+    {
+      "scenario": "midpoint_below_102_without_history",
+      "rows": 98,
+      "active_branch_rows": 98,
+      "changed_rows_vs_original": 52,
+      "public_sae_decimal": "2.549666",
+      "public_sae_official": 2.549666,
+      "maximum_abs_change_vs_original": "0.035",
+      "public_sae_change_vs_original": "0.272666"
+    },
+    {
+      "scenario": "normalized_below_098",
+      "rows": 98,
+      "active_branch_rows": 13,
+      "changed_rows_vs_original": 13,
+      "public_sae_decimal": "2.288000",
+      "public_sae_official": 2.288,
+      "maximum_abs_change_vs_original": "0.070",
+      "public_sae_change_vs_original": "0.011000"
+    },
+    {
+      "scenario": "normalized_below_098_without_history",
+      "rows": 98,
+      "active_branch_rows": 13,
+      "changed_rows_vs_original": 43,
+      "public_sae_decimal": "2.545666",
+      "public_sae_official": 2.5456659999999998,
+      "maximum_abs_change_vs_original": "0.070",
+      "public_sae_change_vs_original": "0.268666"
+    }
+  ],
+  "deficit_count_below_098": 13,
+  "deficit_normalized_closer_to_subjective_prior": 9,
+  "publicly_labelled_deficits": [
+    "blockscout/blockscout"
+  ],
+  "alias_counterexample": {
+    "synthetic_not_current_quotes": true,
+    "price_sums": [
+      0.8,
+      1.0
+    ],
+    "proposed_per_row_anchors": [
+      0.76,
+      0.72
+    ],
+    "shared_branch_anchors": [
+      0.76,
+      0.76
+    ],
+    "shared_threshold_policy": "Use the mean price_sum for both aliases; heuristic, not uniquely optimal."
+  },
+  "unchanged_original_artifact_hashes": {
+    "submission.csv": "d2cdc04285f48dd7fe29a3992faca81201eda2dbc5430bf6aa22fcb679daf8ae",
+    "forecast_details.csv": "0ec2c435707142b076c74ece8ee933dd97b3960b31017f78786a92a73d8705ba",
+    "forecast_diagnostics.json": "d4f3dbb291f2986b2925cac0256f4d97f9e7bdc94ce51ec5965e5bc7020493d7",
+    "forecast_sources.json": "511c1cea9845905fdb19a82979aacfbb2cfe860a0ab06ff42a3c9f70a1625225",
+    "evidence_assessments.csv": "eb3ac724db3393a9245b7c486ea5626e03c5e2804ffbf02ad36d5336c5b3e470",
+    "market_analysis.csv": "b36f16d2b420a22d46494b51de8c2a1eab3ca6f1bbcd7e380bfc1baf6f808429",
+    "market_diagnostics.csv": "7cdb98062510bcef457d23ea2de0748063503804ec57d9b6880b9da6b7a1a5bc",
+    "REPORT.md": "f440fb79d54f0651215597aa0ca1e5ad32f64b0bcaf083d6f6d21201e4af524d",
+    "repository_forecasts.md": "4770d7d076be4f6c0bb0bfaeb901245d91ec34fd3b442b9d4f87ba92c333a581",
+    "build_forecast.py": "ba0ba7861c98c3a325cb13369f84a24b5c674f78bb0ef2872dd9a7940d42c407",
+    "test_forecast.py": "a7eb3be2f5852dca513e31101dbc312a22b6934379cafe0b9aa04c2542d44c7e"
+  },
+  "new_source_hashes": {
+    "insight_review/sources/registry/caip2_eip155.html": "423487876763c2922736a9d274f87f3660e7ea3350724272913c7fc39b91e05e",
+    "insight_review/sources/registry/eip155.html": "d2ee74d5b9d5230e5871645148c0978b10463b039a25d2ba753d3a8d6350c8c0",
+    "insight_review/sources/registry/head.json": "928b3183b91af4b721ad914d292b316fe7d64895b722d7724b386930495951a4",
+    "insight_review/sources/registry/tree.json": "84b4bffcd0536e1173be6c0e59cf2568ce2995ee6fe7a95aaccb7e32a85ffdaf",
+    "insight_review/sources/seer/api.md": "c173303ef7ee8a9402b94aa42b5040747e06f4cfae2b19fa0d1027a6b7a846cc",
+    "insight_review/sources/seer/ConditionalTokens.sol": "89f8ca9fd646044e22036c96fe04f7c5e78b7c4a628aa0bbf2abccacfcc84a08",
+    "insight_review/sources/seer/conditional_markets.md": "2da3bb92230b8dfdd80f56b2301c87a5a771e9e1306b3a805971822151652a2d",
+    "insight_review/sources/seer/head.json": "9f37bef05239f06ae0f577ce635a425803f91dc07fc1d8bd3ac7eb819b3189f9",
+    "insight_review/sources/seer/llms.txt": "5576f6477aca8d90d326e489cc169caffd8cbdc0dc274db286be100d7e2ddfd2",
+    "insight_review/sources/seer/realityproxy.md": "697747df4b2dec4f469c2d7bb8018086c3e9887b258af1f6d9be41a4c6f40716",
+    "insight_review/sources/seer/resolve.md": "7be3ab35c518f14458a3a3c17695a9d84604ecbbda594ca27b7cdcacd3ffdf0a",
+    "insight_review/sources/seer/split_merge_redeem.md": "c63e12c98ac8077abdb790d3735bf1e28225026695003e150f5639d072b67072",
+    "insight_review/sources/seer/trading.md": "7006b2085146208447a9edb9f768b80ed7d302d52fee79f54addb3262c1a5f75",
+    "insight_review/sources/seer/tree.json": "9a12f6a5d3f86b4f73f6c8030dfb7e6c333deb46ded444ba54fbec81a8c9b532",
+    "insight_review/sources/sp1/hypercube.html": "6c7b76deecd95c97ce9ce5ffd7b75952ddfe3c582cf6348d9fba9f80baf846f6",
+    "insight_review/sources/sp1/introduction.html": "d2155a352fc7f98e01a30d7227e4c400bdaea7dada8e6d5d44fa03b5c7ed8055",
+    "insight_review/sources/sp1/precompiles.html": "40c516b1581d6de4d7c974b2661bc68da63421d63c63787e567347b131212f72",
+    "insight_review/sources/sp1/tree.json": "08518f7dde9472f60c98f2e5e8fa2918288e93f0fec56d5fb5de480c3a1c086d",
+    "insight_review/sources/sp1/code/slop/README.md": "7a18c648d7e848358832c9f6328cec005e486dc1d99b55f51a2f53e0b72615d4",
+    "insight_review/sources/sp1/code/slop/crates/algebra/Cargo.toml": "e6c330ec0f995d2a0e1dacde64a0d30caf91b26c23cc89af2718b6b4511cb6e7",
+    "insight_review/sources/sp1/code/crates/prover/Cargo.toml": "9ba8b6c262b9db630aecd24680fbc0f3c8cbca188976646fd14c10bbe3cb5d72",
+    "insight_review/sources/sp1/code/crates/hypercube/src/lib.rs": "b2c7e404f165f1253907739ffd638db4649f0adfe30b4892b144b06fea07722e",
+    "insight_review/sources/sp1/code/crates/core/machine/Cargo.toml": "9f5cc93ce918bb118caac90c7342e83488387efc63d48d70591418fe081b64b4",
+    "insight_review/sources/sp1/code/crates/core/machine/src/syscall/precompiles/README.md": "6f3337f9ed95238d1a5c6b5ee0f2381128969a86e6b9be93c12455493b855c91",
+    "insight_review/sources/sp1/code/crates/core/machine/src/syscall/precompiles/sha256/compress/air.rs": "b231ef7fe420c678bf45e0c8775c11aadc65329465adb1996046eacbc5c9b6b7",
+    "insight_review/sources/seer/market_metadata/alloy-rs__alloy.json": "6f2b5dae076fc28118f7afe1e2696016f3dff7aeeea66d7bc39375040b2ec38a",
+    "insight_review/sources/seer/market_metadata/arkworks-rs__algebra.json": "7ba43263713f969f56c79e12d1d73890b88708d61bec8342954b99dc8a15dbd6",
+    "insight_review/sources/seer/market_metadata/parent.json": "8c8c885ec999e724a21d8094d786b4bd3ce08849c3c62fba900a026a94e9e83a",
+    "insight_review/sources/seer/code/web/src/lib/deepfundMarkets.generated.ts": "477340986c3e487d621c0893a5c1b53aadef7037be7eddeff43167343a33fc6a",
+    "insight_review/sources/seer/code/contracts/src/MarketFactory.sol": "61a2836ba38d8f30ee82488e6571313a2108abe272dbda810deec02e4a302839",
+    "insight_review/sources/seer/code/contracts/src/RealityProxy.sol": "6ae16de5296a90dbd9617d77916153548e6579c7181ede7e70a4c8ebaa0c4924",
+    "insight_review/sources/registry/code/processor/src/test/kotlin/org/ethereum/lists/chains/TheChainChecker.kt": "512a43a36bfd2feca8683c3c7c6c3f081d1634046138d8848bf5e8170643201a",
+    "insight_review/sources/registry/code/processor/src/main/kotlin/org/ethereum/lists/chains/Main.kt": "8a8a211f6592287467b3a3d7c2f2b96711b78c5085aff808a1348a45d4d570c3",
+    "insight_review/sources/registry/code/model/src/main/kotlin/org/ethereum/lists/chains/model/Chain.kt": "46ca2c2518eecd423d22048db928a320370632cfd0a6d7c27fa0455b4bfa6985",
+    "insight_review/sources/aestus/code/datastore/topbid.lua": "3855f4e1bbafe1014da92d12984e162bfed4b69c75890ec815fe788724531032",
+    "insight_review/sources/aestus/code/mevcommitclient/mev_commit_client.go": "59965a790ccaf6bdaca976954fef919ea87ef1920b38a1a9e317cef4e1d348ab",
+    "insight_review/sources/aestus/code/services/api/latency.go": "0f0faeb1c12931d418570179de70b1b9c1f2ab7ef4682869d48fcbbce3a311cb"
+  },
+  "limitations": [
+    "No Round 3 labels exist.",
+    "Public history enters the original blend and all scenarios marked uses_public_history.",
+    "Priors and all thresholds/fractions are subjective and uncalibrated.",
+    "Normalized prices use the same pools; they are not independent evidence.",
+    "The history-free scenarios are not blind forecasts."
+  ]
+}

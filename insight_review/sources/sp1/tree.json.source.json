@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/succinctlabs/sp1/git/trees/749b0c63f226063c471a6238a94101f930c14a13?recursive=1",
+  "fetched_at": "2026-11-16T14:50:31.331608+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/succinctlabs/sp1/git/trees/749b0c63f226063c471a6238a94101f930c14a13?recursive=1",
+  "sha256": "08518f7dde9472f60c98f2e5e8fa2918288e93f0fec56d5fb5de480c3a1c086d",
+  "bytes": 744320
+}

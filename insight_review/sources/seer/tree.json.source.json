@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/seer-pm/demo/git/trees/42f7d3e73808599fc788f98490983a0de80e2f0e?recursive=1",
+  "fetched_at": "2026-11-16T14:50:31.332485+00:00",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/seer-pm/demo/git/trees/42f7d3e73808599fc788f98490983a0de80e2f0e?recursive=1",
+  "sha256": "9a12f6a5d3f86b4f73f6c8030dfb7e6c333deb46ded444ba54fbec81a8c9b532",
+  "bytes": 333216
+}

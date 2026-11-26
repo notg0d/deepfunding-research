@@ -21,8 +21,10 @@ class StrictAuditTests(unittest.TestCase):
         self.assertTrue(all(r["status"] == "PASS" for r in self.checks.values()), self.checks)
 
     def test_original_artifacts_are_preserved(self):
-        self.assertEqual(self.detail("original_artifacts_preserved")["preserved_artifacts"], 11)
-        self.assertEqual(self.results["numerical_revisions"], 0)
+        baseline = self.detail("original_artifacts_preserved")
+        self.assertEqual(baseline["preserved_original_artifacts"], 11)
+        self.assertTrue(baseline["current_submission_differs_from_original"])
+        self.assertEqual(self.results["numerical_revisions"], 93)
 
     def test_upstream_records_and_official_rounding(self):
         result = self.detail("upstream_historical_labels")
@@ -36,8 +38,8 @@ class StrictAuditTests(unittest.TestCase):
 
     def test_independent_and_official_sae_match(self):
         result = self.detail("independent_sae")
-        self.assertAlmostEqual(result["official_submission_sae"], 2.277, places=12)
-        self.assertAlmostEqual(result["independent_sae"]["recommended_forecast_uses_public_history"], 2.277, places=12)
+        self.assertAlmostEqual(result["official_submission_sae"], 2.009, places=12)
+        self.assertAlmostEqual(result["independent_sae"]["recommended_forecast_uses_public_history"], 2.009, places=12)
 
     def test_forecast_is_not_certified_or_held_out(self):
         self.assertFalse(self.results["forecast_certified_as_accurate"])
@@ -54,9 +56,15 @@ class StrictAuditTests(unittest.TestCase):
         self.assertTrue(all(r["future_predictive_accuracy_validated"] == "no" for r in self.matrix))
 
     def test_both_market_snapshots_have_all_quotes(self):
-        for name in ["original_market_token_orientation", "fresh_market_token_orientation"]:
+        for name in ["current_market_token_orientation", "prior_market_token_orientation"]:
             self.assertEqual(self.detail(name)["quotes_checked"], 196)
             self.assertLess(self.detail(name)["max_absolute_tick_price_error"], 0.0000000002)
+
+    def test_market_refresh_recomputes_submission_from_current_quotes(self):
+        result = self.detail("fresh_quote_sensitivity")
+        self.assertEqual(result["rounded_submission_rows_changed"], 93)
+        self.assertGreater(result["mean_absolute_up_quote_change"], 0.03)
+        self.assertTrue(result["market_weighted_forecast_refreshed"])
 
     def test_wrong_market_address_is_rejected(self):
         payload = copy.deepcopy(self.payload)

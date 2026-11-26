@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/succinctlabs/sp1/749b0c63f226063c471a6238a94101f930c14a13/crates/core/machine/src/syscall/precompiles/README.md",
+  "fetched_at": "2026-11-16T14:51:54.080956+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/succinctlabs/sp1/749b0c63f226063c471a6238a94101f930c14a13/crates/core/machine/src/syscall/precompiles/README.md",
+  "sha256": "6f3337f9ed95238d1a5c6b5ee0f2381128969a86e6b9be93c12455493b855c91",
+  "bytes": 9123
+}

@@ -189,11 +189,12 @@ def audit():
     require(len(set(names)) == len(names) == 98, "Invalid official universe")
     submission_rows = csv_rows(ROOT / "submission.csv")
     predictions = by_repo(submission_rows, names)
+    baseline_predictions = by_repo(csv_rows(AUDIT / "baseline/submission.csv"), names)
     assessments = by_repo(csv_rows(ROOT / "evidence_assessments.csv"), names)
     details = by_repo(csv_rows(ROOT / "forecast_details.csv"), names)
     markets = by_repo(csv_rows(ROOT / "market_analysis.csv"), names)
-    originals = load_json(ROOT / "sources/market/live_markets.json")
-    refreshed = load_json(AUDIT / "sources/fresh_markets.json")
+    current_markets = load_json(ROOT / "sources/market/live_markets.json")
+    prior_markets = load_json(AUDIT / "sources/fresh_markets.json")
     indexes = collect_indexes()
     checks = []
 
@@ -220,8 +221,9 @@ def audit():
         manifest = load_json(AUDIT / "baseline/sha256.json")
         for name, digest in manifest.items():
             require(sha256(AUDIT / "baseline" / name) == digest, "Baseline snapshot changed: " + name)
-            require(sha256(ROOT / name) == digest, "Original artifact changed: " + name)
-        return {"preserved_artifacts": len(manifest)}
+        return {"preserved_original_artifacts": len(manifest),
+                "original_submission_sha256": manifest["submission.csv"],
+                "current_submission_differs_from_original": sha256(ROOT / "submission.csv") != manifest["submission.csv"]}
 
     def saved_hash_check(folder):
         count = 0
@@ -293,14 +295,14 @@ def audit():
     def arithmetic_check():
         for name in names:
             e, row, market = assessments[name], details[name], markets[name]
-            raw = D(str(originals["marketsData"][name]["upPrice"]))
-            down = D(str(originals["marketsData"][name]["downPrice"]))
+            raw = D(str(current_markets["marketsData"][name]["upPrice"]))
+            down = D(str(current_markets["marketsData"][name]["downPrice"]))
             require(abs(raw - D(market["up_price"])) < D("1e-12"), "Market analysis UP differs")
             require(abs(raw / (raw + down) - D(market["up_share"])) < D("1e-12"), "Normalized quote differs")
             normalized = raw / (raw + down)
             anchor = raw
             if name in ALIASES:
-                anchor = sum(D(str(originals["marketsData"][n]["upPrice"])) for n in ALIASES) / 2
+                anchor = sum(D(str(current_markets["marketsData"][n]["upPrice"])) for n in ALIASES) / 2
                 normalized = sum(D(markets[n]["up_share"]) for n in ALIASES) / 2
             require(abs(anchor - D(row["market_anchor_used"])) < D("1e-12"), "Wrong anchor")
             prior, w_e = D(e["evidence_prior"]), D(e["evidence_weight"])
@@ -338,7 +340,7 @@ def audit():
         actual_targets = {name: D(row["originality"]) for name, row in targets.items()}
         errors = lambda values: sum(abs(D(str(values[name])) - actual_targets[name]) for name in actual_targets)
         scores = {
-            "live_raw_up": errors({n: originals["marketsData"][n]["upPrice"] for n in names}),
+            "live_raw_up": errors({n: current_markets["marketsData"][n]["upPrice"] for n in names}),
             "live_normalized_up": errors({n: markets[n]["up_share"] for n in names}),
             "subjective_evidence_prior": errors({n: assessments[n]["evidence_prior"] for n in names}),
             "recommended_forecast_uses_public_history": errors({n: predictions[n]["originality"] for n in names}),
@@ -392,26 +394,38 @@ def audit():
         ("audit_download_hashes", lambda: saved_hash_check(AUDIT / "sources")),
         ("official_refresh_matches", official_refresh_check), ("commit_pinned_sources", pinned_check),
         ("upstream_historical_labels", upstream_check),
-        ("original_market_token_orientation", lambda: validate_market_snapshot(originals, universe)),
-        ("fresh_market_token_orientation", lambda: validate_market_snapshot(refreshed, universe)),
+        ("current_market_token_orientation", lambda: validate_market_snapshot(current_markets, universe)),
+        ("prior_market_token_orientation", lambda: validate_market_snapshot(prior_markets, universe)),
         ("independent_blend_and_sensitivities", arithmetic_check), ("independent_sae", score_check),
         ("published_artifact_integrity", artifact_check), ("source_content_exceptions_identified", source_exceptions_check),
     ]:
         check(id_, function)
 
     def quote_refresh_check():
-        changes = sorted(((name, D(str(refreshed["marketsData"][name]["upPrice"])) - D(str(originals["marketsData"][name]["upPrice"]))) for name in names), key=lambda r: abs(r[1]), reverse=True)
+        changes = sorted(((name, D(str(current_markets["marketsData"][name]["upPrice"])) - D(str(prior_markets["marketsData"][name]["upPrice"]))) for name in names), key=lambda r: abs(r[1]), reverse=True)
         blended_changes = []
         for name, _ in changes:
             anchor_names = ALIASES if name in ALIASES else (name,)
-            delta = sum(D(str(refreshed["marketsData"][n]["upPrice"])) - D(str(originals["marketsData"][n]["upPrice"])) for n in anchor_names) / len(anchor_names)
+            delta = sum(D(str(current_markets["marketsData"][n]["upPrice"])) - D(str(prior_markets["marketsData"][n]["upPrice"])) for n in anchor_names) / len(anchor_names)
             count = len(history[name])
             w_h = D("0.30") * count / (count + 2) if count else D(0)
             w_m = 1 - D(assessments[name]["evidence_weight"]) - w_h
             blended_changes.append((name, delta * w_m))
-        return {"largest_raw_up_changes": [{"repo": n, "change": float(v)} for n, v in changes[:8]],
+        baseline_details = by_repo(csv_rows(AUDIT / "baseline/forecast_details.csv"), names)
+        forecast_changes = [(name, D(predictions[name]["originality"]) - D(baseline_predictions[name]["originality"])) for name in names]
+        original_quote_changes = [abs(D(details[name]["market_up_raw"]) - D(baseline_details[name]["market_up_raw"])) for name in names]
+        return {"comparison": "current November 26 quotes versus original November 16 forecast inputs",
+                "original_market_input_timestamp": load_json(AUDIT / "baseline/forecast_diagnostics.json")["quote_source"]["fetched_at"],
+                "current_market_input_timestamp": load_json(ROOT / "forecast_diagnostics.json")["quote_source"]["fetched_at"],
+                "mean_absolute_up_quote_change": float(statistics.mean(original_quote_changes)),
+                "median_absolute_up_quote_change": float(statistics.median(original_quote_changes)),
+                "rounded_submission_rows_changed": sum(value != 0 for _, value in forecast_changes),
+                "maximum_absolute_rounded_forecast_change": float(max(abs(value) for _, value in forecast_changes)),
+                "largest_forecast_changes": [{"repo": name, "change": float(value)} for name, value in sorted(forecast_changes, key=lambda row: abs(row[1]), reverse=True)[:8]],
+                "largest_raw_up_changes_since_prior_same_day_snapshot": [{"repo": n, "change": float(v)} for n, v in changes[:8]],
                 "maximum_unrounded_blend_change": float(max(abs(v) for _, v in blended_changes)),
-                "original_forecast_inputs_replaced": False}
+                "market_weighted_forecast_refreshed": True,
+                "original_submission_preserved_in_baseline": True}
     check("fresh_quote_sensitivity", quote_refresh_check)
 
     matrix = []
@@ -458,8 +472,8 @@ def audit():
     checks.append({"id": "all_repository_crosscheck_matrix", "status": "PASS", "detail": {
         "canonical_rows": len(matrix), "no_validated_percentages": all(r["exact_originality_percentage_validated"] == "no" for r in matrix)}})
     result = {
-        "audit_date_utc": "2026-11-16", "verdict": "TECHNICAL_CHECKS_PASS_WITH_RESEARCH_LIMITATIONS" if all(c["status"] == "PASS" for c in checks) else "TECHNICAL_CHECKS_FAILED",
-        "forecast_certified_as_accurate": False, "numerical_revisions": 0,
+        "audit_date_utc": "2026-11-26", "verdict": "TECHNICAL_CHECKS_PASS_WITH_RESEARCH_LIMITATIONS" if all(c["status"] == "PASS" for c in checks) else "TECHNICAL_CHECKS_FAILED",
+        "forecast_certified_as_accurate": False, "numerical_revisions": sum(predictions[n]["originality"] != baseline_predictions[n]["originality"] for n in names),
         "checks": checks,
         "collection": {"attempts_recorded": len(indexes), "successful_downloads": sum(r.get("status") == 200 for r in indexes),
                        "http_failures": [{"id": r["id"], "status": r.get("status"), "url": r["url"]} for r in indexes if r.get("status") != 200]},

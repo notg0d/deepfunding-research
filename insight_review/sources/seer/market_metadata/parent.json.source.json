@@ -1,0 +1,13 @@
+{
+  "url": "https://app.seer.pm/.netlify/functions/get-market",
+  "method": "POST",
+  "request": {
+    "chainId": 10,
+    "id": "0x37ab5cbeee3a32289430e5d38b914ec7f580fd87"
+  },
+  "fetched_at": "2026-11-16T14:52:42.090335+00:00",
+  "status": 200,
+  "final_url": "https://app.seer.pm/.netlify/functions/get-market",
+  "sha256": "8c8c885ec999e724a21d8094d786b4bd3ce08849c3c62fba900a026a94e9e83a",
+  "bytes": 3691
+}

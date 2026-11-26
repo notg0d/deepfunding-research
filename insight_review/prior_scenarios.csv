@@ -1,0 +1,7 @@
+repo,original_prior,scenario_prior_not_adopted,original_forecast,scenario_forecast,change,public_label_exists
+ethereum-lists/chains,0.80,0.55,0.768,0.681,-0.087,False
+ethereum-lists/chains,0.80,0.60,0.768,0.698,-0.070,False
+ethereum-lists/chains,0.80,0.65,0.768,0.716,-0.052,False
+succinctlabs/sp1,0.71,0.76,0.711,0.736,0.025,False
+succinctlabs/sp1,0.71,0.77,0.711,0.741,0.030,False
+succinctlabs/sp1,0.71,0.78,0.711,0.746,0.035,False
