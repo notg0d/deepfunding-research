@@ -1,0 +1,4 @@
+sources/** -text
+strict_audit/sources/** -text
+strict_audit/baseline/** -text
+insight_review/sources/** -text
